@@ -1,47 +1,52 @@
-body {
-    font-family: "Inter";
-    background-color: rgb(251, 248, 241);
+:root{
+    --cor-de-fundo: rgb(223, 246, 252);
+
 }
 
-a {
-    color: rgba(0, 0, 0, 0.64);
+body{
+    background-color: var(--cor-de-fundo)
+
+}
+
+.link__menu{
+    text-align: center;
+    
+
+}
+
+.container__titulo{
+    text-align: center;
+}
+
+.academia{
+    width: 10rem;
+    height: 10rem;
     
 }
 
-nav {
-    text-align: center ;
-    margin: auto;
-    justify-content: center;
-}
-
-header {
-    display: flex;
-    background-color: rgba(184, 145, 99, 0.466);
+.alimentação{
+    width: 10rem;
+    height: 10rem;
 
 }
 
-.cada {
-    display: flex;
-    justify-content: space-between;
-}
 
-footer {
+
+
+
+.rodape{
     text-align: center;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   
 
-h3 {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.div-cadastro {
-    margin: auto;
-    justify-content: left;
-    align-items: end;
 
 }
-.nav-class {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+
+
+
+
