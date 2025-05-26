@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRE-SE</title>
+    <link rel="stylesheet" href="./cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Cadastre-se</h1>
+            <p>Crie sua conta para continuar</p>
+            <form>
+                <input type="text" placeholder="Nome Completo" required/>
+                <input type="text" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="Digite seu CPF" required/>
+                <input type="email" placeholder="Digite seu e-mail" required/>
+                <input type="password" placeholder="Senha" autocomplete="email" required/>
+                <input type="password" placeholder="Confirmar senha" required/>
+		    
+                <button type="submit">Registar</button>
+            </form>
+            <p class="register">Já tem uma conta? <a href="./login.html">ENTRAR</a></p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
