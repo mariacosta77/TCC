@@ -1,0 +1,134 @@
+.container__titulo{
+    text-align: center;
+}
+
+.logo{
+    height: 10rem;
+    width: 12rem;
+
+}
+
+.link__menu a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.link__menu{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgb(231, 255, 231);
+}
+
+.Imagens{
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+
+.imagem{
+    height: 17rem;
+    width: 19rem;
+
+}
+.imagem2{
+    height: 17rem;
+    width: 19rem;
+}
+
+.imagem3{
+    height: 17rem;
+    width: 19rem;
+}
+
+.imagem4{
+    height: 17rem;
+    width: 19rem;
+}
+
+
+
+.importantes {
+    background-color: rgb(231, 255, 231);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.importantes h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.bloco {
+    background-color: white;
+    border: 1px solid #b9e4ca;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.bloco h3 {
+    margin-top: 0;
+    color: var(--cor-link);
+}
+
+.rodape{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.bloco {
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7em;
+    margin-right: 2rem;
+}
+
+footer a {
+    color: rgb(38, 136, 5);
+}
+
+.treino{
+    font-size: 1.5em;
+    color: black;
+}
+
+.alimentacao2{
+    font-size: 1.5em;
+    color: black;
+}
+
+.cuidando{
+    font-size: 1.5em;
+    color: black;
+}
+
+.hidratacao{
+    font-size: 1.5em;
+    color: black;
+}
