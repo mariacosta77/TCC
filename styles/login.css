@@ -7,45 +7,52 @@
 body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#404040 ;
-    /* flex container */
     display: flex;
     height: 100vh;
-    /* viewport heigth */
-    background-color:  rgb(204, 255, 204);
+    background-color: rgb(231, 255, 231);
     justify-content: center;
     align-items: center;
     background-image: 0;
 }
 
-.logo  {
-    margin: auto;
-    text-align: center;
-    padding-bottom: 1em;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo img {
+    width: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
 }
 
 form { 
-    /* flex child do body*/
     background-color: rgb(255, 255, 255);
     padding: 50px 60px 60px 60px;
     border-radius: 20px;
-
-    /* flex container*/
     display: flex;
     flex-direction: column;
     gap: 15px;
+    box-shadow: 0.5px 0.5px 18px rgba(0, 0, 0, 0.539);
+}
 
+form :focus{
+    border-color: #000000;
+    outline: none;
 }
 
 h1 {
     font-size: 24px;
+    text-align: center;
 }
 
 button {
     width: 100%;
     padding: 1rem;
     color: #fff;
-    background-color: rgb(23, 111, 133);
+    background-color:  rgb(6, 80, 6);
     font-size: 1rem;
     border: none;
     border-radius: 0.75rem;
@@ -54,23 +61,31 @@ button {
 }
 
 button:hover{
-    background-color:rgb(1, 49, 61);
+    background-color:rgb(0, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
-
-input {
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: #f1f1f1;
-
 }
 
-.barra-horizontal {
+form input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus{
+    border-color: #000000;
+    outline: none;
+}
+
+/*.barra-horizontal {
     background-color: rgb(109, 0, 0);
     height: 2px;
     width: 200px;
-}
+}*/
 
 .campo-input {
     /* flex container*/
@@ -79,13 +94,16 @@ input {
     gap: 5px;
 }
 
-.lembrar-me {
-    /* flex conteiner*/
-    display: flex;
-    gap: 5px;
-}
  .titulo {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.esqueceu__senha{
+    text-align: center;
+}
+
+.esqueceu__senha a{
+    color: rgb(38, 136, 5)
 }
