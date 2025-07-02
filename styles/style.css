@@ -5,6 +5,12 @@
 .logo{
     height: 10rem;
     width: 12rem;
+}
+
+.barra__horizontal{
+    width: 1px;
+    height: 2px;
+    color: black;
 
 }
 
@@ -19,7 +25,8 @@
 }
 
 body{
-    background-color: rgb(231, 255, 231);
+    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(231, 255, 231);*/
 }
 
 .Imagens{
