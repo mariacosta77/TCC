@@ -5,6 +5,7 @@
 .logo{
     height: 10rem;
     width: 12rem;
+<<<<<<< HEAD:styles/style.css
 }
 
 .barra__horizontal{
@@ -12,6 +13,8 @@
     height: 2px;
     color: black;
 
+=======
+>>>>>>> 31f3f3a4b646e22a1ae0a769c32abd90eb6b7d31:styles.css
 }
 
 .link__menu a{
@@ -35,11 +38,9 @@ body{
     gap: 350px;
 }
 
-
 .imagem{
     height: 17rem;
     width: 19rem;
-
 }
 .imagem2{
     height: 17rem;
@@ -55,8 +56,6 @@ body{
     height: 17rem;
     width: 19rem;
 }
-
-
 
 .importantes {
     background-color: rgb(231, 255, 231);
@@ -86,6 +85,7 @@ body{
     width: 280px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     text-align: left;
+    cursor: pointer;
 }
 
 .bloco h3 {
@@ -96,19 +96,15 @@ body{
 .rodape{
     text-align: center;
     font-size: 1.5em;
-    
 }
-.bloco {
-    cursor: pointer;
-}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    
-    
 }
+
 .cadastro {
     text-decoration: none;
     color: black;
@@ -120,22 +116,63 @@ footer a {
     color: rgb(38, 136, 5);
 }
 
-.treino{
+.treino,
+.alimentacao2,
+.cuidando,
+.hidratacao {
     font-size: 1.5em;
     color: black;
 }
 
-.alimentacao2{
-    font-size: 1.5em;
-    color: black;
+/* NOVO CSS ADICIONADO ABAIXO */
+
+.saude__mental {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.cuidando{
-    font-size: 1.5em;
-    color: black;
+.saude__mental h2 {
+    font-size: 1.8rem;
+    color: rgb(38, 136, 5);
+    margin-bottom: 1rem;
 }
 
-.hidratacao{
-    font-size: 1.5em;
-    color: black;
+.texto__mental {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.imagem__mental {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.dicas__rapidas {
+    background-color: rgb(231, 255, 231);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.dicas__rapidas h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(38, 136, 5);
+    margin-bottom: 1rem;
+}
+
+.dicas__rapidas ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #333;
 }
