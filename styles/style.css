@@ -5,16 +5,6 @@
 .logo{
     height: 10rem;
     width: 12rem;
-<<<<<<< HEAD:styles/style.css
-}
-
-.barra__horizontal{
-    width: 1px;
-    height: 2px;
-    color: black;
-
-=======
->>>>>>> 31f3f3a4b646e22a1ae0a769c32abd90eb6b7d31:styles.css
 }
 
 .link__menu a{
@@ -28,8 +18,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
-    /*background-color: rgb(231, 255, 231);*/
+    background-color: rgb(231, 255, 231);
 }
 
 .Imagens{
@@ -123,8 +112,6 @@ footer a {
     font-size: 1.5em;
     color: black;
 }
-
-/* NOVO CSS ADICIONADO ABAIXO */
 
 .saude__mental {
     background-color: #fff;
