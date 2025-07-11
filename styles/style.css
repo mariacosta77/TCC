@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: rgb(231, 255, 231);
+    background-color: rgb(255, 255, 255);
 }
 
 .Imagens{
@@ -157,9 +157,16 @@ footer a {
 }
 
 .dicas__rapidas ul {
+    text-align: center;
     list-style: none;
     padding: 0;
     font-size: 1.2rem;
     line-height: 2;
     color: #333;
+}
+
+.icones__redes{
+    padding: 45px;
+    width: 30px;
+    display: flex;
 }
