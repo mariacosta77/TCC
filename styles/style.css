@@ -3,8 +3,15 @@
 }
 
 .logo{
-    height: 10rem;
-    width: 12rem;
+    height: 6rem;
+    width: 7rem;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
 }
 
 .link__menu a{
@@ -94,12 +101,6 @@ body{
     margin: auto;
 }
 
-.cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1.7em;
-    margin-right: 2rem;
-}
 
 footer a {
     color: rgb(38, 136, 5);
@@ -114,13 +115,13 @@ footer a {
 }
 
 .saude__mental {
-    background-color: #fff;
+    background-color: rgb(231, 255, 231);
     padding: 2rem;
     margin: 2rem auto;
     text-align: center;
     border-radius: 10px;
     max-width: 900px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 
 .saude__mental h2 {
@@ -147,6 +148,7 @@ footer a {
     margin: 2rem auto;
     max-width: 800px;
     border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 
 .dicas__rapidas h2 {
@@ -165,8 +167,21 @@ footer a {
     color: #333;
 }
 
+.rodape{
+    text-align: center;
+    font-size: 1em;
+}
+
 .icones__redes{
-    padding: 45px;
-    width: 30px;
-    display: flex;
+    align-items: center;
+}
+
+.insta{
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
 }

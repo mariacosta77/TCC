@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo{
+    height: 6rem;
+    width:7rem;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 1em;
+}
+
+.icones__redes{
+    align-items: center;
+}
+
+.insta{
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
+}
