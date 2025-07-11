@@ -5,6 +5,10 @@
     margin: auto;
 }
 
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .logo{
     height: 6rem;
     width:7rem;
@@ -34,4 +38,32 @@
 .facebook{
     height: 2rem;
     width: 2rem;
+}
+
+.secao__primaria{
+    margin: 0%;
+    display: flex;
+    background-color: rgb(229, 242, 213);
+}
+
+.quem__somos{
+    height: 20rem;
+    width: 33rem;
+}
+
+.txt__quemsomos{
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.qs_fc a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.participe a{
+    color: black;
 }
