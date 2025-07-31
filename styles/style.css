@@ -3,8 +3,8 @@
 }
 
 .logo{
-    height: 6rem;
-    width: 7rem;
+    height: 10rem;
+    width: 11rem;
 }
 
 .cadastro {
@@ -32,6 +32,10 @@ body{
     display: flex;
     align-items: center;
     gap: 350px;
+}
+
+.destaque > a > img {
+    border-radius: 0.5rem;
 }
 
 .imagem{
