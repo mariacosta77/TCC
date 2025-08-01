@@ -5,6 +5,7 @@
 .logo{
     height: 10rem;
     width: 11rem;
+    align-items: left;
 }
 
 .cadastro {
@@ -98,12 +99,24 @@ body{
     font-size: 1.5em;
 }
 
+.cabecalho {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #d0e7dc;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 150px;
+  }
+  
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    max-width: 1100px;
     margin: auto;
-}
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
 
 footer a {
