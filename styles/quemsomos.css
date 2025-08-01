@@ -9,6 +9,17 @@ body{
     
 }
 
+.caixa__qsm{
+    background-color: white;
+    border: 1px solid #b9e4ca;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: left;
+    cursor: pointer;
+}
+
 .logo{
     height: 6rem;
     width:7rem;
