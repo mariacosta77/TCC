@@ -15,13 +15,13 @@ body{
 
 .caixa__qsm {
     background-color: white;
-   border: 1px solid #ccc;
+    color: #313131;
     border-radius: 0.75rem;
     font-size: 1rem;
     transition: border-color 0.3s;
     padding: 1rem;
     width: 50rem;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.568);
     text-align: left;
     cursor: pointer;
     display: flex;
@@ -63,6 +63,34 @@ body{
     margin-right: 2rem;
 }
 
+.secao__origem h2 {
+    color: rgb(28, 99, 5);
+}
+
+.secao__missao h2{
+    color: rgb(28, 99, 5);
+}
+
+.secao__visao h2{
+    color: rgb(28, 99, 5);
+}
+
+.secao__valores h2{
+    color: rgb(28, 99, 5);
+}
+
+.secao__aqui h2{
+    color: rgb(28, 99, 5);
+}
+
+.nossa__equipe h2{
+    color: rgb(28, 99, 5);
+}
+
+.secao__participe h2{
+    color: rgb(28, 99, 5);
+}
+
 .link__menu a{
     color: rgb(38, 136, 5);
     text-decoration: none;
@@ -73,8 +101,13 @@ body{
     font-size: 1em;
 }
 
+.rodape p{
+    font-size: 1.2rem;
+}
+
 .icones__redes{
-    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .insta{
@@ -90,6 +123,10 @@ body{
 .secao__primaria{
     margin: 0%;
     display: flex;
+}
+
+.secao__primaria h1{
+    color: rgb(28, 99, 5);
 }
 
 .quem__somos{
@@ -108,6 +145,10 @@ body{
 .qs_fc a{
     color: rgb(38, 136, 5);
     text-decoration: none;
+}
+.qs_fc {
+    display: flex;
+    justify-content: space-around;
 }
 
 .participe a{
