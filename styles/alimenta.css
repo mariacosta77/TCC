@@ -156,19 +156,19 @@
   }
   
   /* saude */
-  .secao-mental {
+  .secao-viver {
     margin: 3rem 0;
     text-align: center;
   }
   
-  .texto-mental {
+  .texto-viver {
     max-width: 800px;
     margin: auto;
     padding: 1rem 0;
     font-size: 1.1rem;
   }
   
-  .imagem-mental {
+  .imagem-viver {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
