@@ -20,15 +20,16 @@ body{
 
 .destaque > a > img {
     border-radius: 0.5rem;
+    
 }
 
 .imagem{
-    height: 22rem;
-    width: 18rem;
+    height: 300px;
+    width: 250px;
 }
 .imagem2{
-    height: 22rem;
-    width: 19rem;
+    height: 300px;
+    width: 250px;
 }
 
 .imagem3{
@@ -37,8 +38,8 @@ body{
 }
 
 .imagem4{
-    height: 17rem;
-    width: 19rem;
+    height: 300px;
+    width: 250px;
 }
 
 .importantes {
