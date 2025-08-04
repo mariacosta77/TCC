@@ -15,30 +15,46 @@ body{
 .Imagens{
     display: flex;
     align-items: center;
-    gap: 350px;
+    justify-content: space-around;
 }
 
 .destaque > a > img {
     border-radius: 0.5rem;
+
+}
+
+.destaque > a {
+    text-decoration: none;
+}
+
+
+.destaque > a > h3 {
+    color: green;
+    height: 1rem;
+    width: 18rem;
+    text-align: center;
 }
 
 .imagem{
-    height: 22rem;
-    width: 18rem;
+    height: 300px;
+    width: 250px;
+    
 }
 .imagem2{
-    height: 22rem;
-    width: 19rem;
+    height: 300px;
+    width: 250px;
 }
 
 .imagem3{
     height: 17rem;
     width: 19rem;
+   
 }
 
 .imagem4{
-    height: 17rem;
-    width: 19rem;
+    height: 300px;
+    width: 250px;
+    
 }
 
 .importantes {
