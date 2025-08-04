@@ -50,12 +50,10 @@
 }
 
   .nav-menu a {
-    margin: 0 1rem;
+    color: rgb(38, 136, 5);
     text-decoration: none;
-    color: #1d3557;
-    font-weight: 500;
-    transition: color 0.3s;
   }
+    
   
   .nav-menu a:hover {
     color: #2ecc71;
