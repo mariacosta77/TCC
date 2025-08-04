@@ -4,7 +4,10 @@
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     background-color: rgb(231, 255, 231);
     height: 100vh;
     display: flex;
