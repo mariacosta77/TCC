@@ -15,16 +15,20 @@ body{
 
 .caixa__qsm {
     background-color: white;
-    border: 1px solid #b9e4ca;
-    border-radius: 8px;
+   border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
     padding: 1rem;
     width: 50rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
     text-align: left;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 2rem
 }
 
 .header {
@@ -86,7 +90,6 @@ body{
 .secao__primaria{
     margin: 0%;
     display: flex;
-    background-color: rgb(229, 242, 213);
 }
 
 .quem__somos{
