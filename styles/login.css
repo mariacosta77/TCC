@@ -5,7 +5,10 @@
 }
 
 body {
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color:#404040 ;
     display: flex;
     height: 100vh;
