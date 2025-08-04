@@ -106,8 +106,7 @@ body{
 }
 
 .icones__redes{
-    display: flex;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
 .insta{
@@ -146,10 +145,7 @@ body{
     color: rgb(38, 136, 5);
     text-decoration: none;
 }
-.qs_fc {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .participe a{
     color: black;
