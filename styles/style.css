@@ -1,31 +1,14 @@
 .container__titulo{
     text-align: center;
-}
-
-.logo{
-    height: 10rem;
-    width: 11rem;
-    align-items: left;
-}
-
-.cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-}
-
-.link__menu a{
     color: rgb(38, 136, 5);
-    text-decoration: none;
 }
 
-.link__menu{
-    text-align: center;
-    font-size: 1.5em;
-}
 
 body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     background-color: rgb(255, 255, 255);
 }
 
@@ -40,11 +23,11 @@ body{
 }
 
 .imagem{
-    height: 17rem;
-    width: 19rem;
+    height: 22rem;
+    width: 18rem;
 }
 .imagem2{
-    height: 17rem;
+    height: 22rem;
     width: 19rem;
 }
 
@@ -96,31 +79,90 @@ body{
 
 .rodape{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-.cabecalho {
+.icones__redes{
+    align-items: center;
+}
+
+.insta{
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
+}
+
+.secao__primaria{
+    margin: 0%;
+    display: flex;
+    background-color: rgb(229, 242, 213);
+}
+
+.quem__somos{
+    height: 20rem;
+    width: 33rem;
+}
+
+.txt__quemsomos{
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.qs_fc a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #d0e7dc;
+    border-bottom: 1px solid #000000;
     padding: 2rem 0;
     position: sticky;
     top: 0;
-    height: 150px;
-  }
+    height: 40px;
+    
+}
   
 .header {
-    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
-    padding: 0 2rem;
+}
+
+
+  .header-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 0.0005rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+}
 
+.logo {
+    height: 6rem;
+    width:7rem;
+}
 
-footer a {
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+.link__menu a{
     color: rgb(38, 136, 5);
+    text-decoration: none;
 }
 
 .treino,
