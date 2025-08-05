@@ -15,7 +15,7 @@
   /* header */
   .header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #d0e7dc;
+    border-bottom: 1px solid #000000;
     padding: 2rem 0;
     position: sticky;
     top: 0;
@@ -64,17 +64,3 @@
     text-align: center;
   }
 
-  .caixa-cardapio {
-    background-color: rgb(252, 252, 252);
-    color: #313131;
-    border-radius: 0.75rem;
-    font-size: 1rem;
-    transition: border-color 0.3s;
-    padding: 1rem;
-    width: 50rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.568);
-    display: flex;
-    align-items: flex-start;
-    margin-top: 2rem;
-    border: 1px black;
-  }
