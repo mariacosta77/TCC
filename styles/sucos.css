@@ -59,35 +59,11 @@
 }
 
 .card{
-  color: #0a4904;
+    color: #0a4904;
+    
+   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.frango{
-  display: flex;
-  width: 20rem;
-  margin: 0%;
- 
-  
-}
-
-.cafe{
-  height: 20rem;
-  width: 20rem;
-}
 
 
 .main-container {
@@ -143,4 +119,3 @@
       margin-top: 1rem;
     }
     
-
