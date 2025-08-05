@@ -1,90 +1,82 @@
-*{
-    
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-    color: black;
-}
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
 
+    
+  }
+  
+  body {
+    background-color: #f9fdfb;
+    color: #1d3557;
+    line-height: 1.6;
+  }
+  
+  /* header */
+  .header {
+    background-color: #f0fdf4;
+    border-bottom: 1px solid rgb(38, 136, 5);
 
-body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(38, 136, 5);
-  line-height: 1.6;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    border-bottom: 1px solid #000000;
-    padding: 2rem 0;
+   
+    padding: 3rem 0;
     position: sticky;
     top: 0;
-    height: 40px;
-}
-
-.header-container {
+    z-index: 1000;
+  }
+  
+  .header-container {
     max-width: 1200px;
     margin: auto;
-    padding: 0 0.0005rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
-
-.link__menu a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-}
-
-.logo {
-    height: 6rem;
-    width:7rem;
-}
-
-.cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-}
-
-.logo{
-   height: 6rem;
-    width:7rem;
-    align-items: left;
+  
+  .site-logo {
+    font-size: 1.8rem;
+    color: #1d3557;
+    font-weight: 700;
+  }
+  .logo {
+    width: 100px;
+    height: 90px;
+    justify-content: center;
     display: flex;
    
-}
-
-.cadastro {
+  
+  }
+  
+  .nav-menu a {
+    margin: 0 1rem;
     text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-
-}
-
-.nav-menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
-
-
-.link_menu{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-    
-}
-/* principal */
-.main-container {
+    color: #1d3557;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #2ecc71;
+  }
+  
+  .btn-consulta {
+    background-color: #2ecc71;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-consulta:hover {
+    background-color: #27ae60;
+  }
+  
+  /* principal */
+  .main-container {
     max-width: 1200px;
     margin: auto;
     padding: 2rem;
@@ -93,7 +85,7 @@ body {
   .titulo-principal {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color:  rgb(38, 136, 5);
+    color: #2e7d32;
     text-align: center;
   }
   
@@ -135,11 +127,7 @@ body {
   /* importantes */
   .secao-conteudos h2 {
     text-align: center;
-<<<<<<< HEAD
-    color:rgb(6, 80, 6);
-=======
-    color:  rgb(38, 136, 5);
->>>>>>> ecbdadb39be02b9d503d1e321e4572302e7731e2
+    color: #00796b;
     margin-bottom: 1rem;
   }
   
@@ -152,16 +140,11 @@ body {
   
   .card-conteudo {
     flex: 1 1 300px;
-    background-color:rgb(231, 255, 231);
+    background-color: #e0f2f1;
     padding: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-
-  .card-conteudo a{
-    color: black;
-    text-decoration: none;
   }
   
   .card-conteudo:hover {
@@ -173,19 +156,19 @@ body {
   }
   
   /* saude */
-  .secao-foco {
+  .secao-mental {
     margin: 3rem 0;
     text-align: center;
   }
   
-  .texto-foco {
+  .texto-mental {
     max-width: 800px;
     margin: auto;
     padding: 1rem 0;
     font-size: 1.1rem;
   }
   
-  .imagem-foco {
+  .imagem-mental {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
@@ -193,54 +176,32 @@ body {
   }
   
   /* dicas */
-  .secao-curiosidades {
-    background-color: rgb(231, 255, 231);
+  .secao-dicas {
+    background-color: #fff3e0;
     padding: 2rem;
     border-radius: 10px;
     margin-top: 3rem;
-    
   }
   
-  .secao-curiosidades h2 {
+  .secao-dicas h2 {
     margin-bottom: 1rem;
     text-align: center;
-    color:rgb(6, 80, 6);
+    color: #e65100;
   }
   
-  .secao-curiosidades ul {
+  .secao-dicas ul {
     list-style: disc;
     padding-left: 1.5rem;
     color: #4e342e;
   }
   
   /* footer */
-  
-.rodape{
-  text-align: center;
-  font-size: 1em;
-}
-
-.icones__redes{
-  align-items: center;
-}
-
-.insta{
-  height: 2rem;
-  width: 2rem;
-}
-
-.facebook{
-  height: 2rem;
-  width: 2rem;
-}
-  
-
-.qs_fc a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
-
+  .rodape {
+    margin-top: 4rem;
+    background-color: #e0f2f1;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
   
   .redes-sociais a {
     color: #333; 
@@ -249,14 +210,28 @@ body {
     transition: color 0.3s;
   }
   
- 
-
+  .redes-sociais a:hover {
+    color: #0077cc; 
+  }
   
- 
+  .nav-footer {
+    margin: 1rem 0;
+  }
+  
+  .nav-footer a {
+    color: #00695c;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 0.5rem;
+  }
+  
+  .nav-footer a:hover {
+    text-decoration: underline;
+  }
   
   .aviso-legal {
     font-size: 0.85rem;
-    color: #000000;
+    color: #555;
     margin-top: 1rem;
   }
   
@@ -289,3 +264,4 @@ body {
       width: 90%;
     }
   }
+  
