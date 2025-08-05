@@ -21,7 +21,7 @@ body {
   padding: 2rem 0;
   position: sticky;
   top: 0;
-  height: 150px;
+  height: 90px;
   
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .titulo-principal {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: #2e7d32;
   text-align: center;
@@ -160,7 +160,14 @@ body {
 
 /* saude */
 .secao-mental {
-  margin: 3rem 0;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.titulo-mental{ 
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2e7d32;
   text-align: center;
 }
 
