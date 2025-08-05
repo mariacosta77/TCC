@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< Updated upstream
   font-family: "DM Sans", sans-serif;
 
   
@@ -11,6 +15,18 @@
 body {
   background-color: #f9fdfb;
   color: #1d3557;
+=======
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);;
+>>>>>>> Stashed changes
   line-height: 1.6;
 }
 
@@ -21,8 +37,13 @@ body {
   padding: 2rem 0;
   position: sticky;
   top: 0;
+<<<<<<< Updated upstream
   height: 90px;
   
+=======
+  height: 150px;
+ 
+>>>>>>> Stashed changes
 }
 
 .header-container {
@@ -35,6 +56,7 @@ body {
   flex-wrap: wrap;
 }
 
+<<<<<<< Updated upstream
 
 .site-logo {
   width: 100px;
@@ -43,6 +65,8 @@ body {
   display: flex;
   
 }
+=======
+>>>>>>> Stashed changes
 .logo {
   width: 100px;
   height: 90px;
@@ -52,6 +76,7 @@ body {
 
 }
 
+<<<<<<< Updated upstream
 .nav-menu a {
   margin: 0 1rem;
   text-decoration: none;
@@ -60,10 +85,26 @@ body {
   transition: color 0.3s;
 }
 
+=======
+.cadastro{
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+.nav-menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+ 
+
+>>>>>>> Stashed changes
 .nav-menu a:hover {
   color: #2ecc71;
 }
 
+<<<<<<< Updated upstream
 .btn-consulta {
   background-color: #2ecc71;
   color: white;
@@ -73,6 +114,9 @@ body {
   font-weight: bold;
   transition: background-color 0.3s;
 }
+=======
+
+>>>>>>> Stashed changes
 
 .btn-consulta:hover {
   background-color: #27ae60;
@@ -86,14 +130,22 @@ body {
 }
 
 .titulo-principal {
+<<<<<<< Updated upstream
   font-size: 1.5rem;
+=======
+  font-size: 2rem;
+>>>>>>> Stashed changes
   margin-bottom: 1.5rem;
   color: #2e7d32;
   text-align: center;
 }
 
 /* destaques */
+<<<<<<< Updated upstream
 .secao-destaques {
+=======
+.blocodestaque {
+>>>>>>> Stashed changes
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -143,15 +195,32 @@ body {
 
 .card-conteudo {
   flex: 1 1 300px;
+<<<<<<< Updated upstream
   background-color: #e0f2f1;
+=======
+  background-color: #ddf8ec;
+>>>>>>> Stashed changes
   padding: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
+<<<<<<< Updated upstream
 }
 
 .card-conteudo:hover {
   background-color: #b2dfdb;
+=======
+  color: rgb(3, 2, 2);
+
+}
+
+.card-conteudo a{
+  color: black;
+  text-decoration: none;
+}
+.card-conteudo:hover {
+  background-color: #d5fae0;
+>>>>>>> Stashed changes
 }
 
 .card-conteudo h3 {
@@ -160,6 +229,7 @@ body {
 
 /* saude */
 .secao-mental {
+<<<<<<< Updated upstream
   margin: 2rem 0;
   text-align: center;
 }
@@ -168,6 +238,9 @@ body {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #2e7d32;
+=======
+  margin: 3rem 0;
+>>>>>>> Stashed changes
   text-align: center;
 }
 
@@ -206,6 +279,7 @@ body {
 }
 
 /* footer */
+<<<<<<< Updated upstream
 .rodape {
   margin-top: 4rem;
   background-color: #e0f2f1;
@@ -215,11 +289,38 @@ body {
 
 .redes-sociais a {
   color: #333; 
+=======
+
+.rodape{
+text-align: center;
+font-size: 1em;
+}
+
+
+.icones__redes{
+align-items: center;
+}
+
+.insta{
+height: 2rem;
+width: 2rem;
+}
+
+.facebook{
+height: 2rem;
+width: 2rem;
+}
+
+
+.redes-sociais a {
+  color: #333;
+>>>>>>> Stashed changes
   font-size: 24px;
   margin: 0 10px;
   transition: color 0.3s;
 }
 
+<<<<<<< Updated upstream
 .redes-sociais a:hover {
   color: #0077cc; 
 }
@@ -242,6 +343,16 @@ body {
 .aviso-legal {
   font-size: 0.85rem;
   color: #555;
+=======
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.aviso {
+  font-size: 1em;
+  color: #000000;
+>>>>>>> Stashed changes
   margin-top: 1rem;
 }
 
@@ -270,7 +381,11 @@ body {
     align-items: center;
   }
 
+<<<<<<< Updated upstream
   .imagem-mental {
     width: 90%;
   }
+=======
+ 
+>>>>>>> Stashed changes
 }
