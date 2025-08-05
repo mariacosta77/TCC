@@ -135,7 +135,11 @@ body {
   /* importantes */
   .secao-conteudos h2 {
     text-align: center;
+<<<<<<< HEAD
+    color:rgb(6, 80, 6);
+=======
     color:  rgb(38, 136, 5);
+>>>>>>> ecbdadb39be02b9d503d1e321e4572302e7731e2
     margin-bottom: 1rem;
   }
   
@@ -148,7 +152,7 @@ body {
   
   .card-conteudo {
     flex: 1 1 300px;
-    background-color: #e0f2f1;
+    background-color:rgb(231, 255, 231);
     padding: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
@@ -190,7 +194,7 @@ body {
   
   /* dicas */
   .secao-curiosidades {
-    background-color: #fff3e0;
+    background-color: rgb(231, 255, 231);
     padding: 2rem;
     border-radius: 10px;
     margin-top: 3rem;
@@ -200,7 +204,7 @@ body {
   .secao-curiosidades h2 {
     margin-bottom: 1rem;
     text-align: center;
-    color: #e65100;
+    color:rgb(6, 80, 6);
   }
   
   .secao-curiosidades ul {
