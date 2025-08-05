@@ -58,37 +58,6 @@
     margin-right: 2rem;
 }
 
-.card{
-  color: #0a4904;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.frango{
-  display: flex;
-  width: 20rem;
-  margin: 0%;
- 
-  
-}
-
-.cafe{
-  height: 20rem;
-  width: 20rem;
-}
-
 
 .main-container {
     max-width: 1200px;
@@ -102,6 +71,32 @@
     color: #2e7d32;
     text-align: center;
   }
+
+  .secao-destaques {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .card-destaque a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: block;
+    border-radius: 1px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+  }
+
+
+
+.caixa-cardapio{
+    font-size: 1.2rem;
+}
+
 
  
   .rodape{
@@ -144,3 +139,18 @@
     }
     
 
+
+    /* @media (min-width: 768px) {
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+}
+
+.preparo img {
+margin-top: 15px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 100%;   */
