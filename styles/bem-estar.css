@@ -1,68 +1,32 @@
-* {
-  margin: 0;
+*{
+    
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: black;
 }
+
 
 body {
-
-  background-color: #f9fdfb;
-  color: #1d3557;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  background-color: rgb(255, 255, 255);
-  color: rgb(38, 136, 5);;
-  line-height: 1.6;
+background-color: rgb(255, 255, 255);
+color: rgb(38, 136, 5);
+line-height: 1.6;
 }
 
-/* header */ 
 .header {
-  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
   border-bottom: 1px solid #000000;
-  padding:  0 0.0005rem;
-  position: sticky;
-  top: 0;
-  height: 80px;
-}
-
-.header {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #d0e7dc;
   padding: 2rem 0;
   position: sticky;
   top: 0;
-  height: 150px; 
+  height: 40px;
+  background-color: rgb(255, 255, 255);
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-.site-logo {
-  width: 100px;
-  height: 90px;
-  justify-content: space-between;
-  display: flex;
-  
-}
-
-
-
-.nav-menu a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #1d3557;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-/*
   max-width: 1200px;
   margin: auto;
   padding: 0 0.0005rem;
@@ -71,49 +35,55 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-*/
 
-.logo {
-  width: 100px;
-  height: 90px;
-  justify-content: center;
-  display: flex;
- 
 
+.link__menu a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }
 
-.cadastro{
+.logo {
+  height: 6rem;
+  width:7rem;
+}
+
+.cadastro {
   text-decoration: none;
   color: black;
   font-size: 1em;
   margin-right: 2rem;
 }
 
-.nav-menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
+.logo{
+ height: 6rem;
+  width:7rem;
+  align-items: left;
+  display: flex;
  
-
-.nav-menu a:hover {
-  color: #2ecc71;
 }
 
-.btn-consulta {
-  background-color: #2ecc71;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
+.cadastro {
   text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+
+}
+
+.nav-menu a {
+color: rgb(38, 136, 5);
+text-decoration: none;
 }
 
 
-.btn-consulta:hover {
-  background-color: #27ae60;
-}
 
+.link_menu{
+margin: 0 1rem;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s;
+  
+}
 /* principal */
 .main-container {
   max-width: 1200px;
@@ -124,15 +94,12 @@ body {
 .titulo-principal {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #2e7d32;
+  color:  rgb(38, 136, 5);
   text-align: center;
 }
 
-/* destaques 
+/* destaques */
 .secao-destaques {
-} */
-
-.blocodestaque {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -169,7 +136,8 @@ body {
 /* importantes */
 .secao-conteudos h2 {
   text-align: center;
-  color: #00796b;
+  color:rgb(6, 80, 6);
+  color:  rgb(38, 136, 5);
   margin-bottom: 1rem;
 }
 
@@ -182,26 +150,20 @@ body {
 
 .card-conteudo {
   flex: 1 1 300px;
-  background-color: #e0f2f1;
-  background-color: #ddf8ec;
+  background-color:rgb(231, 255, 231);
   padding: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.card-conteudo:hover {
-  background-color: #b2dfdb;
-  color: rgb(3, 2, 2);
-
-}
-
 .card-conteudo a{
   color: black;
   text-decoration: none;
 }
+
 .card-conteudo:hover {
-  background-color: #d5fae0;
+  background-color: #b2dfdb;
 }
 
 .card-conteudo h3 {
@@ -209,118 +171,57 @@ body {
 }
 
 /* saude */
-.secao-mental {
+.secao-foco {
   margin: 3rem 0;
   text-align: center;
 }
 
-.texto-mental {
+.texto-foco {
   max-width: 800px;
   margin: auto;
   padding: 1rem 0;
   font-size: 1.1rem;
 }
 
-.imagem-mental {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
-  margin-top: 1rem;
+.imagem-bemestar {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 1rem;
+  
+ 
 }
 
 /* dicas */
-.secao-dicas {
-  background-color: #fff3e0;
+.secao-curiosidades {
+  background-color: rgb(231, 255, 231);
   padding: 2rem;
   border-radius: 10px;
   margin-top: 3rem;
+  
 }
 
-.secao-dicas h2 {
+.secao-curiosidades h2 {
   margin-bottom: 1rem;
   text-align: center;
-  color: #e65100;
+  color:rgb(6, 80, 6);
 }
 
-.secao-dicas ul {
+.secao-curiosidades ul {
   list-style: disc;
   padding-left: 1.5rem;
   color: #4e342e;
 }
 
 /* footer */
-  
-  /* footer */
-  
-.rodape{
-  text-align: center;
-  font-size: 1em;
-}
 
 .rodape{
 text-align: center;
 font-size: 1em;
 }
 
-
 .icones__redes{
-  align-items: center;
-}
-
-.insta{
-  height: 2rem;
-  width: 2rem;
-}
-
-.facebook{
-  height: 2rem;
-  width: 2rem;
-}
-
-
-  .redes-sociais a {
-    color: #333; 
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s;
-  }
-  
-  .qs_fc a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-}
-
-  .aviso {
-    font-size: 1em;
-    color: #000000;
-    margin-top: 1rem;
-  }
-  
-  /* isso aqui deixa responsivo */
-  @media (max-width: 768px) {
-    .header-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .nav-menu {
-      margin-top: 1rem;
-    }
-  
-    .nav-menu a {
-      display: block;
-      margin: 0.5rem 0;
-    }
-  
-    .btn-consulta {
-      margin-top: 1rem;
-    }
-  
-    .cards-conteudo {
-      flex-direction: column;
-      align-items: center;
-    }
-  
+align-items: center;
 }
 
 .insta{
@@ -332,22 +233,25 @@ width: 2rem;
 height: 2rem;
 width: 2rem;
 }
+
+
+.qs_fc a{
+color: rgb(38, 136, 5);
+text-decoration: none;
+}
+
 
 
 .redes-sociais a {
-  color: #333;
+  color: #333; 
   font-size: 24px;
   margin: 0 10px;
   transition: color 0.3s;
 }
 
-.qs_fc a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
 
-.aviso {
-  font-size: 1em;
+.aviso-legal {
+  font-size: 0.85rem;
   color: #000000;
   margin-top: 1rem;
 }
@@ -377,4 +281,7 @@ width: 2rem;
     align-items: center;
   }
 
+  .imagem-mental {
+    width: 90%;
+  }
 }
