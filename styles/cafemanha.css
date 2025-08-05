@@ -91,23 +91,6 @@
     transition: transform 0.3s;
   }
 
-.card{
-    color: #0a4904;
-}
-
-.card p{
-    font-size: 1.3rem;
-
-}
-
-.card li{
-    font-size: 1.3rem;
-}
-
-
-.caixa-cardapio{
-    font-size: 1.2rem;
-}
 
 
  
@@ -153,7 +136,7 @@
 
 
     .receita{
-      background-color: rgb(231, 255, 231); /* Verde água */
+      background-color: rgb(241, 250, 241); /* Verde água */
       padding: 2.5rem;
       border-radius: 12px;
       max-width: 900px;
@@ -167,7 +150,6 @@
     .receita h2 {
       text-align: center;
       font-size: 1.8rem;
-      color:  rgb(38, 136, 5); /* Verde escuro */
       margin-bottom: 1rem;
       position: relative;
     }
@@ -175,32 +157,12 @@
     .receita p {
       text-align: center;
       font-size: 1.3rem;
-      color: #2d2d2d;
+      color: #000000;
       margin-bottom: 2rem;
     }
 
+    .receita li{
+      color: #000000;
 
-
-
-
-
-
-
-
-
-    /* @media (min-width: 768px) {
-    margin-top: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-}
-
-.preparo img {
-margin-top: 15px;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-width: 100%;   */
-
+    }
 
