@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "DM Sans",sans-serif;
   }
   
   body {
@@ -12,35 +12,35 @@
     font-weight: weight;
     font-style: normal;
     background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
+    color: rgb(38, 136, 5);
     line-height: 1.6;
   }
-  
+
+
+
+
   /* header */
   .header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #d0e7dc;
-    padding: 2rem 0;
+    border-bottom: 1px solid #000000;
+    padding:  0 0.0005rem;
     position: sticky;
     top: 0;
-    height: 150px;
+    height: 90px;
     
   }
   
   .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+
   }
   
   .site-logo {
     width: 100px;
     height: 90px;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     
 
@@ -64,10 +64,6 @@
   }
   
   
-  
-  .btn-consulta:hover {
-    background-color: #27ae60;
-  }
   
   /* principal */
   .main-container {
