@@ -91,6 +91,18 @@
     transition: transform 0.3s;
   }
 
+.card{
+    color: #0a4904;
+}
+
+.card p{
+    font-size: 1.3rem;
+
+}
+
+.card li{
+    font-size: 1.3rem;
+}
 
 
 .caixa-cardapio{
