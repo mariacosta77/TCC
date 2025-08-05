@@ -18,7 +18,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #000000;
     padding: 2rem 0;
     position: sticky;
@@ -35,6 +34,12 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+
+.link__menu a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
 
 .logo {
     height: 6rem;
@@ -88,7 +93,7 @@ body {
   .titulo-principal {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #2e7d32;
+    color:  rgb(38, 136, 5);
     text-align: center;
   }
   
@@ -130,7 +135,7 @@ body {
   /* importantes */
   .secao-conteudos h2 {
     text-align: center;
-    color: #00796b;
+    color:  rgb(38, 136, 5);
     margin-bottom: 1rem;
   }
   
