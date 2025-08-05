@@ -14,11 +14,13 @@ body{
 
 .Imagens{
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     margin-bottom: 3rem;
     justify-content: center;
+    transition: 1.3;
 }
+
+
 
 .destaque > a > img {
     border-radius: 0.5rem;
@@ -42,21 +44,37 @@ body{
     width: 250px;
     
 }
+
+.imagem:hover{
+    transform: scale(1.1);
+
+}
 .imagem2{
     height: 300px;
     width: 250px;
 }
 
+.imagem2:hover{
+    transform: scale(1.1);
+}
+
 .imagem3{
-    height: 17rem;
-    width: 19rem;
+    height: 300px;
+    width: 250px;
    
+}
+
+.imagem3:hover{
+    transform: scale(1.1);
 }
 
 .imagem4{
     height: 300px;
-    width: 250px;
-    
+    width: 250px;  
+}
+
+.imagem4:hover{
+    transform: scale(1.1);
 }
 
 .importantes {
