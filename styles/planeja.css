@@ -15,7 +15,7 @@
   /* header */
   .header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #d0e7dc;
+    border-bottom: 1px solid #000000;
     padding: 2rem 0;
     position: sticky;
     top: 0;
@@ -24,23 +24,24 @@
   }
   
   .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
   }
   
   .site-logo {
-    width: 100px;
-    height: 90px;
-    justify-content: center;
     display: flex;
-    
-
+    align-items: left;
+  
   }
+
+  .nav-menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+  }
+
+  
   
   .cadastro {
     text-decoration: none;
@@ -62,3 +63,4 @@
     color: #2e7d32;
     text-align: center;
   }
+
