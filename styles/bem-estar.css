@@ -1,11 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
-
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -15,42 +12,33 @@ body {
 }
 
 /* header */
+ 
 .header {
   background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #d0e7dc;
-  padding: 2rem 0;
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
   position: sticky;
   top: 0;
-  height: 150px;
-  
+  height: 80px;
+ 
 }
 
 .header-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 0.0005rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
 
+}
 
 .site-logo {
   width: 100px;
   height: 90px;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   
 }
-.logo {
-  width: 100px;
-  height: 90px;
-  justify-content: center;
-  display: flex;
- 
 
-}
+
 
 .nav-menu a {
   margin: 0 1rem;
@@ -199,71 +187,72 @@ body {
 }
 
 /* footer */
-.rodape {
-  margin-top: 4rem;
-  background-color: #e0f2f1;
+  
+  /* footer */
+  
+.rodape{
   text-align: center;
-  padding: 2rem 1rem;
+  font-size: 1em;
 }
 
-.redes-sociais a {
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
+
+.icones__redes{
+  align-items: center;
 }
 
-.redes-sociais a:hover {
-  color: #0077cc; 
+.insta{
+  height: 2rem;
+  width: 2rem;
 }
 
-.nav-footer {
-  margin: 1rem 0;
+.facebook{
+  height: 2rem;
+  width: 2rem;
 }
 
-.nav-footer a {
-  color: #00695c;
-  text-decoration: none;
-  font-weight: 500;
-  margin: 0 0.5rem;
-}
 
-.nav-footer a:hover {
-  text-decoration: underline;
-}
-
-.aviso-legal {
-  font-size: 0.85rem;
-  color: #555;
-  margin-top: 1rem;
-}
-
-/* isso aqui deixa responsivo */
-@media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
+  .redes-sociais a {
+    color: #333; 
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
   }
+  
+  .qs_fc a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
 
-  .nav-menu {
+  .aviso {
+    font-size: 1em;
+    color: #000000;
     margin-top: 1rem;
   }
-
-  .nav-menu a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-
-  .btn-consulta {
-    margin-top: 1rem;
-  }
-
-  .cards-conteudo {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imagem-mental {
-    width: 90%;
-  }
+  
+  /* isso aqui deixa responsivo */
+  @media (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-menu {
+      margin-top: 1rem;
+    }
+  
+    .nav-menu a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    .btn-consulta {
+      margin-top: 1rem;
+    }
+  
+    .cards-conteudo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+   
 }
