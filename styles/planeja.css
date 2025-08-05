@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 136, 5);;
+    line-height: 1.6;
+  }
+  
+  /* header */
+  .header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 150px;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .site-logo {
+    display: flex;
+    align-items: left;
+  
+  }
+
+  .nav-menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+  }
+
+  
+  
+  .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .titulo-principal {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #2e7d32;
+    text-align: center;
+  }
+

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "DM Sans",sans-serif;
   }
   
   body {
@@ -12,34 +12,38 @@
     font-weight: weight;
     font-style: normal;
     background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
+    color: rgb(38, 136, 5);
     line-height: 1.6;
   }
-  
+
+
+
+
   /* header */
   .header {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #d0e7dc;
-    padding: 2rem 0;
+    border-bottom: 1px solid #000000;
+    padding:  0 0.0005rem;
     position: sticky;
     top: 0;
-    height: 150px;
+    height: 90px;
     
   }
   
   .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+
   }
   
   .site-logo {
-    font-size: 1.8rem;
-    font-weight: 30;
+    width: 100px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    
+
   }
   
   .cadastro {
@@ -50,22 +54,16 @@
 }
 
   .nav-menu a {
-    margin: 0 1rem;
+    color: rgb(38, 136, 5);
     text-decoration: none;
-    color: #1d3557;
-    font-weight: 500;
-    transition: color 0.3s;
   }
+    
   
   .nav-menu a:hover {
     color: #2ecc71;
   }
   
   
-  
-  .btn-consulta:hover {
-    background-color: #27ae60;
-  }
   
   /* principal */
   .main-container {
@@ -132,16 +130,21 @@
   
   .card-conteudo {
     flex: 1 1 300px;
-    background-color: #cbe6e5;
+    background-color: #ddf8ec;
     padding: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: rgb(3, 2, 2);
   
   }
   
+  .card-conteudo a{
+    color: black;
+    text-decoration: none;
+  }
   .card-conteudo:hover {
-    background-color: #b2dfdb;
+    background-color: #d5fae0;
   }
   
   .card-conteudo h3 {
@@ -149,19 +152,19 @@
   }
   
   /* saude */
-  .secao-mental {
+  .secao-viver {
     margin: 3rem 0;
     text-align: center;
   }
   
-  .texto-mental {
+  .texto-viver {
     max-width: 800px;
     margin: auto;
     padding: 1rem 0;
     font-size: 1.1rem;
   }
   
-  .imagem-mental {
+  .imagem-viver {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
@@ -192,8 +195,9 @@
   
 .rodape{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
+
 
 .icones__redes{
   align-items: center;
@@ -217,28 +221,14 @@
     transition: color 0.3s;
   }
   
-  .redes-sociais a:hover {
-    color: #0077cc; 
-  }
-  
-  .nav-footer {
-    margin: 1rem 0;
-  }
-  
-  .nav-footer a {
-    color: #00695c;
+  .qs_fc a{
+    color: rgb(38, 136, 5);
     text-decoration: none;
-    font-weight: 500;
-    margin: 0 0.5rem;
-  }
-  
-  .nav-footer a:hover {
-    text-decoration: underline;
-  }
-  
+}
+
   .aviso {
     font-size: 1em;
-    color: #555;
+    color: #000000;
     margin-top: 1rem;
   }
   
