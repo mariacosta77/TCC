@@ -137,9 +137,9 @@
 
     .receita{
       background-color: rgb(241, 250, 241); /* Verde água */
-      padding: 2.5rem;
+      padding: 3rem;
       border-radius: 12px;
-      max-width: 900px;
+      max-width: 600px;
       margin: 3rem auto;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
       font-family:  "DM Sans", sans-serif; 
@@ -147,22 +147,25 @@
     }
 
       
-    .receita h2 {
+    .receita h1 {
       text-align: center;
       font-size: 1.8rem;
       margin-bottom: 1rem;
       position: relative;
+      color: #0a4904;
+      
     }
     
     .receita p {
       text-align: center;
       font-size: 1.3rem;
       color: #000000;
-      margin-bottom: 2rem;
+    
     }
 
     .receita li{
       color: #000000;
+      font-size: 1.2rem;
 
     }
 
@@ -180,7 +183,7 @@
       .passos h2 {
       text-align: center;
       font-size: 1.8rem;
-      color:  0a4904; /* Verde escuro */
+      color: #0a4904 ; /* Verde escuro */
       margin-bottom: 1rem;
       position: relative;
       }
