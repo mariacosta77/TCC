@@ -1,5 +1,4 @@
 *{
-    
   padding: 0;
   margin: 0;
   box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
@@ -7,7 +6,6 @@
 }
 
 /* Cabeçalho*/
-
 
 body {
 background-color: rgb(255, 255, 255);
@@ -28,11 +26,11 @@ line-height: 1.6;
   background-color: rgb(255, 255, 255);
 }
 
-.header-container {
+.main-container {
   max-width: 1200px;
   margin: auto;
   padding: 0 0.0005rem;
-  display: flex;
+  
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -59,13 +57,6 @@ line-height: 1.6;
 
 }
 
-.cadastro {
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-  margin-right: 2rem;
-
-}
 
 .nav-menu a {
 color: rgb(38, 136, 5);
@@ -123,7 +114,7 @@ transition: color 0.3s;
 
 .imagem-destaque {
   width: 100%;
-  height: 100px;
+  height: 180px;
   object-fit: cover;
 }
 
@@ -132,7 +123,7 @@ transition: color 0.3s;
   font-weight: 500;
 }
 
-/* Bem-Estar */
+/* conteudos */
 .secao-conteudos h3 {
   text-align: center;
   color:rgb(6, 80, 6);
@@ -176,42 +167,15 @@ transition: color 0.3s;
 
 
 
-.texto-mental{
-  max-width: 800px;       /* limita a largura para evitar texto muito extenso */
-  margin: 0 auto;         /* centraliza a seção */
-  padding: 2rem;          /* espaçamento interno */
-  background-color: #ffffff; /* fundo branco para destacar o texto */
-    /* bordas levemente arredondadas */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* sombra suave */
-  line-height: 1.6;       /* altura da linha para melhor leitura */
-  color: #333;            /* cor de texto confortável */
-  font-family: 'Segoe UI', Tahoma, sans-serif; /* fonte mais moderna */
-}
-
-.sec.texto-mental h2 {
-  font-size: 1.8rem;      /* título maior */
-  margin-bottom: 1rem;    /* espaço abaixo do título */
-  color: #333;         /* verde escuro para harmonia com seu site */
-}
-
-.texto-mental p {
-  margin-bottom: 1rem;    /* espaço entre parágrafos */
-  text-align: justify;    /* alinhamento justificado */
-}
-
-
-
-
-
-/* principal */
-.main-container {
+/* Bem-estar */
+.secao-bemestar {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
 
-.titulo-principal {
-  font-size: 2rem;
+.titulo-bemestar {
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color:  rgb(38, 136, 5);
   text-align: center;
@@ -224,6 +188,24 @@ transition: color 0.3s;
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
+
+.texto-mental {
+  max-width: 800px;       /* limita a largura para evitar texto muito extenso */
+  margin: 0 auto;         /* centraliza a seção */
+  padding: 2rem;          /* espaçamento interno */
+  background-color: #ffffff; /* fundo branco para destacar o texto */
+    /* bordas levemente arredondadas */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* sombra suave */
+  line-height: 1.6;       /* altura da linha para melhor leitura */
+  color: #333;            /* cor de texto confortável */
+  font-family: 'Segoe UI', Tahoma, sans-serif; /* fonte mais moderna */
+}
+
+.texto-mental p {
+  margin-bottom: 1rem;    /* espaço entre parágrafos */
+  text-align: justify;    /* alinhamento justificado */
+}
+
 
 .card-destaque a {
   text-decoration: none;
@@ -241,19 +223,54 @@ transition: color 0.3s;
   transform: scale(1.03);
 }
 
-.imagem-destaque {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+
+.imagem-bemestar {
+  display: block;          /* para alinhar no centro */
+  margin: 0 auto;           /* centraliza horizontalmente */
+  max-width: 300px;         /* tamanho máximo da imagem */
+  width: 80%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;      /* garante que a imagem não distorça */
 }
 
 .card-destaque p {
   padding: 1rem;
   font-weight: 500;
 }
+/* secao paginas */
+.secao-paginas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
 
+.card-paginas a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
 
+.card-paginas a:hover {
+  transform: scale(1.03);
+}
 
+.imagem-destaque {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-paginas p {
+  padding: 1rem;
+  font-weight: 500;
+}
 
 /* footer */
 
@@ -276,13 +293,10 @@ height: 2rem;
 width: 2rem;
 }
 
-
 .qs_fc a{
 color: rgb(38, 136, 5);
 text-decoration: none;
 }
-
-
 
 .redes-sociais a {
   color: #333; 
@@ -291,11 +305,10 @@ text-decoration: none;
   transition: color 0.3s;
 }
 
-
 .aviso-legal {
   font-size: 0.85rem;
   color: #000000;
-  margin-top: 1rem;
+  margin-top: 1rem;     
 }
 
 /* isso aqui deixa responsivo */
