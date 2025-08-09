@@ -6,6 +6,8 @@
   color: black;
 }
 
+/* Cabeçalho*/
+
 
 body {
 background-color: rgb(255, 255, 255);
@@ -42,11 +44,6 @@ line-height: 1.6;
   text-decoration: none;
 }
 
-.logo {
-  height: 6rem;
-  width:7rem;
-}
-
 .cadastro {
   text-decoration: none;
   color: black;
@@ -59,7 +56,7 @@ line-height: 1.6;
   width:7rem;
   align-items: left;
   display: flex;
- 
+
 }
 
 .cadastro {
@@ -82,9 +79,11 @@ margin: 0 1rem;
 text-decoration: none;
 font-weight: 500;
 transition: color 0.3s;
-  
 }
-/* principal */
+
+
+/* primeiras pgns */
+
 .main-container {
   max-width: 1200px;
   margin: auto;
@@ -124,7 +123,7 @@ transition: color 0.3s;
 
 .imagem-destaque {
   width: 100%;
-  height: 180px;
+  height: 100px;
   object-fit: cover;
 }
 
@@ -162,7 +161,8 @@ transition: color 0.3s;
   padding: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s; box-shadow: 0.3;
+  border: 2px solid #808080;
 }
 
 .card-conteudo a{
@@ -174,58 +174,31 @@ transition: color 0.3s;
   background-color: #b2dfdb;
 }
 
-.card-conteudo h3 {
-  margin-bottom: 0.5rem;
+
+
+.texto-mental{
+  max-width: 800px;       /* limita a largura para evitar texto muito extenso */
+  margin: 0 auto;         /* centraliza a seção */
+  padding: 2rem;          /* espaçamento interno */
+  background-color: #ffffff; /* fundo branco para destacar o texto */
+    /* bordas levemente arredondadas */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* sombra suave */
+  line-height: 1.6;       /* altura da linha para melhor leitura */
+  color: #333;            /* cor de texto confortável */
+  font-family: 'Segoe UI', Tahoma, sans-serif; /* fonte mais moderna */
 }
 
-/* mental */
-.secao-mental {
-  margin: 3rem 0;
-  text-align: center;
+.sec.texto-mental h2 {
+  font-size: 1.8rem;      /* título maior */
+  margin-bottom: 1rem;    /* espaço abaixo do título */
+  color: #333;         /* verde escuro para harmonia com seu site */
 }
 
-.texto-mental {
-  max-width: 800px;
-  margin: auto;
-  padding: 1rem 0;
-  font-size: 1.1rem;
+.texto-mental p {
+  margin-bottom: 1rem;    /* espaço entre parágrafos */
+  text-align: justify;    /* alinhamento justificado */
 }
 
-.titulo-principal {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-}
-
-.imagem-bemestar {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    margin-top: 1.5rem;
-    align-items: center;
- 
-}
-
-/*mental*/
-.texto-mental {
-  padding: 0.5rem;
-  border-radius: 10px;
-  margin-top: 3rem;
-  
-}
-
-.texto-mental h2 {
-  margin-bottom: 1rem;
-  text-align: center;
-  color:rgb(6, 80, 6);
-}
-
-.texto-mental ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-  color: #4e342e;
-}
 
 
 
