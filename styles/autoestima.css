@@ -1,8 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
   color: black;
 }
 
@@ -18,6 +17,7 @@ line-height: 1.6;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
   border-bottom: 1px solid #000000;
   padding: 2rem 0;
   position: sticky;
@@ -52,7 +52,8 @@ line-height: 1.6;
 .logo{
  height: 6rem;
   width:7rem;
-  
+  align-items: left;
+  display: flex;
 
 }
 
@@ -72,113 +73,7 @@ transition: color 0.3s;
 }
 
 
-/* primeiras pgns */
-
-.main-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
-}
-
-.titulo-principal {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-}
-
-.secao-paginas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.card-paginas a {
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
-  display: block;
-  border-radius: 12px;
-  overflow: hidden;
-  background-color: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s;
-}
-
-.card-paginas a:hover {
-  transform: scale(1.03);
-}
-
-.imagem-paginas {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-paginas p {
-  padding: 1rem;
-  font-weight: 500;
-}
-
 /* conteudos */
-.secao-conteudos h3 {
-  text-align: center;
- 
-  margin-bottom: 1rem;
-}
-
-
-.titulo-principal h2{
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-}
-
-.cards-conteudo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.card-conteudo {
-  flex: 1 1 300px;
-  background-color:rgb(231, 255, 231);
-  padding: 1.5rem;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s; box-shadow: 0.3;
-  border: 2px solid #808080;
-}
-
-.card-conteudo a{
-  color: black;
-  text-decoration: none;
-}
-
-.card-conteudo:hover {
-  background-color: #b2dfdb;
-}
-
-
-
-/* Bem-estar */
-.secao-bemestar {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
-}
-
-.titulo-bemestar {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-}
-
-
 .secao-mconteudos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -234,37 +129,19 @@ transition: color 0.3s;
   padding: 1rem;
   font-weight: 500;
 }
-
-
-/* secao mpaginas */
-
-.titulo-mpaginas {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-  grid-column: 1 / -1; 
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* Grid só para os cards */
-.mpaginas-grid {
+/* secao paginas */
+.paginas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
 
-/* Card com altura padronizada */
-.card-mpaginas a {
+.card-paginas a {
   text-decoration: none;
   color: inherit;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 350px;
+  text-align: center;
+  display: block;
   border-radius: 12px;
   overflow: hidden;
   background-color: #ffffff;
@@ -272,23 +149,19 @@ transition: color 0.3s;
   transition: transform 0.3s;
 }
 
-.card-mpaginas a:hover {
+.card-paginas a:hover {
   transform: scale(1.03);
 }
 
-.imagem-mpaginas {
-  max-width: 100%;
-  max-height: 200px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  flex-shrink: 0;
+.imagem-destaque {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
-.card-mpaginas p {
+.card-paginas p {
   padding: 1rem;
   font-weight: 500;
-  text-align: center;
 }
 
 /* footer */
@@ -328,34 +201,4 @@ text-decoration: none;
   font-size: 0.85rem;
   color: #000000;
   margin-top: 1rem;     
-}
-
-/* responsivo */
-@media (max-width: 768px) {
-  .cards-conteudo {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-menu {
-    margin-top: 1rem;
-  }
-
-  .nav-menu a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-
-  .btn-consulta {
-    margin-top: 1rem;
-  }
-
-  .cards-conteudo {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imagem-mental {
-    width: 90%;
-  }
 }
