@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+  
   }
   
   .site-logo {
@@ -37,15 +37,15 @@
     justify-content: space-between;
     display: flex;
     
-
+  
   }
   
-
+  
   .nav-menu a {
     color: rgb(38, 136, 5);
     text-decoration: none;
   }
-
+  
   .nav-menu a:hover {
     color: #2ecc71;
   }
@@ -56,43 +56,107 @@
     color: black;
     font-size: 1em;
     margin-right: 2rem;
-}
-
-.card{
+  }
+  
+  .beneficios{
   color: #0a4904;
-}
-
-
-.cardapio{
-  background-color:  rgb(245, 255, 245); /* Verde água */
-  padding: 2.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .mito{
+  background-color: rgb(245, 255, 245); /* Verde água */
+  padding: 3rem;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 800px;
   margin: 3rem auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   font-family: "DM Sans", sans-serif;
-}
-
-.cardapio h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  color:  #0a4904; /* Verde escuro */
+  }
+  
+  .mito h2 {
+    text-align: center;
+  font-size: 1.59rem;
+  color: #0a4904; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
-}
-
-.cardapio p {
+  }
+  
+  
+  
+  .mito p {
   text-align: center;
   font-size: 1.3rem;
   color: #2d2d2d;
   margin-bottom: 2rem;
-}
+  }
+  
+
+  
+  
+  .verdades{
+    background-color:   rgb(245, 255, 245); /* Verde água */
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 3rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans", sans-serif;
+    }
+    
+    .verdades h2 {
+    text-align: center;
+    font-size: 1.59rem;
+    color: #0a4904; /* Verde escuro */
+    margin-bottom: 1rem;
+    }
+
+    .verdades p{
+        font-size: 1.25rem;
+        color: #000000;
+        text-align: center;
+        
+    }
 
 
-
-
-
-.main-container {
+  
+    .preparo{
+      background-color:   rgb(245, 255, 245); /* Verde água */
+      padding: 2.5rem;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: 3rem auto;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      font-family: "DM Sans", sans-serif;
+      }
+      
+      .preparo h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #0a4904; /* Verde escuro */
+      margin-bottom: 1rem;
+      position: relative;
+      }
+  
+  
+      .preparo li{
+        color: #000000;
+        font-size: 1.2rem;
+  
+      }
+   
+  
+  
+  
+  
+  .main-container {
     max-width: 1200px;
     margin: auto;
     padding: 2rem;
@@ -103,8 +167,8 @@
     color: #2e7d32;
     text-align: center;
   }
-
- 
+  
+  
   .rodape{
     text-align: center;
     font-size: 1em;
@@ -143,5 +207,3 @@
       color: #000000;
       margin-top: 1rem;
     }
-    
-
