@@ -84,14 +84,7 @@ form input:focus{
     outline: none;
 }
 
-/*.barra-horizontal {
-    background-color: rgb(109, 0, 0);
-    height: 2px;
-    width: 200px;
-}*/
-
 .campo-input {
-    /* flex container*/
     display: flex;
     flex-direction: column;
     gap: 5px;
