@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 136, 5);;
+    line-height: 1.6;
+  }
+  
+  /* header */
+   /* header */
+   .header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    padding:  0 0.0005rem;
+    position: sticky;
+    top: 0;
+    height: 90px;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .site-logo {
+    width: 100px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    
+  
+  }
+  
+  
+  .nav-menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+  }
+  
+  .nav-menu a:hover {
+    color: #2ecc71;
+  }
+  
+  
+  .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+  }
+  
+  .beneficios{
+  color: #0a4904;
+  font-size: 1.2rem;
+  align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .card{
+  background-color:   rgb(245, 255, 245); /* Verde água */
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+  }
+  
+  .card h2 {
+    text-align: center;
+  font-size: 1.59rem;
+  color: #0a4904; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+  }
+  
+  
+  .card h3 {
+   
+    font-size: 1.25rem;
+    color: #0a4904; /* Verde escuro */
+    margin-bottom: 1rem;
+    position: relative;
+    }
+  
+  .card p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+  }
+  
+  
+  .card li{
+    color: #000000;
+    font-size: 1.2rem;
+  
+  }
+  
+  
+  
+  .suco{
+    background-color:   rgb(245, 255, 245); /* Verde água */
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 3rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans", sans-serif;
+    }
+    
+    .suco h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #0a4904; /* Verde escuro */
+    margin-bottom: 1rem;
+    
+    }
+    
+    .suco p{
+      text-align: center;
+    }
+  
+    .preparo{
+      background-color:   rgb(245, 255, 245); /* Verde água */
+      padding: 2.5rem;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: 3rem auto;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      font-family: "DM Sans", sans-serif;
+      }
+      
+      .preparo h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #0a4904; /* Verde escuro */
+      margin-bottom: 1rem;
+      position: relative;
+      }
+  
+  
+      .preparo li{
+        color: #000000;
+        font-size: 1.2rem;
+  
+      }
+   
+  
+  
+  
+  
+  .main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .titulo-principal {
+    font-size: 2rem;
+    color: #2e7d32;
+    text-align: center;
+  }
+  
+  
+  .rodape{
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  
+  .icones__redes{
+    align-items: center;
+  }
+  
+  .insta{
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .facebook{
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  
+    .redes-sociais a {
+      color: #333; 
+      font-size: 24px;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    
+    .qs_fc a{
+      color: rgb(38, 136, 5);
+      text-decoration: none;
+  }
+  
+    .aviso {
+      font-size: 1em;
+      color: #000000;
+      margin-top: 1rem;
+    }
