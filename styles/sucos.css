@@ -65,23 +65,38 @@ align-items: center;
 }
 
 
+
+
+
+
+
+
 .card{
 background-color:   rgb(245, 255, 245); /* Verde água */
-padding: 2.5rem;
+padding: 3rem;
 border-radius: 12px;
-max-width: 900px;
+max-width: 600px;
 margin: 3rem auto;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 font-family: "DM Sans", sans-serif;
 }
 
 .card h2 {
-text-align: center;
-font-size: 1.8rem;
+  text-align: center;
+font-size: 1.59rem;
 color: #0a4904; /* Verde escuro */
 margin-bottom: 1rem;
 position: relative;
 }
+
+
+.card h3 {
+ 
+  font-size: 1.25rem;
+  color: #0a4904; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+  }
 
 .card p {
 text-align: center;
@@ -91,12 +106,19 @@ margin-bottom: 2rem;
 }
 
 
+.card li{
+  color: #000000;
+  font-size: 1.2rem;
+
+}
+
+
 
 .suco{
   background-color:   rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 800px;
   margin: 3rem auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   font-family: "DM Sans", sans-serif;
@@ -107,15 +129,18 @@ margin-bottom: 2rem;
   font-size: 1.8rem;
   color: #0a4904; /* Verde escuro */
   margin-bottom: 1rem;
-  position: relative;
+  
   }
   
+  .suco p{
+    text-align: center;
+  }
 
   .preparo{
     background-color:   rgb(245, 255, 245); /* Verde água */
     padding: 2.5rem;
     border-radius: 12px;
-    max-width: 900px;
+    max-width: 800px;
     margin: 3rem auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     font-family: "DM Sans", sans-serif;
@@ -135,7 +160,7 @@ margin-bottom: 2rem;
       font-size: 1.2rem;
 
     }
-
+ 
 
 
 
