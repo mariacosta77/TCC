@@ -86,14 +86,14 @@
   font-size: 1.59rem;
   color: #0a4904; /* Verde escuro */
   margin-bottom: 1rem;
-  position: relative;
+ 
   }
   
   
   
   .mito p {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: #2d2d2d;
   margin-bottom: 2rem;
   }
@@ -103,7 +103,7 @@
   
   .verdades{
     background-color:   rgb(245, 255, 245); /* Verde água */
-    padding: 2.5rem;
+    padding: 3rem;
     border-radius: 12px;
     max-width: 800px;
     margin: 3rem auto;
