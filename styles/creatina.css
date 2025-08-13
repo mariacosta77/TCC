@@ -21,6 +21,7 @@
     position: sticky;
     top: 0;
     height: 90px;
+    z-index: 0;
     
   }
   
@@ -60,7 +61,7 @@
   
   .beneficios{
   color: #0a4904;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   align-items: center;
   }
   
@@ -83,7 +84,7 @@
   
   .mito h2 {
     text-align: center;
-  font-size: 1.59rem;
+  font-size: 1.8rem;
   color: #0a4904; /* Verde escuro */
   margin-bottom: 1rem;
  
@@ -93,7 +94,7 @@
   
   .mito p {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: #2d2d2d;
   margin-bottom: 2rem;
   }
@@ -113,16 +114,16 @@
     
     .verdades h2 {
     text-align: center;
-    font-size: 1.59rem;
+    font-size: 1.8rem;
     color: #0a4904; /* Verde escuro */
     margin-bottom: 1rem;
     }
 
     .verdades p{
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         color: #000000;
         text-align: center;
-        
+        margin-bottom: 2rem;
     }
 
 

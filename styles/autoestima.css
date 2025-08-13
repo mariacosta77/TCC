@@ -73,7 +73,33 @@ transition: color 0.3s;
 }
 
 
+/* secao dicas      */
+
+
+.container{
+max-width: 1200px;
+margin: auto;
+padding: 2rem;
+}
+
+.imgdicas{
+  display: block;  /* para alinhar no centro */
+  margin: 0 auto;  /* centraliza horizontalmente */
+  max-width:350px; /* tamanho máximo da imagem */
+  width: 300%; /* adapta ao tamanho da tela */
+  height: auto; /* mantém proporção */
+  object-fit: contain;      /* garante que a imagem não distorça */
+}
+
+
 /* conteudos */
+
+.titulo-bemestar {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color:  rgb(38, 136, 5);
+  text-align: center;
+}
 .secao-mconteudos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -129,6 +155,8 @@ transition: color 0.3s;
   padding: 1rem;
   font-weight: 500;
 }
+
+
 /* secao paginas */
 .paginas {
   display: grid;
