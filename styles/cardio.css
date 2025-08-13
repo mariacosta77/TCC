@@ -73,6 +73,13 @@
     color: #2e7d32;
     text-align: center;
   }
+  .titulo-secundario{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #2e7d32;
+    text-align: center;
+
+  }
 
   .secao-destaques {
     display: grid;
