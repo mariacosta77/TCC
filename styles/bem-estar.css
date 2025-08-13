@@ -138,24 +138,20 @@ transition: color 0.3s;
 
 .cards-conteudo {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  flex-wrap: nowrap;
+  gap: 1rem;
   justify-content: center;
 }
 
 .card-conteudo {
-  flex: 1 1 300px;
+  max-width:400px;
+  flex: 1 1 30rem;
   background-color:rgb(231, 255, 231);
   padding: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s; box-shadow: 0.3;
+  transition: background-color 0.3s; box-shadow : 0.3s;
   border: 2px solid #808080;
-}
-
-.card-conteudo a{
-  color: black;
-  text-decoration: none;
 }
 
 .card-conteudo:hover {
