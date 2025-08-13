@@ -72,7 +72,7 @@
   
   
   
-  .mito{
+  .import{
   background-color: rgb(245, 255, 245); /* Verde água */
   padding: 3rem;
   border-radius: 12px;
@@ -82,7 +82,7 @@
   font-family: "DM Sans", sans-serif;
   }
   
-  .mito h2 {
+  .import h2 {
     text-align: center;
   font-size: 1.8rem;
   color: #0a4904; /* Verde escuro */
@@ -92,7 +92,7 @@
   
   
   
-  .mito p {
+  .import p {
   text-align: center;
   font-size: 1.3rem;
   color: #2d2d2d;
@@ -128,7 +128,7 @@
 
 
   
-    .preparo{
+    .grupo{
       background-color:   rgb(245, 255, 245); /* Verde água */
       padding: 2.5rem;
       border-radius: 12px;
@@ -138,7 +138,7 @@
       font-family: "DM Sans", sans-serif;
       }
       
-      .preparo h2 {
+      .grupo h2 {
       text-align: center;
       font-size: 1.8rem;
       color: #0a4904; /* Verde escuro */
@@ -147,7 +147,7 @@
       }
   
   
-      .preparo li{
+      .grupo li{
         color: #000000;
         font-size: 1.2rem;
   
