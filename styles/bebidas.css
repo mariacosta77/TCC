@@ -47,10 +47,9 @@
     text-decoration: none;
   }
 
-  .nav-menu a:hover {
-    color: #2ecc71;
-  }
-  
+ .nav-menu a:hover {
+    color: rgb(12, 46, 0);
+}
   
   .cadastro {
     text-decoration: none;

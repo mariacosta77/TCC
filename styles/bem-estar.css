@@ -51,18 +51,17 @@ line-height: 1.6;
 
 .logo{
  height: 6rem;
-  width:7rem;
-  
-
+width:7rem;
 }
-
 
 .nav-menu a {
 color: rgb(38, 136, 5);
 text-decoration: none;
 }
 
-
+.nav-menu a:hover {
+    color: rgb(12, 46, 0);
+}
 
 .link_menu{
 margin: 0 1rem;

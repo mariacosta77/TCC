@@ -200,6 +200,10 @@ body{
     text-decoration: none;
 }
 
+.link__menu a:hover {
+    color: rgb(12, 46, 0);
+}
+
 .treino,
 .alimentacao2,
 .cuidando,

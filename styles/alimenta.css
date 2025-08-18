@@ -47,25 +47,23 @@
 
   }
   
-  .cadastro {
+.cadastro {
     text-decoration: none;
     color: black;
     font-size: 1em;
     margin-right: 2rem;
 }
 
-  .nav-menu a {
+.nav-menu a {
     color: rgb(38, 136, 5);
     text-decoration: none;
-  }
+}
     
   
-  .nav-menu a:hover {
-    color: #2ecc71;
-  }
-  
-  
-  
+.nav-menu a:hover {
+    color: rgb(12, 46, 0);
+}
+
   /* principal */
   .main-container {
     max-width: 1200px;

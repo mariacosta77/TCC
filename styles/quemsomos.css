@@ -46,7 +46,16 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+}
+
+.link__menu a {
+color: rgb(38, 136, 5);
+text-decoration: none;
+}
+
+.link__menu a:hover {
+    color: rgb(12, 46, 0);
+}
 
 .logo {
     height: 6rem;

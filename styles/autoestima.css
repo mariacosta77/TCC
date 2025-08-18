@@ -54,16 +54,16 @@ line-height: 1.6;
   width:7rem;
   align-items: left;
   display: flex;
-
 }
-
 
 .nav-menu a {
 color: rgb(38, 136, 5);
 text-decoration: none;
 }
 
-
+.nav-menu a:hover {
+    color: rgb(12, 46, 0);
+}
 
 .link_menu{
 margin: 0 1rem;
@@ -72,10 +72,7 @@ font-weight: 500;
 transition: color 0.3s;
 }
 
-
 /* secao dicas      */
-
-
 .container{
 max-width: 1200px;
 margin: auto;
@@ -88,18 +85,17 @@ padding: 2rem;
   max-width:350px; /* tamanho máximo da imagem */
   width: 300%; /* adapta ao tamanho da tela */
   height: auto; /* mantém proporção */
-  object-fit: contain;      /* garante que a imagem não distorça */
+  object-fit: contain; /* garante que a imagem não distorça */
 }
 
-
 /* conteudos */
-
 .titulo-bemestar {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color:  rgb(38, 136, 5);
   text-align: center;
 }
+
 .secao-mconteudos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -108,9 +104,9 @@ padding: 2rem;
 }
 
 .texto-mental {
-  max-width: 800px;       /* limita a largura para evitar texto muito extenso */
-  margin: 0 auto;         /* centraliza a seção */
-  padding: 2rem;          /* espaçamento interno */background-color: rgb(245, 255, 245); /* Verde água */; /* fundo branco para destacar o texto */
+  max-width: 800px; /* limita a largura para evitar texto muito extenso */
+  margin: 0 auto; /* centraliza a seção */
+  padding: 2rem; /* espaçamento interno */background-color: rgb(245, 255, 245); /* Verde água */; /* fundo branco para destacar o texto */
     /* bordas levemente arredondadas */
   box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* sombra suave */
   line-height: 1.6;       /* altura da linha para melhor leitura */
@@ -123,7 +119,6 @@ padding: 2rem;
   text-align: justify;    /* alinhamento justificado */
   background-color: rgb(245, 255, 245); /* Verde água */
 }
-
 
 .card-destaque a {
   text-decoration: none;
@@ -141,7 +136,6 @@ padding: 2rem;
   transform: scale(1.03);
 }
 
-
 .imagem-bemestar {
   display: block;          /* para alinhar no centro */
   margin: 0 auto;           /* centraliza horizontalmente */
@@ -157,7 +151,6 @@ padding: 2rem;
 }
 
 /* secao mpaginas */
-
 .tituloconteudo {
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -212,9 +205,7 @@ padding: 2rem;
   background-color: rgb(245, 255, 245); /* Verde água */
 }
 
-
 /* footer */
-
 .rodape{
 text-align: center;
 font-size: 1em;
