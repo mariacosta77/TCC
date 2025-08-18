@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,191 +5,172 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
-    line-height: 1.6;
-  }
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);;
+  line-height: 1.6;
+}
   
-  /* header */
-   /* header */
-   .header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding:  0 0.0005rem;
-    position: sticky;
-    top: 0;
-    height: 90px;
-    z-index: 0;
-    
-  }
+/* header */
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 0;
+}
   
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
-  .site-logo {
-    width: 100px;
-    height: 90px;
-    justify-content: space-between;
-    display: flex;
-    
-
-  }
+.site-logo {
+  width: 100px;
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
+}
   
-
-  .nav-menu a {
+.nav-menu a {
     color: rgb(38, 136, 5);
     text-decoration: none;
-  }
+}
 
 .nav-menu a:hover {
     color: rgb(12, 46, 0);
 }
   
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
 }
 
 
 .main-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
-  }
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
   
-  .titulo-principal {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    color: #2e7d32;
-    text-align: center;
-  }
+.titulo-principal {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+  text-align: center;
+}
 
-  .secao-destaques {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-  }
+.secao-destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
   
-  .card-destaque a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    display: block;
-    border-radius: 1px;
-    overflow: hidden;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s;
-  }
+.card-destaque a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
 
-
-
- 
-  .rodape{
-    text-align: center;
-    font-size: 1em;
-  }
+.rodape{
+  text-align: center;
+  font-size: 1em;
+}
   
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
   
-  .icones__redes{
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+
+.icones__redes{
     align-items: center;
-  }
+}
   
-  .insta{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  .facebook{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  
-    .redes-sociais a {
-      color: #333; 
-      font-size: 24px;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
+.icones__redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
     
-    .qs_fc a{
-      color: rgb(38, 136, 5);
-      text-decoration: none;
-  }
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
   
-    .aviso {
-      font-size: 1em;
-      color: #000000;
-      margin-top: 1rem;
-    }
+.aviso {
+  font-size: 1em;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.receita{
+  background-color: rgb(245, 255, 245); /* Verde água */
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif; 
+}
+ 
+.receita h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  position: relative;
+  color: #0a4904;  
+}
     
+.receita p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #000000;
+}
 
+.receita li{
+  color: #000000;
+  font-size: 1.3rem;
+}
 
-    .receita{
-      background-color: rgb(245, 255, 245); /* Verde água */
-      padding: 3rem;
-      border-radius: 12px;
-      max-width: 600px;
-      margin: 3rem auto;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      font-family:  "DM Sans", sans-serif; 
+.passos{
+  background-color:  rgb(245, 255, 245); /* Verde água */
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+}
       
-    }
-
+.passos h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0a4904 ; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+}
       
-    .receita h1 {
-      text-align: center;
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      position: relative;
-      color: #0a4904;
-      
-    }
-    
-    .receita p {
-      text-align: center;
-      font-size: 1.3rem;
-      color: #000000;
-    
-    }
-
-    .receita li{
-      color: #000000;
-      font-size: 1.3rem;
-
-    }
-
-
-    .passos{
-      background-color:  rgb(245, 255, 245); /* Verde água */
-      padding: 2.5rem;
-      border-radius: 12px;
-      max-width: 900px;
-      margin: 3rem auto;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      font-family: "DM Sans", sans-serif;
-      }
-      
-      .passos h2 {
-      text-align: center;
-      font-size: 1.8rem;
-      color: #0a4904 ; /* Verde escuro */
-      margin-bottom: 1rem;
-      position: relative;
-      }
-      
-      .passos p {
-      text-align: center;
-      font-size: 1.3rem;
-      color: #2d2d2d;
-      margin-bottom: 2rem;
-      }
+.passos p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
