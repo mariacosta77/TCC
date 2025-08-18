@@ -6,7 +6,6 @@
 }
 
 /* Cabeçalho*/
-
 body {
 background-color: rgb(255, 255, 255);
 color: rgb(38, 136, 5);
@@ -36,12 +35,6 @@ line-height: 1.6;
   flex-wrap: wrap;
 }
 
-
-.link__menu a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
 .cadastro {
   text-decoration: none;
   color: black;
@@ -56,20 +49,20 @@ line-height: 1.6;
   display: flex;
 }
 
-.nav-menu a {
-color: rgb(38, 136, 5);
-text-decoration: none;
-}
-
-.nav-menu a:hover {
-    color: rgb(12, 46, 0);
-}
-
 .link_menu{
 margin: 0 1rem;
 text-decoration: none;
 font-weight: 500;
 transition: color 0.3s;
+}
+
+.link_menu a {
+color: rgb(38, 136, 5);
+text-decoration: none;
+}
+
+.link_menu a:hover {
+    color: rgb(12, 46, 0);
 }
 
 /* secao dicas      */
@@ -211,8 +204,15 @@ text-align: center;
 font-size: 1em;
 }
 
-.icones__redes{
+.icones_redes{
 align-items: center;
+}
+
+.icones_redes a {
+    color: #333; 
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
 }
 
 .insta{

@@ -226,11 +226,11 @@ body {
   align-items: flex-start;
 }
   
-.nav-menu {
+.link_menu {
   margin-top: 1rem;
 }
   
-.nav-menu a {
+.link_menu a {
   display: block;
   margin: 0.5rem 0;
 }
