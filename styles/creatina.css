@@ -1,77 +1,63 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+  
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);;
+  line-height: 1.6;
+}
+
+/* header */
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 0;
   }
   
-  body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
-    line-height: 1.6;
-  }
-  
-  /* header */
-   /* header */
-   .header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding:  0 0.0005rem;
-    position: sticky;
-    top: 0;
-    height: 90px;
-    z-index: 0;
-    
-  }
-  
-  .header-container {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
   
-  }
-  
-  .site-logo {
+.site-logo {
     width: 100px;
     height: 90px;
     justify-content: space-between;
     display: flex;
-    
-  
-  }
-  
-  
-  .nav-menu a {
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-  }
+}
 
-.nav-menu a:hover {
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
     color: rgb(12, 46, 0);
 }
 
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-  }
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
   
-  .beneficios{
+.beneficios{
   color: #0a4904;
   font-size: 1.3rem;
   align-items: center;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  .mito{
+}
+
+.mito{
   background-color: rgb(245, 255, 245); /* Verde água */
   padding: 3rem;
   border-radius: 12px;

@@ -34,11 +34,6 @@ line-height: 1.6;
   flex-wrap: wrap;
 }
 
-.link_menu a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
 .cadastro {
   text-decoration: none;
   color: black;
@@ -51,6 +46,13 @@ line-height: 1.6;
   width:7rem;
 }
 
+.link_menu{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
@@ -58,13 +60,6 @@ line-height: 1.6;
 
 .link_menu a:hover {
     color: rgb(12, 46, 0);
-}
-
-.link_menu{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
 }
 
 /* primeiras pgns */

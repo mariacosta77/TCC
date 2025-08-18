@@ -35,12 +35,12 @@ body {
   display: flex;
 }
   
-.nav-menu a {
+.link_menu a {
     color: rgb(38, 136, 5);
     text-decoration: none;
 }
 
-.nav-menu a:hover {
+.link_menu a:hover {
     color: rgb(12, 46, 0);
 }
   
@@ -50,7 +50,6 @@ body {
   font-size: 1em;
   margin-right: 2rem;
 }
-
 
 .main-container {
   max-width: 1200px;
@@ -99,11 +98,11 @@ body {
   width: 2rem;
 }
 
-.icones__redes{
+.icones_redes{
     align-items: center;
 }
   
-.icones__redes a{
+.icones_redes a{
   color: #333; 
   font-size: 24px;
   margin: 0 10px;
