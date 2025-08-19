@@ -1,335 +1,315 @@
 .container__titulo{
-    text-align: center;
-    color: rgb(38, 136, 5);
+  text-align: center;
+  color: rgb(38, 136, 5);
 }
 
-
 body{
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background-color: rgb(255, 255, 255);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
 }
 
 .Imagens{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 3rem;
-    justify-content: center;
-    transition: 1.3;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  transition: 1.3;
 }
 
-
-
 .destaque > a > img {
-    border-radius: 0.5rem;
-
+  border-radius: 0.5rem;
 }
 
 .destaque > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .destaque > a > h3 {
-    color: green;
-    height: 1rem;
-    width: 18rem;
-    text-align: center;
+  color: green;
+  height: 1rem;
+  width: 18rem;
+  text-align: center;
 }
 
 .imagem{
-    height: 300px;
-    width: 250px;
-    
+  height: 300px;
+  width: 250px;
 }
 
 .imagem:hover{
-    transform: scale(1.1);
-
+  transform: scale(1.1);
 }
+
 .imagem2{
-    height: 300px;
-    width: 250px;
+  height: 300px;
+  width: 250px;
 }
 
 .imagem2:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .imagem3{
-    height: 300px;
-    width: 250px;
-   
+  height: 300px;
+  width: 250px;
 }
 
 .imagem3:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .imagem4{
-    height: 300px;
-    width: 250px;  
+  height: 300px;
+  width: 250px;  
 }
 
 .imagem4:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .importantes {
-    padding: 2rem 1rem;
-    margin-top: 2rem;
-    border-radius: 10px;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
 }
 
 .importantes h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .blocos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .bloco {
-    background-color: white;
-    border: 1px solid #b9e4ca;
-    border-radius: 8px;
-    padding: 1rem;
-    width: 280px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    text-align: left;
-    cursor: pointer;
+  background-color: white;
+  border: 1px solid #b9e4ca;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: left;
+  cursor: pointer;
 }
 
 .bloco h3 {
-    margin-top: 0;
-    color: var(--cor-link);
+  margin-top: 0;
+  color: var(--cor-link);
 }
 
-.rodape{
-    text-align: center;
-    font-size: 1em;
-}
 
-.icones__redes{
-    align-items: center;
+.desafio21 {
+  background-color: rgb(231, 255, 231); /* Verde água */
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
 }
-
-.insta{
-    height: 2rem;
-    width: 2rem;
+  
+.desafio21 h2 {
+  text-align: center;
+  font-size: 2rem;
+  color:  rgb(38, 136, 5); /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
 }
-
-.facebook{
-    height: 2rem;
-    width: 2rem;
+  
+.desafio21 p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
 }
-
-.secao__primaria{
-    margin: 0%;
-    display: flex;
-    background-color: rgb(229, 242, 213);
+  
+.desafio21 ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
 }
-
-.quem__somos{
-    height: 20rem;
-    width: 33rem;
+  
+.desafio21 li {
+  background-color: #ffffff;
+  border-left: 6px solid  rgb(38, 136, 5);
+  padding: 1rem;
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+  font-size: 1rem;
+  color: #333;
+  transition: transform 0.2s ease;
 }
-
-.txt__quemsomos{
-    text-align: start;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    font-size: 1rem;
-}
-
-.qs_fc a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
+  
+.desafio21 li:hover {
+  transform: scale(1.03);
+  background-color: #f6fff9;
 }
 
 .header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding: 2rem 0;
-    position: sticky;
-    top: 0;
-    height: 40px;
-    
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
 }
   
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
 
-
-  .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.0005rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo {
-    height: 6rem;
-    width:7rem;
+  height: 6rem;
+  width:7rem;
 }
 
 .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
 }
 
-.link__menu a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
+.link_menu a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }
 
-.link__menu a:hover {
-    color: rgb(12, 46, 0);
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
 }
 
 .treino,
 .alimentacao2,
 .cuidando,
 .hidratacao {
-    font-size: 1.5em;
-    color: black;
+  font-size: 1.5em;
+  color: black;
 }
 
 .saude__mental {
-    background-color: rgb(231, 255, 231);
-    padding: 2rem;
-    margin: 2rem auto;
-    text-align: center;
-    border-radius: 10px;
-    max-width: 900px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
+  background-color: rgb(231, 255, 231);
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 
 .saude__mental h2 {
-    font-size: 1.8rem;
-    color: rgb(38, 136, 5);
-    margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: rgb(38, 136, 5);
+  margin-bottom: 1rem;
 }
 
 .texto__mental {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
 .imagem__mental {
-    width: 80%;
-    max-width: 500px;
-    border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
 }
 
 .dicas__rapidas {
-    background-color: rgb(231, 255, 231);
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
+  background-color: rgb(231, 255, 231);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 
 .dicas__rapidas h2 {
-    text-align: center;
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }
 
 .dicas__rapidas ul {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    font-size: 1.2rem;
-    line-height: 2;
-    color: #333;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #333;
 }
 
 .rodape{
-    text-align: center;
-    font-size: 1em;
+  text-align: center;
+  font-size: 1em;
 }
 
-.icones__redes{
-    align-items: center;
+.icones_redes{
+  align-items: center;
+}
+
+.icones_redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
 .insta{
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .facebook{
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
-.desafio21 {
-    background-color: rgb(231, 255, 231); /* Verde água */
-    padding: 2.5rem;
-    border-radius: 12px;
-    max-width: 900px;
-    margin: 3rem auto;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    font-family: "DM Sans", sans-serif;
-  }
-  
-  .desafio21 h2 {
-    text-align: center;
-    font-size: 2rem;
-    color:  rgb(38, 136, 5); /* Verde escuro */
-    margin-bottom: 1rem;
-    position: relative;
-  }
-  
-  .desafio21 p {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #2d2d2d;
-    margin-bottom: 2rem;
-  }
-  
-  .desafio21 ol {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .desafio21 li {
-    background-color: #ffffff;
-    border-left: 6px solid  rgb(38, 136, 5);
-    padding: 1rem;
-    width: 260px;
-    border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
-    font-size: 1rem;
-    color: #333;
-    transition: transform 0.2s ease;
-  }
-  
-  .desafio21 li:hover {
-    transform: scale(1.03);
-    background-color: #f6fff9;
-  }
+.secao__primaria{
+  margin: 0%;
+  display: flex;
+  background-color: rgb(229, 242, 213);
+}
+
+.quem__somos{
+  height: 20rem;
+  width: 33rem;
+}
+
+.txt__quemsomos{
+  text-align: start;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}

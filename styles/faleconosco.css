@@ -22,12 +22,12 @@
     flex-wrap: wrap;
   }
 
-.link__menu a{
+.link_menu a{
     color: rgb(38, 136, 5);
     text-decoration: none;
 }
 
-.link__menu a:hover {
+.link_menu a:hover {
     color: rgb(12, 46, 0);
 }
 
@@ -114,8 +114,15 @@ button:hover{
     font-size: 1.2rem;
 }
 
-.icones__redes{
+.icones_redes{
     align-items: center;
+}
+
+.icones_redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
 .insta{
