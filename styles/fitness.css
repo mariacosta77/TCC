@@ -69,10 +69,9 @@ body {
     color: black;
     font-size: 1em;
     margin-right: 2rem;
-
 }
 
-.nav-menu a {
+.link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
