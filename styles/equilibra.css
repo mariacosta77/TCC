@@ -73,21 +73,14 @@ body {
   font-size: 1.8rem;
   color: #0a4904; /* Verde escuro */
   margin-bottom: 1rem;
-<<<<<<< HEAD
- 
   }
   
   .import h3 {
     text-align: center;
   }
   
-  
-  .import p {
-=======
-}
-
 .import p {
->>>>>>> b44b9ce1aa8ab78c2dc7f64290319335a74b8609
+
   text-align: center;
   font-size: 1.3rem;
   color: #2d2d2d;
