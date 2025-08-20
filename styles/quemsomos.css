@@ -25,125 +25,135 @@ body{
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding: 2rem 0;
-    position: sticky;
-    top: 0;
-    height: 40px;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+}
   
 .header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.0005rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
 
 .logo {
-    height: 6rem;
-    width:7rem;
+  height: 6rem;
+  width:7rem;
 }
 
 .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
 }
 
 .secao__origem h2 {
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .secao__missao h2{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .secao__visao h2{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .secao__valores h2{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .secao__aqui h2{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .nossa__equipe h2{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .secao__participe h2{
-    color: rgb(28, 99, 5);
-}
-
-.link__menu a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
+  color: rgb(28, 99, 5);
 }
 
 .rodape{
-    text-align: center;
-    font-size: 1em;
+  text-align: center;
+  font-size: 1em;
 }
 
 .rodape p{
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.icones__redes{
-    align-items: center;
+.icones_redes{
+  align-items: center;
+}
+
+.icones_redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
 .insta{
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .facebook{
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .secao__primaria{
-    margin: 0%;
-    display: flex;
+  margin: 0%;
+  display: flex;
 }
 
 .secao__primaria h1{
-    color: rgb(28, 99, 5);
+  color: rgb(28, 99, 5);
 }
 
 .quem__somos{
-    height: 20rem;
-    width: 33rem;
+  height: 20rem;
+  width: 33rem;
 }
 
 .txt__quemsomos{
-    text-align: start;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    font-size: 1rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 1rem;
 }
 
 .qs_fc a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }
 
 
 .participe a{
-    color: black;
+  color: black;
 }

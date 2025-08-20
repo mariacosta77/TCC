@@ -10,194 +10,176 @@
     color: rgb(38, 136, 5);;
     line-height: 1.6;
   }
-  
-  /* header */
-   /* header */
-   .header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding:  0 0.0005rem;
-    position: sticky;
-    top: 0;
-    height: 90px;
-    z-index: 1;
-  }
-  
 
-
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-
-  }
+/* header */
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+}
   
-  .site-logo {
-    width: 100px;
-    height: 90px;
-    justify-content: space-between;
-    display: flex;
-    
-
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
-
-  .nav-menu a {
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-  }
-
-  .nav-menu a:hover {
-    color: #2ecc71;
-  }
-  
-  
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+.site-logo {
+  width: 100px;
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
 }
 
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
 
 .main-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
-  }
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
   
-  .titulo-principal {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    color: #2e7d32;
-    text-align: center;
-  }
-  .titulo-secundario{
-    font-size: 1.6rem;
-    margin-bottom: 1.5rem;
-    color: #2e7d32;
-    text-align: center;
+.titulo-principal {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+  text-align: center;
+}
 
-  }
+.titulo-secundario{
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+  text-align: center;
+}
 
-  .secao-destaques {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-  }
+.secao-destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
   
-  .card-destaque a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    display: block;
-    border-radius: 1px;
-    overflow: hidden;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s;
-  }
+.card-destaque a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
 
+.rodape{
+  text-align: center;
+  font-size: 1em;
+}
+  
+.icones_redes{
+  align-items: center;
+}
 
-
- 
-  .rodape{
-    text-align: center;
-    font-size: 1em;
-  }
+.icones_redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
   
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
   
-  .icones__redes{
-    align-items: center;
-  }
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
   
-  .insta{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  .facebook{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  
-    .redes-sociais a {
-      color: #333; 
-      font-size: 24px;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
+.redes-sociais a {
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
     
-    .qs_fc a{
-      color: rgb(38, 136, 5);
-      text-decoration: none;
-  }
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
   
-    .aviso {
-      font-size: 1em;
-      color: #000000;
-      margin-top: 1rem;
-    }
+.aviso {
+  font-size: 1em;
+  color: #000000;
+  margin-top: 1rem;
+}
     
-
-
-    .treino{
-      background-color:  rgb(245, 255, 245); /* Verde água */
-      padding: 2.5rem;
-      border-radius: 12px;
-      max-width: 900px;
-      margin: 3rem auto;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      font-family: "DM Sans", sans-serif;
-      }
+.treino{
+  background-color:  rgb(245, 255, 245); /* Verde água */
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+}
       
+.treino li{
+  text-align: center;
+  font-size: 1.3rem;
+  color: #0a4904 ; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+}
 
-      .treino li{
-        text-align: center;
-      font-size: 1.3rem;
-      color: #0a4904 ; /* Verde escuro */
-      margin-bottom: 1rem;
-      position: relative;
-
-      }
-
-      
-    .treinos{
-        background-color:  rgb(245, 255, 245); /* Verde água */
-        padding: 2.5rem;
-        border-radius: 12px;
-        max-width: 900px;
-        margin: 3rem auto;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        font-family: "DM Sans", sans-serif;
-        }
+.treinos{
+  background-color:  rgb(245, 255, 245); /* Verde água */
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+}
         
-  
-        .treino h1{
-          text-align: center;
-        font-size: 1.8rem;
-        color: #0a4904 ; /* Verde escuro */
-        margin-bottom: 1rem;
-        position: relative;
-  
-        }
+.treino h1{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0a4904 ; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+}
         
-        .treino p {
-        text-align: center;
-        font-size: 1.3rem;
-        color: #2d2d2d;
-        margin-bottom: 2rem;
-        }
+.treino p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
     
-      
-      .treino p {
-      text-align: center;
-      font-size: 1.3rem;
-      color: #2d2d2d;
-      margin-bottom: 2rem;
-      }
-
-     
+.treino p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+} 
