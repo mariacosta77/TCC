@@ -11,7 +11,6 @@
     line-height: 1.6;
   }
   
-  /* header */
    /* header */
    .header {
     background-color: rgb(255, 255, 255);
@@ -23,36 +22,19 @@
     z-index: 1;
   }
   
-
-
-  .header-container {
+  .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
   }
   
-  .site-logo {
+  .site__logo {
     width: 100px;
     height: 90px;
     justify-content: space-between;
     display: flex;
-    
-
-  }
-  
-
-  .nav-menu a {
-    color: rgb(38, 136, 5);
-    text-decoration: none;
   }
 
-  .nav-menu a:hover {
-    color: #2ecc71;
-  }
-  
-  
   .cadastro {
     text-decoration: none;
     color: black;
@@ -61,34 +43,90 @@
 }
 
 
-.main-container {
+.main__container {
     max-width: 1200px;
     margin: auto;
     padding: 2rem;
   }
   
-  .titulo-principal {
+  .titulo__principal {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     color: #2e7d32;
     text-align: center;
   }
-  .titulo-secundario{
+  .titulo__secundario{
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     color: #2e7d32;
     text-align: center;
 
   }
+  .treino{
+    background-color:  rgb(245, 255, 245); /* Verde água */
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 3rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans", sans-serif;
+    }
+    
+    .treino li{
+      text-align: center;
+    font-size: 1.3rem;
+    color: #0a4904 ; /* Verde escuro */
+    margin-bottom: 1rem;
+    position: relative;
 
-  .secao-destaques {
+    }
+
+    .treino h1{
+      text-align: center;
+      font-size: 1.8rem;
+      color: #0a4904 ; /* Verde escuro */
+      margin-bottom: 1rem;
+      position: relative;
+
+      }
+  
+    .exemplos__cardio h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #0a4904 ; /* Verde escuro */
+    margin-bottom: 1rem;
+    position: relative;
+   }
+
+   .exemplos__cardio li {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #0a4904 ; /* Verde escuro */
+    margin-bottom: 1rem;
+    position: relative;
+
+   }
+  .exemplos__cardio {
+    background-color:  rgb(245, 255, 245); /* Verde água */
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 3rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans", sans-serif;
+   }
+  
+
+
+
+  .secao__destaques {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
     gap: 1.5rem;
     margin-bottom: 3rem;
   }
   
-  .card-destaque a {
+  .card__destaque a {
     text-decoration: none;
     color: inherit;
     text-align: center;
@@ -100,15 +138,6 @@
     transition: transform 0.3s;
   }
 
-
-
- 
-  .rodape{
-    text-align: center;
-    font-size: 1em;
-  }
-  
-  
   .icones__redes{
     align-items: center;
   }
@@ -122,9 +151,8 @@
     height: 2rem;
     width: 2rem;
   }
-  
-  
-    .redes-sociais a {
+
+    .redes__sociais a {
       color: #333; 
       font-size: 24px;
       margin: 0 10px;
@@ -141,63 +169,9 @@
       color: #000000;
       margin-top: 1rem;
     }
-    
-
-
-    .treino{
-      background-color:  rgb(245, 255, 245); /* Verde água */
-      padding: 2.5rem;
-      border-radius: 12px;
-      max-width: 900px;
-      margin: 3rem auto;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      font-family: "DM Sans", sans-serif;
-      }
-      
-
-      .treino li{
-        text-align: center;
-      font-size: 1.3rem;
-      color: #0a4904 ; /* Verde escuro */
-      margin-bottom: 1rem;
-      position: relative;
-
-      }
-
-      
-    .treinos{
-        background-color:  rgb(245, 255, 245); /* Verde água */
-        padding: 2.5rem;
-        border-radius: 12px;
-        max-width: 900px;
-        margin: 3rem auto;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        font-family: "DM Sans", sans-serif;
-        }
-        
   
-        .treino h1{
-          text-align: center;
-        font-size: 1.8rem;
-        color: #0a4904 ; /* Verde escuro */
-        margin-bottom: 1rem;
-        position: relative;
-  
-        }
-        
-        .treino p {
-        text-align: center;
-        font-size: 1.3rem;
-        color: #2d2d2d;
-        margin-bottom: 2rem;
-        }
     
-      
-      .treino p {
+     .rodape{
       text-align: center;
-      font-size: 1.3rem;
-      color: #2d2d2d;
-      margin-bottom: 2rem;
-      }
-
-     
+      font-size: 1em;
+    }
