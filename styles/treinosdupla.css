@@ -52,9 +52,9 @@ body {
 }
 
 .main-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
 }
   
 .titulo-principal {
@@ -72,15 +72,15 @@ body {
 }
   
 .card-destaque a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    display: block;
-    border-radius: 1px;
-    overflow: hidden;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
 }
     
 .treino{
