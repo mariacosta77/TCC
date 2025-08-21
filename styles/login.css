@@ -37,11 +37,11 @@ form {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.3rem;
     box-shadow: 0.5px 0.5px 18px rgba(0, 0, 0, 0.539);
 }
 
-form :focus{
+form:focus{
     border-color: #000000;
     outline: none;
 }
@@ -87,13 +87,11 @@ form input:focus{
 .campo-input {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
  .titulo {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .esqueceu__senha{
@@ -101,5 +99,12 @@ form input:focus{
 }
 
 .esqueceu__senha a{
-    color: rgb(38, 136, 5)
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+#gap_login {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
