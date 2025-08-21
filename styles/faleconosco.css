@@ -9,7 +9,7 @@
     position: sticky;
     top: 0;
     height: 40px;
-    
+    margin-bottom: 5rem;
   }
   
 .header-container {
@@ -22,9 +22,13 @@
     flex-wrap: wrap;
   }
 
-.link__menu a{
+.link_menu a{
     color: rgb(38, 136, 5);
     text-decoration: none;
+}
+
+.link_menu a:hover {
+    color: rgb(12, 46, 0);
 }
 
 .logo {
@@ -53,10 +57,37 @@ body{
     align-content: space-around;
     margin-bottom: 0.5rem;
     font-size: 2rem;
+    padding-bottom: 7.5rem;
+}
+
+.faleconosco{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+input{
+    width: 20rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.pt3 input{
+    width: 38.6rem;
+    padding: 2rem;
+    
+}
+
+form input:focus{
+    border-color: #000000;
+    outline: none;
 }
 
 button{
-    width: 10rem;
+    width: 100%rem;
     padding: 0.5rem;
     color: #fff;
     background-color: rgb(6, 80, 6);
@@ -76,14 +107,22 @@ button:hover{
 .rodape{
     text-align: center;
     font-size: 1em;
+    margin-top: 5rem;
 }
 
 .rodape p{
     font-size: 1.2rem;
 }
 
-.icones__redes{
+.icones_redes{
     align-items: center;
+}
+
+.icones_redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
 .insta{

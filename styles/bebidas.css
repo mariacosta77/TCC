@@ -1,68 +1,59 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
   
-  body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
-    line-height: 1.6;
-  }
-  
-  /* header */
-   /* header */
-   .header {
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding:  0 0.0005rem;
-    position: sticky;
-    top: 0;
-    height: 90px;
-    z-index: 0;
-    
-  }
-  
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);;
+  line-height: 1.6;
+}
 
-  }
-  
-  .site-logo {
-    width: 100px;
-    height: 90px;
-    justify-content: space-between;
-    display: flex;
-    
+/* header */
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 0;
+}
 
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
+.site-logo {
+  width: 100px;
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
+}
+  
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
 
-  .nav-menu a {
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-  }
-
-  .nav-menu a:hover {
-    color: #2ecc71;
-  }
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
   
-  
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
 }
 
 .card{
   color: #0a4904;
 }
-
 
 .cardapio{
   background-color:  rgb(241, 250, 241); /* Verde água */
@@ -89,59 +80,51 @@
   margin-bottom: 2rem;
 }
 
-
-
-
-
 .main-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
-  }
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
   
-  .titulo-principal {
-    font-size: 2rem;
-    color: #2e7d32;
-    text-align: center;
-  }
+.titulo-principal {
+  font-size: 2rem;
+  color: #2e7d32;
+  text-align: center;
+}
 
- 
-  .rodape{
-    text-align: center;
-    font-size: 1em;
-  }
+.rodape{
+  text-align: center;
+  font-size: 1em;
+}
   
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
   
-  .icones__redes{
-    align-items: center;
-  }
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+
+.icones_redes{
+  align-items: center;
+}
   
-  .insta{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  .facebook{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  
-    .redes-sociais a {
-      color: #333; 
-      font-size: 24px;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
+.icones_redes a {
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
     
-    .qs_fc a{
-      color: rgb(38, 136, 5);
-      text-decoration: none;
-  }
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
   
-    .aviso {
-      font-size: 1em;
-      color: #000000;
-      margin-top: 1rem;
-    }
-    
+.aviso {
+  font-size: 1em;
+  color: #000000;
+  margin-top: 1rem;
+}
