@@ -173,3 +173,23 @@ body {
   color: #2d2d2d;
   margin-bottom: 2rem;
 }
+
+.bolo_laranja{
+  display: block;          /* para alinhar no centro */
+  margin: 2rem auto;           /* centraliza horizontalmente */
+  max-width: 600px;         /* tamanho máximo da imagem */
+  width: 70%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;  
+  border-radius: 10px;
+}
+
+.pao_queijo{
+  display: block;          /* para alinhar no centro */
+  margin: 2rem auto;           /* centraliza horizontalmente */
+  max-width: 600px;         /* tamanho máximo da imagem */
+  width: 70%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;  
+  border-radius: 10px;
+}
