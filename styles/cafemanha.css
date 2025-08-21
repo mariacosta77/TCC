@@ -71,7 +71,7 @@ body {
   margin-bottom: 3rem;
 }
   
-.card-destaque a {
+.card__destaque a {
   text-decoration: none;
   color: inherit;
   text-align: center;
@@ -83,42 +83,6 @@ body {
   transition: transform 0.3s;
 }
 
-.rodape{
-  text-align: center;
-  font-size: 1em;
-}
-  
-.insta{
-  height: 2rem;
-  width: 2rem;
-}
-  
-.facebook{
-  height: 2rem;
-  width: 2rem;
-}
-
-.icones_redes{
-    align-items: center;
-}
-  
-.icones_redes a{
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-    
-.qs_fc a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-  
-.aviso {
-  font-size: 1em;
-  color: #000000;
-  margin-top: 1rem;
-}
 
 .receita{
   background-color: rgb(245, 255, 245); /* Verde água */
@@ -174,7 +138,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.bolo_laranja{
+.bolo__laranja{
   display: block;          /* para alinhar no centro */
   margin: 2rem auto;           /* centraliza horizontalmente */
   max-width: 600px;         /* tamanho máximo da imagem */
@@ -192,4 +156,42 @@ body {
   height: auto;             /* mantém proporção */
   object-fit: contain;  
   border-radius: 10px;
+}
+
+
+.rodape{
+  text-align: center;
+  font-size: 1em;
+}
+  
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+
+.icones__redes{
+    align-items: center;
+}
+  
+.icones__redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+    
+.qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+  
+.aviso {
+  font-size: 1em;
+  color: #000000;
+  margin-top: 1rem;
 }
