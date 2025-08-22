@@ -90,7 +90,7 @@ body {
   transition: transform 0.3s;
 }
   
-.card-destaque a:hover {
+.card__destaque a:hover {
   transform: scale(1.03);
 }
   
