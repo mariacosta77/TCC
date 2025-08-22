@@ -39,16 +39,22 @@ body {
   display: flex;
 }
   
+  
+.link__menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link__menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
 .cadastro {
   text-decoration: none;
   color: black;
   font-size: 1em;
   margin-right: 2rem;
 }
-
-
-    
-
 
 /* principal */
 .main__container {
@@ -216,22 +222,18 @@ body {
   
 /* isso aqui deixa responsivo */
 @media (max-width: 768px) {
-.header-container {
+.header__container {
   flex-direction: column;
   align-items: flex-start;
 }
   
-.link_menu {
+.link__menu {
   margin-top: 1rem;
 }
   
-.link_menu a {
+.link__menu a {
   display: block;
   margin: 0.5rem 0;
-}
-  
-.btn-consulta {
-  margin-top: 1rem;
 }
   
 .cards-conteudo {
