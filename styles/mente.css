@@ -1,0 +1,71 @@
+body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(248, 248, 247);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+}
+  
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.0005rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
+.logo {
+  height: 6rem;
+  width:7rem;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+.rodape{
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+  
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+  
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}

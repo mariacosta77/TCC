@@ -151,7 +151,7 @@ body {
     font-size: 1.1rem;
     line-height: 2;
     text-align: center;
-  }
+}
   
   
 .rodape{
@@ -160,16 +160,16 @@ body {
     margin-top: 3rem;
     padding: 2rem;
     background: #fff;
-    border-top: 1px solid #000;
-  }
+    color: #313131;
+}
   
 .icones_redes img {
     height: 2rem;
     width: 2rem;
     margin: 0 10px;
-  }
+}
   
 .qs_fc a {
     color: rgb(38, 136, 5);
     text-decoration: none;
-  }
+}
