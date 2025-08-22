@@ -51,6 +51,17 @@ body {
   margin-right: 2rem;
 }
 
+.suco__laranja{
+  display: block;          /* para alinhar no centro */
+  margin: 1rem auto;           /* centraliza horizontalmente */
+  max-width: 200px;         /* tamanho máximo da imagem */
+  width: 70%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;  
+  border-radius: 12px;
+}
+
+
 .card{
   color: #0a4904;
 }
@@ -109,13 +120,6 @@ body {
 
 .icones_redes{
   align-items: center;
-}
-  
-.icones__redes a {
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
 }
     
 .qs__fc a{

@@ -22,27 +22,24 @@ body {
   z-index: 0;  
 }
   
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   
-.site-logo {
+.site__logo {
   width: 100px;
   height: 90px;
   justify-content: space-between;
   display: flex;
 }
   
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-  .link_menu a:hover {
-  color: rgb(12, 46, 0);
-}
   
 .cadastro {
   text-decoration: none;
@@ -50,6 +47,19 @@ body {
   font-size: 1em;
   margin-right: 2rem;
 }
+
+.main__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+  
+.titulo__principal {
+  font-size: 2rem;
+  color: #2e7d32;
+  text-align: center;
+}
+
 
 .card{
   color: #0a4904;
@@ -80,34 +90,16 @@ body {
   margin-bottom: 2rem;
 }
 
-.main-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
-}
-  
-.titulo-principal {
-  font-size: 2rem;
-  color: #2e7d32;
-  text-align: center;
-}
 
 .rodape{
   text-align: center;
   font-size: 1em;
 }
   
-.icones_redes{
+.icones__redes{
   align-items: center;
 }
-
-.icones_redes a{
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-  
+ 
 .insta{
   height: 2rem;
   width: 2rem;
