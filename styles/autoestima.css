@@ -112,48 +112,47 @@ padding: 2rem;
   background-color: rgb(245, 255, 245); 
 }
 
-
 /* footer */
 .rodape{
-text-align: center;
-font-size: 1em;
-}
-
-.icones_redes{
-align-items: center;
-}
-
-.icones_redes a {
+  text-align: center;
+  font-size: 1em;
+  }
+  
+  .icones_redes{
+  align-items: center;
+  }
+  
+  .icones_redes a {
+      color: #333; 
+      font-size: 24px;
+      margin: 0 10px;
+      transition: color 0.3s;
+  }
+  
+  .insta{
+  height: 2rem;
+  width: 2rem;
+  }
+  
+  .facebook{
+  height: 2rem;
+  width: 2rem;
+  }
+  
+  .qs_fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+  }
+  
+  .redes-sociais a {
     color: #333; 
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s;
-}
-
-.insta{
-height: 2rem;
-width: 2rem;
-}
-
-.facebook{
-height: 2rem;
-width: 2rem;
-}
-
-.qs_fc a{
-color: rgb(38, 136, 5);
-text-decoration: none;
-}
-
-.redes-sociais a {
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-.aviso {
-  font-size: 0.85rem;
-  color: #000000;
-  margin-top: 1rem;     
-}}
+  }
+  
+  .aviso {
+    font-size: 0.85rem;
+    color: #000000;
+    margin-top: 1rem;     
+  }}

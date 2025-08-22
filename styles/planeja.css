@@ -94,8 +94,13 @@ body {
 .rodape{
   text-align: center;
   font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
 }
   
+<<<<<<< HEAD
 .icones__redes{
   align-items: center;
 }
@@ -111,12 +116,15 @@ body {
 }
   
 .qs_fc a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
+=======
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
 }
   
-.aviso {
-  font-size: 1em;
-  color: #000000;
-  margin-top: 1rem;
+.qs_fc a {
+>>>>>>> cb4607ec21a899e2658d6ca472d0c7da0f5a50fe
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }

@@ -54,6 +54,50 @@ body {
 .link_menu a:hover {
     color: rgb(12, 46, 0);
  }
+
+ /* primeiras pgns */
+
+ .main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+ .titulo-mpaginas {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color:  rgb(38, 136, 5);
+  text-align: center;
+}
+.mpaginas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.imagem-mpaginas {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-mpaginas a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.card-mpaginas a:hover {
+  transform: scale(1.03);
+}
+
         
     /* secao dicas   */
 .container{
@@ -107,45 +151,21 @@ body {
   
 /* footer */
 .rodape{
-    text-align: center;
-    font-size: 1em;
-    }
-    
-    .icones_redes{
-    align-items: center;
-    }
-    
-    .icones_redes a {
-        color: #333; 
-        font-size: 24px;
-        margin: 0 10px;
-        transition: color 0.3s;
-    }
-    
-    .insta{
-    height: 2rem;
-    width: 2rem;
-    }
-    
-    .facebook{
-    height: 2rem;
-    width: 2rem;
-    }
-    
-    .qs_fc a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-    }
-    
-    .redes-sociais a {
-      color: #333; 
-      font-size: 24px;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
-    
-    .aviso {
-      font-size: 0.85rem;
-      color: #000000;
-      margin-top: 1rem;     
-    }
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+  
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+  
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
