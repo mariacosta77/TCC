@@ -202,13 +202,6 @@ body {
   align-items: center;
 }
 
-.icones_redes a {
-    color: #333; 
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-  
 .qs__fc a{
   color: rgb(38, 136, 5);
   text-decoration: none;
@@ -227,16 +220,16 @@ body {
   align-items: flex-start;
 }
   
-.link__menu {
+.nav__menu {
   margin-top: 1rem;
 }
   
-.link__menu a {
+.nav__menu a {
   display: block;
   margin: 0.5rem 0;
 }
   
-.cards-conteudo {
+.cards__conteudo {
   flex-direction: column;
   align-items: center;
 }

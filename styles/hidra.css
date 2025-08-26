@@ -22,28 +22,24 @@ body {
   z-index: 0;
 }
   
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   
-.site-logo {
+.site__logo {
   width: 100px;
   height: 90px;
   justify-content: space-between;
   display: flex;
 }
   
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
-  
-.link_menu a:hover {
-    color: rgb(12, 46, 0);
-}
-
+ 
 .cadastro {
   text-decoration: none;
   color: black;
@@ -113,13 +109,13 @@ body {
   font-size: 1.3rem;
 }
    
-.main-container {
+.main__container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
   
-.titulo-principal {
+.titulo__principal {
   font-size: 2rem;
   color: #2e7d32;
   text-align: center;
@@ -134,6 +130,23 @@ body {
   color: #313131;
 }
   
+<<<<<<< HEAD
+.icones__redes{
+  align-items: center;
+}
+
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+    
+.qs_fc a{
+=======
 .icones_redes img {
   height: 2rem;
   width: 2rem;
@@ -141,6 +154,7 @@ body {
 }
   
 .qs_fc a {
+>>>>>>> cb4607ec21a899e2658d6ca472d0c7da0f5a50fe
   color: rgb(38, 136, 5);
   text-decoration: none;
 }

@@ -22,25 +22,25 @@ body {
   z-index: 0;
 }
   
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   
-.site-logo {
+.site__logo {
   width: 100px;
   height: 90px;
   justify-content: space-between;
   display: flex;
 }
   
-.link_menu a {
+.link__menu a {
     color: rgb(38, 136, 5);
     text-decoration: none;
 }
 
-.link_menu a:hover {
+.link__menu a:hover {
     color: rgb(12, 46, 0);
 }
   
@@ -51,38 +51,18 @@ body {
   margin-right: 2rem;
 }
 
-.main-container {
+.main__container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
   
-.titulo-principal {
+.titulo__principal {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   color: #2e7d32;
   text-align: center;
 }
-
-.secao-destaques {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
-}
-  
-.card__destaque a {
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
-  display: block;
-  border-radius: 1px;
-  overflow: hidden;
-  background-color: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s;
-}
-
 
 .receita{
   background-color: rgb(245, 255, 245); /* Verde água */
@@ -148,7 +128,7 @@ body {
   border-radius: 10px;
 }
 
-.pao_queijo{
+.pao__queijo{
   display: block;          /* para alinhar no centro */
   margin: 2rem auto;           /* centraliza horizontalmente */
   max-width: 600px;         /* tamanho máximo da imagem */
@@ -177,14 +157,7 @@ body {
 .icones__redes{
     align-items: center;
 }
-  
-.icones__redes a{
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-    
+   
 .qs_fc a{
   color: rgb(38, 136, 5);
   text-decoration: none;
