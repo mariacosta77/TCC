@@ -54,7 +54,7 @@ body {
 .suco__laranja{
   display: block;          /* para alinhar no centro */
   margin: 1rem auto;           /* centraliza horizontalmente */
-  max-width: 200px;         /* tamanho máximo da imagem */
+  max-width: 300px;         /* tamanho máximo da imagem */
   width: 70%;               /* adapta ao tamanho da tela */
   height: auto;             /* mantém proporção */
   object-fit: contain;  
