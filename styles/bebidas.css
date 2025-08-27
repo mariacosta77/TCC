@@ -51,7 +51,7 @@ body {
   margin-right: 2rem;
 }
 
-.suco__laranja{
+.bebidas{
   display: block;          /* para alinhar no centro */
   margin: 1rem auto;           /* centraliza horizontalmente */
   max-width: 300px;         /* tamanho máximo da imagem */
