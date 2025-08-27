@@ -220,11 +220,11 @@ body {
   align-items: flex-start;
 }
   
-.link__menu {
+.nav__menu {
   margin-top: 1rem;
 }
   
-.link__menu a {
+.nav__menu a {
   display: block;
   margin: 0.5rem 0;
 }
