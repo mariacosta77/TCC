@@ -233,3 +233,45 @@ body {
   align-items: center;
 }
 }
+
+@media (max-width: 425px) {
+  .header__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    
+  .link__menu{
+    margin-top: 1rem;
+  }
+    
+  .link__menu a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+    
+  .cards__conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+  }
+
+  @media (max-width: 320px) {
+    .header__container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+      
+    .link__menu{
+      margin-top: 1rem;
+    }
+      
+    .link__menu a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+      
+    .cards__conteudo {
+      flex-direction: column;
+      align-items: center;
+    }
+    }
