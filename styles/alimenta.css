@@ -125,10 +125,6 @@ body {
   text-decoration: none;
 }
 
-.card__conteudo:hover {
-  background-color: #d5fae0;
-}
-  
 .card__conteudo h3 {
   margin-bottom: 0.5rem;
 }
