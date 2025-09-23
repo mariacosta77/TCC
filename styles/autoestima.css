@@ -1,15 +1,16 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  box-sizing: border-box;
   color: black;
 }
 
 /* Cabeçalho*/
 body {
-background-color: rgb(255, 255, 255);
-color: rgb(38, 136, 5);
-line-height: 1.6;
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);
+  line-height: 1.6;
+  font-family: "DM Sans", sans-serif;
 }
 
 .header {
@@ -43,7 +44,7 @@ line-height: 1.6;
 }
 
 .logo{
- height: 6rem;
+  height: 6rem;
   width:7rem;
   align-items: left;
   display: flex;
@@ -67,9 +68,9 @@ text-decoration: none;
 
 /* secao dicas   */
 .container{
-max-width: 1200px;
-margin: auto;
-padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
 }
 
 .imgdicas{
@@ -87,6 +88,7 @@ padding: 2rem;
   margin-bottom: 1.5rem;
   color:  rgb(38, 136, 5);
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .secao-mconteudos {
