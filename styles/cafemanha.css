@@ -129,27 +129,6 @@ body {
   margin-bottom: 2rem;
 }
 
-.bolo__laranja{
-  display: block;          /* para alinhar no centro */
-  margin: 2rem auto;           /* centraliza horizontalmente */
-  max-width: 600px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
-  object-fit: contain;  
-  border-radius: 10px;
-}
-
-.pao__queijo{
-  display: block;          /* para alinhar no centro */
-  margin: 2rem auto;           /* centraliza horizontalmente */
-  max-width: 600px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
-  object-fit: contain;  
-  border-radius: 10px;
-}
-
-
 .rodape{
   text-align: center;
   font-size: 1em;
