@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
   color: black;
 }
 
@@ -23,6 +22,7 @@ body {
   top: 0;
   height: 40px;
   background-color: rgb(255, 255, 255);
+  font-family: "DM Sans", sans-serif;
 }
 
 .main-container {
@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cadastro {
@@ -279,6 +280,7 @@ body {
   margin-top: 3rem;
   padding: 2rem;
   background: #fff;
+  font-family: "DM Sans", sans-serif;
 }
 
 .rodape p {
