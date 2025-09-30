@@ -108,7 +108,7 @@ body {
   background-color:  rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 750px;
   margin: 3rem auto;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   font-family: "DM Sans", sans-serif;
@@ -128,27 +128,6 @@ body {
   color: #2d2d2d;
   margin-bottom: 2rem;
 }
-
-.bolo__laranja{
-  display: block;          /* para alinhar no centro */
-  margin: 2rem auto;           /* centraliza horizontalmente */
-  max-width: 600px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
-  object-fit: contain;  
-  border-radius: 10px;
-}
-
-.pao__queijo{
-  display: block;          /* para alinhar no centro */
-  margin: 2rem auto;           /* centraliza horizontalmente */
-  max-width: 600px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
-  object-fit: contain;  
-  border-radius: 10px;
-}
-
 
 .rodape{
   text-align: center;
