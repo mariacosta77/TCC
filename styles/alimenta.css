@@ -209,10 +209,12 @@ body {
   
 .link__menu{
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
   
 .link__menu a {
-  display: block;
+
   margin: 0.5rem 0;
 }
   
