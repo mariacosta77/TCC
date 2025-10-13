@@ -42,6 +42,30 @@
     margin-right: 2rem;
     }
 
+  .site-logo {
+    width: 100px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+
+  .nav-menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+  }
+
+  .nav-menu a:hover {
+    color: #2ecc71;
+  }
+
+  .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
 .main-container {
     max-width: 1200px;
     margin: auto;
