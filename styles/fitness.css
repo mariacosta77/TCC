@@ -44,10 +44,7 @@ body {
     color: rgb(12, 46, 0);
 }
 
-.logo {
-    height: 6rem;
-    width:7rem;
-}
+
 
 .cadastro {
     text-decoration: none;
@@ -64,12 +61,6 @@ body {
    
 }
 
-.cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-}
 
 .link_menu a {
   color: rgb(38, 136, 5);
@@ -177,7 +168,7 @@ body {
   font-size: 1.1rem;
 }
   
-.imagem-foco {
+.imagem__foco {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
