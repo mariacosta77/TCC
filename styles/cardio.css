@@ -7,12 +7,12 @@
   
   body {
     background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);
+    color: rgb(38, 136, 5);;
     line-height: 1.6;
   }
-  
+    
    /* header */
-   .header {
+  .header {
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #000000;
     padding:  0 0.0005rem;
@@ -21,13 +21,13 @@
     height: 90px;
     z-index: 1;
   }
-  
+    
   .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
+    
   .site__logo {
     width: 100px;
     height: 90px;
@@ -42,29 +42,9 @@
     margin-right: 2rem;
     }
 
-/* header */
-.header {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #000000;
-  padding:  0 0.0005rem;
-  position: sticky;
-  top: 0;
-  height: 90px;
-  z-index: 1;
-}
-  
-.header__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-  
-.site__logo {
-  width: 100px;
-  height: 90px;
-  justify-content: space-between;
-  display: flex;
-}
+
+
+
 
 .link__menu a {
   color: rgb(38, 136, 5);
