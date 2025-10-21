@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4fff4;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.link_menu {
+  flex: 1;
+  text-align: center;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+  text-decoration: underline;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.barra {
+  height: 1px;
+  background-color: #000;
+  margin-top: -1px;
+}
+
+
+.conteudo {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+
+.hero {
+  background-color: #dfffe0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h2 {
+  color: #268805;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.destaques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.destaques .item {
+  flex: 1 1 280px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-left: 5px solid #268805;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+
+.imagem-texto {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imagem-texto img {
+  max-width: 350px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.imagem-texto div {
+  flex: 1;
+}
+
+.imagem-texto h3 {
+  color: #268805;
+  margin-bottom: 1rem;
+}
+
+.imagem-texto ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.imagem-texto li {
+  margin-bottom: 0.5rem;
+}
+
+
+.cardapio {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.cardapio h2 {
+  color: #268805;
+  margin-bottom: 1rem;
+}
+
+.cardapio ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.cardapio li {
+  margin-bottom: 0.8rem;
+}
+
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
+  border-top: 1px solid #000;
+}
+
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .imagem-texto {
+    flex-direction: column;
+  }
+
+  .destaques {
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .link_menu {
+    margin: 1rem 0;
+  }
+}
