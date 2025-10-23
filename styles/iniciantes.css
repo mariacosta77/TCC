@@ -34,6 +34,14 @@
     justify-content: space-between;
     display: flex;
   }
+  .link_menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+  }
+
+  .link_menu a:hover {
+    color: #000000;
+  }
 
   .cadastro {
     text-decoration: none;
