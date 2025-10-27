@@ -60,7 +60,7 @@ body {
 .titulo__principal {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  color: #2e7d32;
+  color: #0a4904 ;
   text-align: center;
 }
 
@@ -82,26 +82,6 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
 }
-
-.rodape{
-  text-align: center;
-  font-size: 1em;
-  margin-top: 3rem;
-  padding: 2rem;
-  background: #fff;
-  color: #313131;
-}
-  
-.icones__redes img {
-  height: 2rem;
-  width: 2rem;
-  margin: 0 10px;
-}
-  
-.qs_fc a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
     
 .treinos{
   background-color:  rgb(245, 255, 245); /* Verde água */
@@ -113,22 +93,12 @@ body {
   font-family: "DM Sans", sans-serif;
 }
       
-.treinos li{
+.treinos p{
   text-align: center;
   font-size: 1.3rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
-}
- 
-.treinos{
-  background-color:  rgb(245, 255, 245); /* Verde água */
-  padding: 2.5rem;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 3rem auto;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
 }
 
 .treinos h1{
@@ -139,16 +109,100 @@ body {
   position: relative;
 }
         
-.treinos p {
+.treinos li {
   text-align: center;
   font-size: 1.3rem;
   color: #2d2d2d;
   margin-bottom: 2rem;
 }
-     
-.treinos p {
+
+
+.secao__destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.titulo__secundario{
+   font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color:  rgb(38, 136, 5);
   text-align: center;
-  font-size: 1.3rem;
-  color: #2d2d2d;
-  margin-bottom: 2rem;
+}
+  
+.card__destaque a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+  
+
+.card__destaque a:hover {
+  transform: scale(1.03);
+}
+
+.imagem__destaque {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+  
+.card__destaque p {
+  padding: 1rem;
+  font-weight: 500;
+  color:  #0a4904;
+}
+
+
+.link{
+  color: #000000;
+}
+
+/* footer */
+.rodape{
+  text-align: center;
+  font-size: 1em;
+  
+}
+
+.icones__redes{
+  align-items: center;
+}
+
+.icones__redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
+
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.qs__fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.frase{
+  color:  rgb(38, 136, 5);
+}
+.aviso {
+  font-size: 0.85rem;
+  color: #000000;
+  margin-top: 1rem;
 }

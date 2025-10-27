@@ -142,8 +142,7 @@ body {
 /* importantes */
 .secao__conteudos h2 {
   text-align: center;
-  color:rgb(6, 80, 6);
-  color:  rgb(38, 136, 5);
+   color:  rgb(38, 136, 5);
   margin-bottom: 1rem;
 }
   
@@ -155,14 +154,18 @@ body {
 }
   
 .card__conteudo {
-  flex: 1 1 300px;
-  background-color:rgb(231, 255, 231);
-  padding: 1.5rem;
+  background-color: rgb(231, 255, 231);
+  border: 1px solid #b9e4ca;
   border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  text-align: left;
   cursor: pointer;
-  transition: background-color 0.3s;
-}
+  color: rgb(3, 2, 2);
+  flex: 1 1 300px;
+  
 
+}
 .card__conteudo a{
   color: black;
   text-decoration: none;
@@ -173,19 +176,15 @@ body {
   background-color: #b2dfdb;
 }
   
-.card__conteudo h3 {
-
-}
-  /*
 .card-conteudo h3 {
-
   margin-bottom: 0.5rem;
 }
   
-/* saude */
+  
 .secao__foco {
-  margin: 3rem 0;
+   margin: 3rem 0;
   text-align: center;
+  background-color:rgb(231, 255, 231) ;
 }
   
 .texto__foco {
@@ -195,19 +194,30 @@ body {
   font-size: 1.1rem;
 }
   
-.imagem__foco {
+.imagem__foco{
+  
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
   margin-top: 1rem;
+  
 }
+
+
+
+
+
   
 /* dicas */
+
+
 .secao__curiosidades {
   background-color: rgb(231, 255, 231);
   padding: 2rem;
   border-radius: 10px;
   margin-top: 3rem; 
+  
+
 }
   
 .secao__curiosidades h2 {
@@ -226,6 +236,7 @@ body {
 .rodape{
   text-align: center;
   font-size: 1em;
+  
 }
 
 .icones__redes{
@@ -254,10 +265,17 @@ body {
   text-decoration: none;
 }
 
+.frase{
+  color:  rgb(38, 136, 5);
+}
 .aviso {
   font-size: 0.85rem;
   color: #000000;
   margin-top: 1rem;
+}
+
+.marca__registrada{
+  color:  rgb(38, 136, 5);
 }
 
 /* isso aqui deixa responsivo */
