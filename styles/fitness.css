@@ -24,7 +24,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.header-container {
+.header__container {
     max-width: 1200px;
     margin: auto;
     padding: 0 0.0005rem;
@@ -35,12 +35,12 @@ body {
   }
 
 
-.link_menu a{
+.link__menu a{
     color: rgb(38, 136, 5);
     text-decoration: none;
 }
 
-.link_menu a:hover {
+.link__menu a:hover {
     color: rgb(12, 46, 0);
 }
 
@@ -71,12 +71,12 @@ body {
     margin-right: 2rem;
 }
 
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-.link_menu{
+.link__menu{
   margin: 0 1rem;
   text-decoration: none;
   font-weight: 500;
@@ -84,13 +84,13 @@ body {
     
 }
 /* principal */
-.main-container {
+.main__container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
   
-.titulo-principal {
+.titulo__principal {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color:  rgb(38, 136, 5);
@@ -98,14 +98,14 @@ body {
 }
   
   /* destaques */
-.secao-destaques {
+.secao__destaques {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
   
-.card-destaque a {
+.card__destaque a {
   text-decoration: none;
   color: inherit;
   text-align: center;
@@ -117,37 +117,37 @@ body {
   transition: transform 0.3s;
 }
   
-.card-destaque a:hover {
+.card__destaque a:hover {
   transform: scale(1.03);
 }
   
-.imagem-destaque {
+.imagem__destaque {
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
   
-.card-destaque p {
+.card__destaque p {
   padding: 1rem;
   font-weight: 500;
 }
   
 /* importantes */
-.secao-conteudos h2 {
+.secao__conteudos h2 {
   text-align: center;
   color:rgb(6, 80, 6);
   color:  rgb(38, 136, 5);
   margin-bottom: 1rem;
 }
   
-.cards-conteudo {
+.cards__conteudo {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
 }
   
-.card-conteudo {
+.card__conteudo {
   flex: 1 1 300px;
   background-color:rgb(231, 255, 231);
   padding: 1.5rem;
@@ -156,33 +156,33 @@ body {
   transition: background-color 0.3s;
 }
 
-.card-conteudo a{
+.card__conteudo a{
   color: black;
   text-decoration: none;
 }
   
-.card-conteudo:hover {
+.card__conteudo:hover {
   background-color: #b2dfdb;
 }
   
-.card-conteudo h3 {
+.card__conteudo h3 {
   margin-bottom: 0.5rem;
 }
   
 /* saude */
-.secao-foco {
+.secao__foco {
   margin: 3rem 0;
   text-align: center;
 }
   
-.texto-foco {
+.texto__foco {
   max-width: 800px;
   margin: auto;
   padding: 1rem 0;
   font-size: 1.1rem;
 }
   
-.imagem-foco {
+.imagem__foco {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -190,20 +190,20 @@ body {
 }
   
 /* dicas */
-.secao-curiosidades {
+.secao__curiosidades {
   background-color: rgb(231, 255, 231);
   padding: 2rem;
   border-radius: 10px;
   margin-top: 3rem; 
 }
   
-.secao-curiosidades h2 {
+.secao__curiosidades h2 {
   margin-bottom: 1rem;
   text-align: center;
   color:rgb(6, 80, 6);
 }
   
-.secao-curiosidades ul {
+.secao__curiosidades ul {
   list-style: disc;
   padding-left: 1.5rem;
   color: #4e342e;
@@ -215,11 +215,11 @@ body {
   font-size: 1em;
 }
 
-.icones_redes{
+.icones__redes{
   align-items: center;
 }
 
-.icones_redes a{
+.icones__redes a{
   color: #333; 
   font-size: 24px;
   margin: 0 10px;
@@ -236,7 +236,7 @@ body {
   width: 2rem;
 }
   
-.qs_fc a{
+.qs__fc a{
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
