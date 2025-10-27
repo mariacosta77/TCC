@@ -33,7 +33,21 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
+  */ 
+  .logo{
+    height: 6rem;
+     width:7rem;
+     align-items: left;
+     display: flex;
+    
+ }
+ 
+ .link_menu{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+ }
 
 .link__menu a{
     color: rgb(38, 136, 5);
@@ -44,10 +58,6 @@ body {
     color: rgb(12, 46, 0);
 }
 
-.logo {
-    height: 6rem;
-    width:7rem;
-}
 
 .cadastro {
     text-decoration: none;
@@ -64,12 +74,7 @@ body {
    
 }
 
-.cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-}
+
 
 .link__menu a {
   color: rgb(38, 136, 5);
@@ -117,10 +122,12 @@ body {
   transition: transform 0.3s;
 }
   
+
 .card__destaque a:hover {
   transform: scale(1.03);
 }
   
+
 .imagem__destaque {
   width: 100%;
   height: 180px;
@@ -161,11 +168,17 @@ body {
   text-decoration: none;
 }
   
+
 .card__conteudo:hover {
   background-color: #b2dfdb;
 }
   
 .card__conteudo h3 {
+
+}
+  /*
+.card-conteudo h3 {
+
   margin-bottom: 0.5rem;
 }
   
@@ -249,30 +262,30 @@ body {
 
 /* isso aqui deixa responsivo */
 @media (max-width: 768px) {
-  .header-container {
+  .header__container {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .nav-menu {
+  .nav__menu {
     margin-top: 1rem;
   }
   
-  .nav-menu a {
+  .nav__menu a {
     display: block;
     margin: 0.5rem 0;
   }
   
-  .btn-consulta {
+  .btn__consulta {
     margin-top: 1rem;
   }
   
-  .cards-conteudo {
+  .cards__conteudo {
     flex-direction: column;
     align-items: center;
   }
   
-  .imagem-mental {
+  .imagem__mental {
     width: 90%;
   }
 }
