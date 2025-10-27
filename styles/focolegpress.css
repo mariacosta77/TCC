@@ -66,7 +66,7 @@ body {
 .titulo-secundario{
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
-  color: #2e7d32;
+  color: #000000;
   text-align: center;
 }
 
@@ -138,6 +138,16 @@ body {
   color: #2d2d2d;
   margin-bottom: 2rem;
 } 
+.imagens{
+  display: block;          /* para alinhar no centro */
+  margin: 1rem auto;           /* centraliza horizontalmente */
+  max-width: 300px;         /* tamanho máximo da imagem */
+  width: 70%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;  
+  border-radius: 12px;
+}
+
 
 .rodape{
   text-align: center;

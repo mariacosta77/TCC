@@ -239,15 +239,12 @@ body {
   
 }
 
-.icones__redes{
-  align-items: center;
-}
-
 .icones__redes a{
   color: #333; 
   font-size: 24px;
   margin: 0 10px;
   transition: color 0.3s;
+  align-items: center;
 }
 
 .insta{
