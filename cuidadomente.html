@@ -3,39 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/cuidadomente.css">
-    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <title>Cuidando da sua mente diariamente - AtivaMente</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/cuidadomente.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <img src="./img/logo.png" class="logo" alt="Logo">
         <nav class="link_menu">
-            <a href="./index.html">INÍCIO</a> |
-            <a href="./fitness.html">FITNESS</a> |
-            <a href="./bemestar.html">BEM-ESTAR</a> |
+            <a href="./index.html">INÍCIO</a>
+            <a href="./fitness.html">FITNESS</a>
+            <a href="./bemestar.html">BEM-ESTAR</a>
             <a href="./alimenta.html">ALIMENTAÇÃO</a>
         </nav>
-        <nav>
-            <a href="./cadastro.html" class="cadastro">Cadastre-se</a>
-        </nav>
-    </div>
-
-    <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicas Rápidas para a Mente</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Dicas Rápidas para Cuidar da Mente </h1>
-        <p>Pequenas ações diárias que fazem grande diferença no seu bem-estar.</p>
+        <a href="./cadastro.html" class="cadastro">Cadastre-se</a>
     </header>
 
     <main>
+        <section class="intro">
+            <h1>Dicas Rápidas para Cuidar da Mente</h1>
+            <p>Pequenas ações diárias que fazem grande diferença no seu bem-estar</p>
+        </section>
+
         <section class="cards">
             <h2>Hábitos Diários Simples</h2>
             <div class="card-grid">
@@ -54,38 +43,28 @@
             </div>
         </section>
 
-        <section class="cards">
+        <section class="cards checklist-section">
             <h2>Checklist Diário</h2>
-            <ul class="checklist">
-                <li><input type="checkbox"> Fiz uma pausa de respiração</li>
-                <li><input type="checkbox"> Me alonguei por 3 minutos</li>
-                <li><input type="checkbox"> Tomei água suficiente</li>
-                <li><input type="checkbox"> Escrevi 1 coisa pela qual sou grato(a)</li>
+            <ul id="checklist" class="checklist">
+                <li><input type="checkbox" data-item="respiracao"> Fiz uma pausa de respiração</li>
+                <li><input type="checkbox" data-item="alongamento"> Me alonguei por 3 minutos</li>
+                <li><input type="checkbox" data-item="agua"> Tomei água suficiente</li>
+                <li><input type="checkbox" data-item="gratidao"> Escrevi 1 coisa pela qual sou grato(a)</li>
             </ul>
-            <button id="salvar">Salvar Checklist</button>
+            <button id="salvar" class="btn">Salvar Checklist</button>
         </section>
 
-        <section class="calendar">
-        <h2>Calendário</h2>
-        <div id="calendar"></div>
-    </section>
-
-    <script src="script.js"></script>
+        <section class="calendar-section">
+            <h2>📅 Meu Progresso</h2>
+            <div id="calendar"></div>
+        </section>
 
         <section class="cards">
             <h2>Mini Exercícios de Mindfulness</h2>
             <div class="card-grid">
-                <div class="card">Observe o ambiente por 1 min focando em sons, cheiros e cores.</div>
-                <div class="card">Sinta a textura de um objeto com atenção total.</div>
-                <div class="card">Ouça uma música calma sem distrações.</div>
-            </div>
-        </section>
-
-        <section class="cards">
-            <h2>Inspiração</h2>
-            <div class="card-grid">
-                <div class="card">Reserve 2 minutos agora para respirar fundo.</div>
-                <div class="card">Cuidar da mente é investir em qualidade de vida.</div>
+                <div class="card">🌿 Observe o ambiente focando em sons e cheiros.</div>
+                <div class="card">🖐️ Sinta a textura de um objeto com atenção total.</div>
+                <div class="card">🎧 Ouça uma música calma sem distrações.</div>
             </div>
         </section>
 
@@ -93,26 +72,37 @@
             <button class="btn">Quero praticar agora</button>
             <button class="btn btn-alt">Ver mais dicas</button>
         </section>
+
+        <section class="calendar-section">
+  <h2>Seu Progresso Diário</h2>
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button id="prevYear">«</button>
+      <button id="prevMonth">‹</button>
+      <span id="monthYear"></span>
+      <button id="nextMonth">›</button>
+      <button id="nextYear">»</button>
+    </div>
+    <div class="calendar-grid" id="calendar"></div>
+  </div>
+</section>
+
     </main>
 
     <footer class="rodape">
         <p>Siga a gente nas redes sociais!</p>
         <div class="icones_redes">
-            <a href="https://www.instagram.com/ativamentee2025?igsh=MW1ybmNrOHRvdmlmZw=="><img class="insta" src="./img/instagram.png" alt="Instagram"></a>
-            <a href="https://www.facebook.com/help/176235449218188/"><img class="facebook" src="./img/facebook (2).png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/ativamentee2025"><img src="./img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/help/176235449218188/"><img src="./img/facebook (2).png" alt="Facebook"></a>
         </div>
         <nav class="qs_fc">
-            <a href="./quemsomos.html">QUEM SOMOS </a>|
+            <a href="./quemsomos.html">QUEM SOMOS</a> |
             <a href="./faleconosco.html">FALE CONOSCO</a>
         </nav>
-        <p class="aviso">
-            “As informações contidas neste site são informativas e não substituem orientação 
-            profissional.” 
-        </p>
-
-        <p class="marca_registrada">
-            © AtivaMente - Todos os direitos reservados
-        </p>
+        <p class="aviso">“As informações contidas neste site são informativas e não substituem orientação profissional.”</p>
+        <p class="marca_registrada">© AtivaMente - Todos os direitos reservados</p>
     </footer>
+
+    <script src="scripts/cuidadomente.js"></script>
 </body>
 </html>
