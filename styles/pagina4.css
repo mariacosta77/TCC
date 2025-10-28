@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4fff4;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000000;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.link_menu {
+  flex: 1;
+  text-align: center;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+  text-decoration: underline;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.barra {
+  height: 1px;
+  background-color: #000;
+  margin-top: -1px;
+}
+
+.container__titulo {
+    text-align: center;
+    color: rgb(38, 136, 5);
+}
+.introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.imagem__principal {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.introducao p {
+    max-width: 600px;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #333;
+}
+
+
+.beneficios, .quanto__beber, .alimentos, .dicas {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.beneficios h2,
+.quanto__beber h2,
+.alimentos h2,
+.dicas h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(38, 136, 5);
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+li::before {
+    content: "💧 ";
+}
+
+.alimentos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.alimento {
+    text-align: center;
+    width: 180px;
+}
+
+.alimento__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
+  border-top: 1px solid #000;
+}
+
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .imagem-texto {
+    flex-direction: column;
+  }
+
+  .destaques {
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .link_menu {
+    margin: 1rem 0;
+  }
+}

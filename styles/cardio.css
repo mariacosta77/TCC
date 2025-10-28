@@ -5,6 +5,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
+<<<<<<< HEAD
 body {
   background-color: rgb(255, 255, 255);
   color: rgb(38, 136, 5);;
@@ -34,6 +35,48 @@ body {
   justify-content: space-between;
   display: flex;
 }
+=======
+  body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 136, 5);;
+    line-height: 1.6;
+  }
+    
+   /* header */
+  .header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    padding:  0 0.0005rem;
+    position: sticky;
+    top: 0;
+    height: 90px;
+    z-index: 1;
+  }
+    
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    
+  .site__logo {
+    width: 100px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+    }
+
+
+
+
+>>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
 
 .link_menu a {
   color: rgb(38, 136, 5);
@@ -95,6 +138,19 @@ body {
 .icones_redes img {
   height: 2rem;
   width: 2rem;
+<<<<<<< HEAD
+=======
+}
+  
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.redes__sociais a {
+  color: #333; 
+  font-size: 24px;
+>>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
   margin: 0 10px;
 }
   

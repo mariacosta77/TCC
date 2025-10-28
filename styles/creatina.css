@@ -50,6 +50,17 @@ body {
   font-size: 1em;
   margin-right: 2rem;
 }
+
+.imagem{
+  display: block;          /* para alinhar no centro */
+  margin: 1rem auto;           /* centraliza horizontalmente */
+  max-width: 300px;         /* tamanho máximo da imagem */
+  width: 70%;               /* adapta ao tamanho da tela */
+  height: auto;             /* mantém proporção */
+  object-fit: contain;  
+  border-radius: 12px;
+}
+
   
 .beneficios{
   color: #0a4904;

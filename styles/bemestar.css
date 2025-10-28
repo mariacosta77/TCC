@@ -327,3 +327,33 @@ body {
   width: 90%;
 }
 }
+
+/* responsivo  celulares */
+@media (max-width: 480px) {
+.cards-conteudo {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link_menu {
+  margin-top: 1rem;
+}
+
+.link_menu a {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.btn-consulta {
+  margin-top: 1rem;
+}
+
+.cards-conteudo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-mental {
+  width: 90%;
+}
+}
