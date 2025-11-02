@@ -1,10 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
   
+<<<<<<< HEAD
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);;
+  line-height: 1.6;
+}
+
+/* header */
+.header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+}
+  
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.site-logo {
+  width: 100px;
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
+}
+=======
   body {
     background-color: rgb(255, 255, 255);
     color: rgb(38, 136, 5);;
@@ -28,6 +59,21 @@
   justify-content: space-between;
   }
 
+<<<<<<< HEAD
+=======
+  .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+    }
+
+
+
+
+>>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
+
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
@@ -36,6 +82,7 @@
 .link_menu a:hover {
   color: rgb(12, 46, 0);
 }
+<<<<<<< HEAD
     
 .site__logo {
   width: 100px;
@@ -44,6 +91,9 @@
   display: flex;
   }
 
+=======
+  
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
 .cadastro {
   text-decoration: none;
   color: black;
@@ -51,19 +101,20 @@
   margin-right: 2rem;
     }
 
-.main__container {
+.main-container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
   
-.titulo__principal {
+.titulo-principal {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   color: #0a4904;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .titulo__secundario{
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -72,6 +123,61 @@
 }
 
  .treino{
+=======
+.secao-destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+  
+.card-destaque a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.rodape{
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+  
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+<<<<<<< HEAD
+=======
+}
+  
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.redes__sociais a {
+  color: #333; 
+  font-size: 24px;
+>>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
+  margin: 0 10px;
+}
+  
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+    
+.treinos{
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   background-color:  rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
   border-radius: 12px;
@@ -81,21 +187,41 @@
   font-family: "DM Sans", sans-serif;
 }
       
+<<<<<<< HEAD
 .treino li{
+=======
+.treinos li{
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   text-align: center;
   font-size: 1.3rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
 }
+<<<<<<< HEAD
         
 .treino h1{
+=======
+ 
+.treinos{
+  background-color:  rgb(245, 255, 245); /* Verde água */
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+}
+
+.treinos h1{
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   text-align: center;
   font-size: 1.8rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
 }
+<<<<<<< HEAD
  .card-conteudo {
   display: flex;
   flex-direction: column; 
@@ -156,3 +282,19 @@ h1{
     
 
     
+=======
+        
+.treinos p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
+     
+.treinos p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
+>>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
