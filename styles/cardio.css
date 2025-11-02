@@ -4,8 +4,7 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-  
-<<<<<<< HEAD
+
 body {
   background-color: rgb(255, 255, 255);
   color: rgb(38, 136, 5);;
@@ -35,7 +34,7 @@ body {
   justify-content: space-between;
   display: flex;
 }
-=======
+
   body {
     background-color: rgb(255, 255, 255);
     color: rgb(38, 136, 5);;
@@ -59,8 +58,6 @@ body {
   justify-content: space-between;
   }
 
-<<<<<<< HEAD
-=======
   .cadastro {
     text-decoration: none;
     color: black;
@@ -68,21 +65,15 @@ body {
     margin-right: 2rem;
     }
 
-
-
-
->>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
-
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
-}
 
+}
 .link_menu a:hover {
   color: rgb(12, 46, 0);
 }
-<<<<<<< HEAD
+
     
 .site__logo {
   width: 100px;
@@ -91,9 +82,7 @@ body {
   display: flex;
   }
 
-=======
-  
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
+
 .cadastro {
   text-decoration: none;
   color: black;
@@ -114,7 +103,7 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
+
 .titulo__secundario{
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -122,8 +111,7 @@ body {
   text-align: center;
 }
 
- .treino{
-=======
+ 
 .secao-destaques {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
@@ -155,8 +143,7 @@ body {
 .icones_redes img {
   height: 2rem;
   width: 2rem;
-<<<<<<< HEAD
-=======
+
 }
   
 .facebook{
@@ -167,7 +154,6 @@ body {
 .redes__sociais a {
   color: #333; 
   font-size: 24px;
->>>>>>> e1787ec4ee16e462812643bb8d86b91dd84726ef
   margin: 0 10px;
 }
   
@@ -177,7 +163,6 @@ body {
 }
     
 .treinos{
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   background-color:  rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
   border-radius: 12px;
@@ -187,22 +172,17 @@ body {
   font-family: "DM Sans", sans-serif;
 }
       
-<<<<<<< HEAD
+
 .treino li{
-=======
+
 .treinos li{
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   text-align: center;
   font-size: 1.3rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
 }
-<<<<<<< HEAD
         
-.treino h1{
-=======
- 
 .treinos{
   background-color:  rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
@@ -214,14 +194,13 @@ body {
 }
 
 .treinos h1{
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0
   text-align: center;
   font-size: 1.8rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
 }
-<<<<<<< HEAD
+
  .card-conteudo {
   display: flex;
   flex-direction: column; 
@@ -277,12 +256,6 @@ h1{
   color: #000000;
   margin-top: 1rem;
     }
-  
-    
-    
-
-    
-=======
         
 .treinos p {
   text-align: center;
@@ -295,6 +268,5 @@ h1{
   text-align: center;
   font-size: 1.3rem;
   color: #2d2d2d;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;}
 }
->>>>>>> 5f694fae3fda0e443f3bbabb4c8e3147cc0daff0

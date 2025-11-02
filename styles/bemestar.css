@@ -8,8 +8,14 @@
 /* Cabeçalho*/
 body {
   background-color: rgb(255, 255, 255);
+<<<<<<< Updated upstream:styles/bemestar.css
   color: rgb(38, 136, 5);
   line-height: 1.6;
+=======
+  line-height: 1.6;
+  font-family: "DM Sans", sans-serif;
+ 
+>>>>>>> Stashed changes:styles/bem-estar.css
 }
 
 .header {
@@ -25,6 +31,7 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+<<<<<<< Updated upstream:styles/bemestar.css
 .main-container {
   max-width: 1200px;
   margin: auto;
@@ -33,6 +40,16 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+.menu a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+>>>>>>> Stashed changes:styles/bem-estar.css
+}
+
+.logo{
+ height: 6rem;
+  width:7rem;
 }
 
 .cadastro {
@@ -42,10 +59,16 @@ body {
   margin-right: 2rem;
 }
 
+<<<<<<< Updated upstream:styles/bemestar.css
 .logo{
   height: 6rem;
   width:7rem;
 }
+=======
+
+
+
+>>>>>>> Stashed changes:styles/bem-estar.css
 
 .link_menu{
   margin: 0 1rem;
@@ -82,6 +105,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
+
+
 }
 
 .card-paginas a {
@@ -101,7 +126,7 @@ body {
 }
 
 .imagem-paginas {
-  width: 100%;
+   width: 100%;
   height: 180px;
   object-fit: cover;
 }
@@ -114,7 +139,6 @@ body {
 /* conteudos */
 .secao-conteudos h3 {
   text-align: center;
- 
   margin-bottom: 1rem;
 }
 
@@ -125,28 +149,37 @@ body {
   text-align: center;
 }
 
-.cards-conteudo {
+.card-conteudo {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-.card-conteudo {
+.cards-conteudo {
   max-width:400px;
-  flex: 1 1 30rem;
+  flex: 1 1 calc(33.33% - 2rem);
   background-color:rgb(231, 255, 231);
   padding: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s; box-shadow : 0.3s;
+  transition: background-color 0.3s, box-shadow  0.3s;
   border: 2px solid #808080;
+text-align: center;
 }
 
-.card-conteudo:hover {
-  background-color: #b2dfdb;
+.cards-conteudo iframe {
+  width: 100%;               
+  height: auto; 
+  max-height: 250px;
+  border-radius: 0.2rem;
+  
 }
 
+<<<<<<< Updated upstream:styles/bemestar.css
+=======
+
+>>>>>>> Stashed changes:styles/bem-estar.css
 /* Bem-estar */
 .secao-bemestar {
   max-width: 1200px;
@@ -299,11 +332,30 @@ body {
 }
 
 /* responsivo */
+<<<<<<< Updated upstream:styles/bemestar.css
 @media (max-width: 768px) {
 .cards-conteudo {
   flex-direction: column;
   align-items: flex-start;
 }
+=======
+@media (max-width: 992px) {
+  .cards-conteudo {
+    flex: 1 1 calc(50% - 1rem);
+  } }
+
+  @media (max-width: 768px) {
+    .card-conteudo{
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
+>>>>>>> Stashed changes:styles/bem-estar.css
 
 .link_menu {
   margin-top: 1rem;
@@ -318,6 +370,7 @@ body {
   margin-top: 1rem;
 }
 
+<<<<<<< Updated upstream:styles/bemestar.css
 .cards-conteudo {
   flex-direction: column;
   align-items: center;
@@ -356,4 +409,11 @@ body {
 .imagem-mental {
   width: 90%;
 }
+=======
+ 
+
+  .imagem-bemestar {
+    width: 90%;
+  }
+>>>>>>> Stashed changes:styles/bem-estar.css
 }
