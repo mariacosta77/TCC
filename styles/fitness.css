@@ -34,13 +34,7 @@ body {
     flex-wrap: wrap;
   }
   */ 
-  .logo{
-    height: 6rem;
-     width:7rem;
-     align-items: left;
-     display: flex;
-    
- }
+  
  
  .link_menu{
   margin: 0 1rem;
@@ -74,20 +68,6 @@ body {
    
 }
 
-
-
-.link__menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
-.link__menu{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-    
-}
 /* principal */
 .main__container {
   max-width: 1200px;
@@ -187,7 +167,6 @@ body {
   background-color:rgb(231, 255, 231) ;
   border: 1px solid #b9e4ca;
   border-radius: 10px;
-   padding: 1.5rem;
 }
   
 .texto__foco {
