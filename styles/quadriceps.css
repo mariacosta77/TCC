@@ -116,7 +116,12 @@ body {
   margin-bottom: 2rem;
 }
 
-
+.titulo__secundario{
+  font-size: 2rem;
+ margin-bottom: 1.5rem;
+ color:  rgb(38, 136, 5);
+ text-align: center;
+}
 .secao__destaques {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -124,12 +129,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.titulo__secundario{
-   font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color:  rgb(38, 136, 5);
-  text-align: center;
-}
+
   
 .card__destaque a {
   text-decoration: none;

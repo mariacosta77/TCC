@@ -182,9 +182,12 @@ body {
   
   
 .secao__foco {
-   margin: 3rem 0;
+  margin: 3rem 0;
   text-align: center;
   background-color:rgb(231, 255, 231) ;
+  border: 1px solid #b9e4ca;
+  border-radius: 10px;
+   padding: 1.5rem;
 }
   
 .texto__foco {
@@ -216,6 +219,8 @@ body {
   padding: 2rem;
   border-radius: 10px;
   margin-top: 3rem; 
+  border: 1px solid #b9e4ca;
+  border-radius: 10px;
   
 
 }
