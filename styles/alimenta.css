@@ -1,14 +1,19 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
 
-  
 body {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);
     line-height: 1.6;
+    
 }
+
 
 /* header */
 .header {
@@ -19,7 +24,10 @@ body {
   top: 0;
   height: 90px;
   z-index: 0;
+ 
 }
+
+
   
 .header__container {
   display: flex;
@@ -67,6 +75,7 @@ body {
   
 /* destaques */
 .secao__destaques {
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -95,12 +104,13 @@ body {
 .card__destaque p {
   padding: 1rem;
   font-weight: 500;
+  color: #000000;
 }
   
 /* importantes */
 .secao__conteudos h2 {
   text-align: center;
-  color: #00796b;
+  color:  rgb(38, 136, 5);
   margin-bottom: 1rem;
 }
   
@@ -112,7 +122,7 @@ body {
 }
   
 .card__conteudo {
-  background-color: #ddf8ec;
+  background-color: rgb(231, 255, 231);
   border: 1px solid #b9e4ca;
   border-radius: 10px;
   padding: 1.5rem;
@@ -121,9 +131,6 @@ body {
   cursor: pointer;
   color: rgb(3, 2, 2);
   flex: 1 1 300px;
-
-
-
 }
   
 .card__conteudo a{
@@ -170,7 +177,7 @@ body {
 }
   
 .secao__dicas ul {
-  list-style: disc;
+  
   padding-left: 1.5rem;
   color: #4e342e;
 } 
@@ -206,68 +213,6 @@ body {
   margin-top: 1rem;
 }
   
-/* isso aqui deixa responsivo */
-@media (max-width: 768px) {
-.header__container {
-  flex-direction: column;
-  align-items: flex-start;
-}
-  
-.link__menu{
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-}
-  
-.link__menu a {
 
-  margin: 0.5rem 0;
-}
-  
-.cards__conteudo {
-  flex-direction: column;
-  align-items: center;
-}
-}
 
-@media (max-width: 425px) {
-  .header__container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-    
-  .link__menu{
-    margin-top: 1rem;
-  }
-    
-  .link__menu a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-    
-  .cards__conteudo {
-    flex-direction: column;
-    align-items: center;
-  }
-  }
 
-  @media (max-width: 320px) {
-    .header__container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-      
-    .link__menu{
-      margin-top: 1rem;
-    }
-      
-    .link__menu a {
-      display: block;
-      margin: 0.5rem 0;
-    }
-      
-    .cards__conteudo {
-      flex-direction: column;
-      align-items: center;
-    }
-    }
