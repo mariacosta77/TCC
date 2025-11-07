@@ -1,16 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: black;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);
+  line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid #000000;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
 
 
+.logo{
+    height: 6rem;
+     width:7rem;
+     align-items: left;
+     display: flex;
+ }
+ 
+ .link_menu{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+ }
 
-.secao__destaques {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-  }
-  
-  
-    
-  .card__destaque a {
+.link__menu a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.link__menu a:hover {
+    color: rgb(12, 46, 0);
+}
+
+
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+.titulo__principal{
+    text-align:center;
+}
+
+.titulo__secundario{
+    text-align:center;
+    color: rgb(38, 136, 5);
+}
+
+.card__destaque{
+    justify-content: center;
+}
+.card__destaque a {
     text-decoration: none;
     color: inherit;
     text-align: center;
@@ -18,6 +76,61 @@
     border-radius: 12px;
     overflow: hidden;
     background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
+    padding: 1rem;
   }
+
+  
+  .imagem__destaque {
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+    
+  .card__destaque p {
+    padding: 1rem;
+    font-weight: 500;
+  }
+
+  .rodape{
+  text-align: center;
+  font-size: 1em;
+  
+}
+
+.icones__redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+  align-items: center;
+}
+
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
+
+.facebook{
+  height: 2rem;
+  width: 2rem;
+}
+  
+.qs__fc a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.frase{
+  color:  rgb(38, 136, 5);
+}
+.aviso {
+  font-size: 0.85rem;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.marca__registrada{
+  color:  rgb(38, 136, 5);
+}
