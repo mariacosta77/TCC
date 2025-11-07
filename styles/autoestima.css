@@ -76,12 +76,12 @@ body {
 }
 
 .imgdicas{
-  display: block;  /* para alinhar no centro */
-  margin: 0 auto;  /* centraliza horizontalmente */
-  max-width:350px; /* tamanho máximo da imagem */
-  width: 300%; /* adapta ao tamanho da tela */
-  height: auto; /* mantém proporção */
-  object-fit: contain; /* garante que a imagem não distorça */
+  display: block;  
+  margin: 0 auto; 
+  max-width:350px; 
+  width: 300%; 
+  height: auto;
+  object-fit: contain; 
 }
 
 /* conteudos */
