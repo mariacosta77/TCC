@@ -149,6 +149,30 @@ body {
 }
 
 
+.secao__coteudo{
+   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  
+}
+
+
+
+.cards__conteudo{
+ max-width:400px;
+  flex: 1 1 calc(33.33% - 2rem);
+  background-color:rgb(231, 255, 231);
+  padding: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow  0.3s;
+  border: 2px solid #808080;
+text-align: center;
+}
+
+
+
 .rodape{
   text-align: center;
   font-size: 1em;
