@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   color: black;
 }
@@ -10,30 +11,29 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(38, 136, 5);
   line-height: 1.6;
-  line-height: 1.6;
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
-  font-family: "DM Sans", sans-serif;
-  line-height: 1.6;
-  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+ 
  
 }
 
 
 .header {
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   position: sticky;
-
-}
-
-
-.menu a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-
+  border-bottom: 1px solid #000000;
+  padding:  0 0.0005rem;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 0;
 }
 
 .logo{
@@ -43,12 +43,11 @@ body {
  display: flex;
 }
 
-.cadastro {
+.link__menu a{
+  color: rgb(38, 136, 5);
   text-decoration: none;
-  color: black;
-  font-size: 1em;
-  margin-right: 2rem;
 }
+
 
 .link_menu{
   margin: 0 1rem;
@@ -57,15 +56,18 @@ body {
   transition: color 0.3s;
 }
 
-.link_menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-
-}
-
 .link_menu a:hover {
     color: rgb(12, 46, 0);
+  
 }
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
 
 /* primeiras pgns */
 
