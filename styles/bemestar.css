@@ -8,20 +8,17 @@
 /* Cabeçalho*/
 body {
   background-color: rgb(255, 255, 255);
-<<<<<<< Updated upstream:styles/bemestar.css
   color: rgb(38, 136, 5);
   line-height: 1.6;
   line-height: 1.6;
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
   font-family: "DM Sans", sans-serif;
- 
-=======
   line-height: 1.6;
   font-family: "DM Sans", sans-serif;
  
 }
->>>>>>> Stashed changes:styles/bem-estar.css
+
 
 .header {
   display: flex;
@@ -36,7 +33,6 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-<<<<<<< Updated upstream:styles/bemestar.css
 .main-container {
   max-width: 1200px;
   margin: auto;
@@ -44,14 +40,17 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-=======
->>>>>>> Stashed changes:styles/bem-estar.css
 .menu a{
   color: rgb(38, 136, 5);
   text-decoration: none;
 
+}
+
+.logo{
+ height: 6rem;
+  width:7rem;
 }
 
 .logo{
@@ -76,16 +75,10 @@ body {
   margin-right: 2rem;
 }
 
-<<<<<<< Updated upstream:styles/bemestar.css
 .logo{
   height: 6rem;
   width:7rem;
 }
-=======
-
-
-
->>>>>>> Stashed changes:styles/bem-estar.css
 
 .link_menu{
   margin: 0 1rem;
@@ -193,10 +186,6 @@ text-align: center;
   
 }
 
-<<<<<<< Updated upstream:styles/bemestar.css
-=======
-
->>>>>>> Stashed changes:styles/bem-estar.css
 /* Bem-estar */
 .secao-bemestar {
   max-width: 1200px;
@@ -349,16 +338,15 @@ text-align: center;
 }
 
 /* responsivo */
-<<<<<<< Updated upstream:styles/bemestar.css
 
 @media (max-width: 768px) {
 .cards-conteudo {
   flex-direction: column;
   align-items: flex-start;
-}
+}}
 
-=======
->>>>>>> Stashed changes:styles/bem-estar.css
+
+
 @media (max-width: 992px) {
   .cards-conteudo {
     flex: 1 1 calc(50% - 1rem);
@@ -368,19 +356,23 @@ text-align: center;
     .card-conteudo{
       flex-direction: column;
       align-items: center;
+  }
 
-<<<<<<< Updated upstream:styles/bemestar.css
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
   }
   .cards-conteudo {
     flex: 1 1 100%;
     max-width: 90%;
-=======
->>>>>>> Stashed changes:styles/bem-estar.css
+
   }
   .cards-conteudo {
     flex: 1 1 100%;
     max-width: 90%;
   }
+
 
 
   @media (max-width: 768px) {
@@ -450,11 +442,6 @@ text-align: center;
     margin-top: 1rem;
   }
 
-<<<<<<< Updated upstream:styles/bemestar.css
-=======
- 
-
->>>>>>> Stashed changes:styles/bem-estar.css
   .imagem-bemestar {
     width: 90%;
-  }}}}}}
+  }}}
