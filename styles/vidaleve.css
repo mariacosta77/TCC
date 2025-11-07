@@ -25,12 +25,7 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-  } 
+
   
 .logo{
     height: 6rem;
@@ -55,6 +50,12 @@ body {
     color: rgb(12, 46, 0);
  }
 
+ .cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+  } 
  
  /* conteudos */
 
