@@ -24,23 +24,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #000000;
-  padding: 2rem 0;
+  padding: 1rem 2rem;
   position: sticky;
-  top: 0;
-  height: 40px;
-  background-color: rgb(255, 255, 255);
-  font-family: "DM Sans", sans-serif;
+
 }
 
-.main-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 0.0005rem;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .menu a{
   color: rgb(38, 136, 5);
@@ -51,21 +39,8 @@ body {
 .logo{
  height: 6rem;
   width:7rem;
-}
-
-.logo{
- height: 6rem;
-  width:7rem;
-}
-
-.logo{
- height: 6rem;
-  width:7rem;
-}
-
-.logo{
- height: 6rem;
-  width:7rem;
+  align-items: left;
+ display: flex;
 }
 
 .cadastro {
@@ -73,11 +48,6 @@ body {
   color: black;
   font-size: 1em;
   margin-right: 2rem;
-}
-
-.logo{
-  height: 6rem;
-  width:7rem;
 }
 
 .link_menu{
@@ -90,6 +60,7 @@ body {
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
+
 }
 
 .link_menu a:hover {
@@ -97,6 +68,16 @@ body {
 }
 
 /* primeiras pgns */
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.0005rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
 .main-container {
   max-width: 1200px;
   margin: auto;
@@ -186,7 +167,7 @@ text-align: center;
   
 }
 
-/* Bem-estar */
+
 .secao-bemestar {
   max-width: 1200px;
   margin: auto;
@@ -346,7 +327,6 @@ text-align: center;
 }}
 
 
-
 @media (max-width: 992px) {
   .cards-conteudo {
     flex: 1 1 calc(50% - 1rem);
@@ -356,7 +336,13 @@ text-align: center;
     .card-conteudo{
       flex-direction: column;
       align-items: center;
+
   }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
 
   .cards-conteudo {
     flex: 1 1 100%;
