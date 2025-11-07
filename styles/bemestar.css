@@ -14,7 +14,11 @@ body {
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
   font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+  font-family: "DM Sans", sans-serif;
  
+}
+
 
 .header {
   display: flex;
@@ -36,12 +40,22 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .menu a{
   color: rgb(38, 136, 5);
   text-decoration: none;
 
+}
+
+.logo{
+ height: 6rem;
+  width:7rem;
+}
+
+.logo{
+ height: 6rem;
+  width:7rem;
 }
 
 .logo{
@@ -329,7 +343,9 @@ text-align: center;
 .cards-conteudo {
   flex-direction: column;
   align-items: flex-start;
-}
+}}
+
+
 
 @media (max-width: 992px) {
   .cards-conteudo {
@@ -340,12 +356,24 @@ text-align: center;
     .card-conteudo{
       flex-direction: column;
       align-items: center;
+  }
+
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
 
   }
   .cards-conteudo {
     flex: 1 1 100%;
     max-width: 90%;
   }
+
+
 
   @media (max-width: 768px) {
     .card-conteudo{
@@ -416,4 +444,4 @@ text-align: center;
 
   .imagem-bemestar {
     width: 90%;
-  }}}}}}
+  }}}
