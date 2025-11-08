@@ -1,0 +1,147 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: rgb(255, 0, 0);
+}
+
+.caixa__qsm {
+  background-color: white;
+  color: #313131;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  padding: 1rem;
+  width: 50rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.568);
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 1.3rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+}
+  
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.0005rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  height: 6rem;
+  width:7rem;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+.h2 {
+  color: rgb(28, 99, 5);
+}
+
+.rodape{
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+  
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+.insta{
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
+}
+
+.secao__primaria{
+    margin: 0%;
+    display: flex;
+    background-color: rgb(229, 242, 213);
+}
+
+.quem__somos{
+    height: 20rem;
+    width: 33rem;
+}
+
+.txt__quemsomos{
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.participe a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.secao__nos{
+    display: flex;
+    align-items: center;
+}
+
+.nossa_missao{
+    text-align: start;
+}
+
+.nossa_equipe{
+    text-align: start;
+}
+
+.nossa_hist{
+    text-align: start;
+}
+
+.secao__origem{
+    text-align: center;
+}
+  
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
