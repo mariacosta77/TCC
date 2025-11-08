@@ -1,369 +1,122 @@
-body {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  animation: fadeInBody 0.8s ease-in;
-}
-
-
-@keyframes fadeInBody {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* ====== Cabeçalho ====== */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #000000;
-  padding: 1.3rem 0;
-  position: sticky;
-  top: 0;
-  height: 40px;
-  z-index: 100;
-}
-
-.header-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 0.0005rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    margin-bottom: 5rem;
 }
 
 .link_menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-  transition: color 0.3s ease, transform 0.2s ease;
+    color: rgb(38, 136, 5);
+    text-decoration: none;
 }
 
 .link_menu a:hover {
-  color: rgb(0, 0, 0);
-  transform: scale(1.05);
+    color: rgb(12, 46, 0);
 }
 
 .logo {
-  height: 6rem;
-  width: 7rem;
-  transition: transform 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
+    height: 6rem;
+    width: 7rem;
 }
 
 .cadastro {
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-  margin-right: 2rem;
-  transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
 }
 
-.cadastro:hover {
-  transform: translateY(-2px);
-  color: rgb(38, 136, 5);
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(248, 248, 247);
+    color: #313131;
+    margin: 0;
+    padding: 0;
 }
 
-/* ====== Estrutura geral ====== */
-section {
-  margin: 40px auto;
-  max-width: 1100px;
-  padding: 0 20px;
-  animation: fadeInSection 0.8s ease-in;
+.conteudo {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+    line-height: 1.6;
 }
 
-@keyframes fadeInSection {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+.introducao {
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
-section h2 {
-  color: #2E7D32;
-  margin-bottom: 15px;
-  text-align: center;
+.introducao h1 {
+    color: rgb(38, 136, 5);
+    font-size: 2rem;
 }
 
-/* ====== Cards ====== */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
+.dicas, .videos, .missoes {
+    margin-bottom: 3rem;
 }
 
-.card {
-  background: #FFFFFF;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  font-size: 0.95rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: slideUp 0.6s ease;
+.dicas ul, .missoes ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-
-/* Animação individual dos cards */
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* ====== Checklist ====== */
-.checklist {
-  list-style: none;
-  padding: 10px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  animation: fadeIn 0.8s ease;
-}
-
-.checklist li {
-  margin: 10px 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: background 0.3s ease;
-}
-
-.checklist li:hover {
-  background: rgba(46, 125, 50, 0.08);
-  border-radius: 6px;
-  padding-left: 5px;
-}
-
-.checklist input[type="checkbox"] {
-  accent-color: #2E7D32;
-  transform: scale(1.2);
-  transition: transform 0.2s;
-}
-
-.checklist input[type="checkbox"]:hover {
-  transform: scale(1.3);
-}
-
-/* ====== Botões ====== */
-.actions {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.btn {
-  background: #2E7D32;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 5px;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover {
-  background: #388E3C;
-  transform: scale(1.05);
-}
-
-.btn-alt {
-  background: #2E7D32;
-}
-
-.btn-alt:hover {
-  background: #388E3C;
-}
-
-/* ====== Rodapé ====== */
-.rodape {
-  text-align: center;
-  font-size: 1em;
-  margin-top: 3rem;
-  padding: 2rem;
-  background: #fff;
-  color: #313131;
-}
-
-.icones_redes img {
-  height: 2rem;
-  width: 2rem;
-  margin: 0 10px;
-  transition: transform 0.3s ease;
-}
-
-.icones_redes img:hover {
-  transform: scale(1.2);
-}
-
-.qs_fc a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.qs_fc a:hover {
-  color: rgb(0, 0, 0);
-}
-
-/* ====== Responsividade ====== */
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    height: auto;
+.dicas li, .missoes li {
+    background: #fff;
     padding: 1rem;
-  }
+    margin: 0.5rem 0;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
 
-  .link_menu {
+.video_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    margin-top: 0.5rem;
-  }
-
-  .logo {
-    height: 5rem;
-    width: 5rem;
-  }
-
-  section {
-    padding: 0 10px;
-  }
-
-  .card {
-    font-size: 0.9rem;
-  }
-
-  .btn {
-    width: 90%;
-    max-width: 300px;
-  }
+    gap: 1.5rem;
 }
 
-@media (max-width: 480px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .checklist {
-    font-size: 0.9rem;
-  }
+.videos {
+  border-radius: 3rem;
 }
 
-/* ====== Calendário ====== */
-.calendar-section {
-  max-width: 800px;
-  margin: 40px auto;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  padding: 20px;
-  animation: fadeIn 0.8s ease;
+.rodape {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 3rem;
+    padding: 2rem;
+    background: #fff;
+    color: #313131;
 }
 
-.calendar-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.icones_redes img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 10px;
 }
 
-.calendar-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 15px;
+.qs_fc a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
 }
 
-.calendar-header button {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-  color: #2E7D32;
-  transition: transform 0.2s;
-}
+@media (max-width: 768px) {
+    .video-container iframe {
+        width: 100%;
+        height: 220px;
+    }
 
-.calendar-header button:hover {
-  transform: scale(1.2);
-}
+    .introducao h1 {
+        font-size: 1.6rem;
+    }
 
-#monthYear {
-  font-weight: bold;
-  color: #2E7D32;
-  min-width: 150px;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
-  width: 100%;
-  text-align: center;
-}
-
-.calendar-grid div {
-  padding: 12px 0;
-  border-radius: 6px;
-  transition: background 0.3s;
-  position: relative;
-}
-
-.calendar-grid div:hover {
-  background: rgba(46, 125, 50, 0.1);
-}
-
-.calendar-grid .day {
-  font-size: 0.95rem;
-  cursor: default;
-}
-
-.calendar-grid .day.today {
-  border: 1px solid #2E7D32;
-  border-radius: 50%;
-}
-
-.calendar-grid .day.completed::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #2E7D32;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Dias da semana */
-.calendar-grid .weekday {
-  font-weight: bold;
-  color: #2E7D32;
-  background: rgba(46, 125, 50, 0.05);
-  border-radius: 4px;
-}
-
-/* Responsivo */
-@media (max-width: 600px) {
-  .calendar-grid div {
-    font-size: 0.8rem;
-    padding: 8px 0;
-  }
-  #monthYear {
-    font-size: 1rem;
-  }
+    .conteudo {
+        padding: 1rem;
+    }
 }
