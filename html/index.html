@@ -60,11 +60,11 @@
                     <h3>Planejamento de Refeições</h3>
                     <p>Saiba como montar um cardápio semanal prático e nutritivo.</p>
                 </div>
-                <div class="bloco">
+                <div class="bloco" onclick="exercicios()">
                     <h3>Exercícios para Iniciantes</h3>
                     <p>Veja uma rotina de exercícios simples e eficazes para começar agora.</p>
                 </div>
-                <div class="bloco">
+                <div class="bloco" onclick="cuidando()">
                     <h3>Cuidados com a Saúde Mental</h3>
                     <p>Técnicas de respiração e relaxamento para o seu dia a dia.</p>
                 </div>
@@ -142,3 +142,21 @@
    </footer>
 </body>
 </html>
+
+<script>
+  function pagina() {
+    window.location.href = "./planejamento.html";
+  }
+</script>
+
+<script>
+  function exercicios() {
+    window.location.href = "./exercicios.html";
+  }
+</script>
+
+<script>
+  function cuidando() {
+    window.location.href = "./cuidando.html";
+  }
+</script>

@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin-bottom: 5rem;
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
+.logo {
+  height: 6rem;
+  width: 7rem;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo h1 {
+  text-align: center;
+  color: rgb(38, 136, 5);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.etapas h2,
+.dicas h2 {
+  color: rgb(38, 136, 5);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.etapa {
+  background-color: rgb(231, 255, 231);
+  border-left: 5px solid rgb(38, 136, 5);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.etapa h3 {
+  margin: 0;
+  color: #2d2d2d;
+}
+
+.etapa p {
+  margin-top: 0.5rem;
+}
+
+.dicas ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.dicas ul li::before {
+  content: "🍽️ ";
+}
+
+.imagem__refeicao {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.imagem__refeicao img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .conteudo {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .imagem__refeicao img {
+    width: 100%;
+  }
+}
