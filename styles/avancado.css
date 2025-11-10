@@ -144,33 +144,9 @@ body {
     color: rgb(38, 136, 5);
 }
 
-.card__destaque{
-    justify-content: center;
-}
-.card__destaque a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    display: block;
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: #ffffff;
-    transition: transform 0.3s;
-    padding: 1rem;
-  }
+
 
   
-  .imagem__destaque {
-    width: 20%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-    
-  .card__destaque p {
-    padding: 1rem;
-    font-weight: 500;
-  }
 
 .rodape {
   text-align: center;
