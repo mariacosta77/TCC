@@ -10,6 +10,7 @@
   top: 0;
   height: 40px;
   margin-bottom: 5rem;
+  z-index: 1000; 
 }
 
 .link_menu a {
@@ -41,6 +42,7 @@ body {
   padding: 0;
 }
 
+
 .main__container {
   max-width: 1200px;
   margin: auto;
@@ -56,17 +58,17 @@ body {
 
 
 .imagens{
-  display: block;          /* para alinhar no centro */
-  margin: 1rem auto;           /* centraliza horizontalmente */
-  max-width: 300px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
+  display: block;          
+  margin: 1rem auto;           
+  max-width: 300px;         
+  width: 70%;               
+  height: auto;             
   object-fit: contain;  
   border-radius: 12px;
 }
 
 .receita{
-  background-color: rgb(245, 255, 245); /* Verde água */
+  background-color: rgb(245, 255, 245); 
   padding: 3rem;
   border-radius: 12px;
   max-width: 600px;
@@ -80,7 +82,7 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   position: relative;
-  color: #0a4904;  
+  color: #0a4904; 
 }
     
 .receita p {
