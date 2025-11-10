@@ -55,7 +55,44 @@ body {
     text-align: center;
   }
 
- 
+  .bloco__treino {
+    background-color: rgb(245, 255, 245); 
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 3rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .card__destaque {
+    background-color: transparent; 
+    box-shadow: none;              
+    border: none;                  
+    text-align: center;
+  }
+  
+  
+  .imagem__destaque {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    background: transparent; 
+  }
+  
+  .titulo__secundario1{
+    text-align: center;
+    color: #0a4904 ;
+    font-size: 2rem;
+  }
+
+  
 
 .treinos{
   background-color:  rgb(245, 255, 245); /* Verde água */
