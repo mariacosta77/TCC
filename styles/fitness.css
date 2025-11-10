@@ -142,12 +142,10 @@ body {
   background-color:rgb(231, 255, 231) ;
   border: 1px solid #b9e4ca;
   border-radius: 10px;
-<<<<<<< Updated upstream
   padding: 2rem;
-=======
-  padding: 2rem 0;
->>>>>>> Stashed changes
 }
+
+
   
 .texto__foco {
   max-width: 800px;
@@ -164,12 +162,9 @@ body {
   
 }
 
-<<<<<<< Updated upstream
-=======
-/* dicas */
 
 
->>>>>>> Stashed changes
+
 .secao__curiosidades {
   background-color: rgb(231, 255, 231);
   padding: 2rem;
@@ -177,7 +172,6 @@ body {
   margin-top: 3rem; 
   border: 1px solid #b9e4ca;
   border-radius: 10px;
-
 }
   
 .secao__curiosidades h2 {
