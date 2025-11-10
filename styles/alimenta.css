@@ -87,6 +87,10 @@ body {
   font-weight: 500;
   color: #000000;
 }
+
+.card__destaque a:hover {
+  transform: scale(1.03);
+}
   
 /* importantes */
 .secao__conteudos h2 {
