@@ -100,40 +100,21 @@ button:hover {
   font-size: 1em;
   margin-top: 3rem;
   padding: 2rem;
-  background: #fff;
+  background: #ffffff;
   color: #313131;
 }
-  
+
 .icones_redes img {
   height: 2rem;
   width: 2rem;
   margin: 0 10px;
 }
-  
+
 .qs_fc a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .pt3 input {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    button {
-        font-size: 0.95rem;
-        padding: 0.75rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .pt3 input {
-        padding: 0.75rem;
-    }
-
-    button {
-        font-size: 0.9rem;
-        padding: 0.6rem;
-    }
+.qs_fc a:hover {
+  text-decoration: underline;
 }
