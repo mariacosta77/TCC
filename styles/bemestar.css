@@ -292,6 +292,8 @@ text-align: center;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
 /* responsivo */
 
 @media (max-width: 768px) {
@@ -405,3 +407,7 @@ text-align: center;
   .imagem-bemestar {
     width: 90%;
   }}}
+
+  
+
+>>>>>>> 955967362fb1df64aa9be8dada575d46f2fd34bb
