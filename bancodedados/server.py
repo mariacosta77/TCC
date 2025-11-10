@@ -27,10 +27,12 @@ class SimpleServer(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._enviar_html("cadastro.html")
+            self._enviar_html("C:/Users/Maria Clara/OneDrive/Documents/TCC/TCC/paginas/cadastro.html")
+
 
         elif self.path == "/login":
-            self._enviar_html("login.html")
+            self._enviar_html("C:/Users/Maria Clara/OneDrive/Documents/TCC/TCC/paginas/login.html")
+
 
         elif self.path.startswith("/conta?"):
             query = urllib.parse.urlparse(self.path).query
