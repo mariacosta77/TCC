@@ -1,7 +1,6 @@
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
+
+
 *{
     padding: 0;
     margin: 0;
@@ -60,7 +59,7 @@ body {
     margin-right: 2rem;
 }
 
-<<<<<<< Updated upstream
+
 
 .header {
   display: flex;
@@ -106,8 +105,7 @@ body {
   padding: 0;
 }
 
-=======
->>>>>>> Stashed changes
+
 .titulo__principal{
     text-align:center;
 }
@@ -118,14 +116,6 @@ body {
 }
 
 
-
-<<<<<<< Updated upstream
-
-    
-
-=======
-    
->>>>>>> Stashed changes
 .card__destaque{
     justify-content: center;
 }
@@ -138,15 +128,8 @@ body {
     overflow: hidden;
     background-color: #ffffff;
     transition: transform 0.3s;
-<<<<<<< Updated upstream
-
-  
-
     padding: 1rem;
 
-=======
-  
->>>>>>> Stashed changes
   }
 
   
@@ -161,7 +144,6 @@ body {
     padding: 1rem;
     font-weight: 500;
   }
-<<<<<<< Updated upstream
 
   .rodape{
   text-align: center;
@@ -204,5 +186,3 @@ body {
 .marca__registrada{
   color:  rgb(38, 136, 5);
 }
-=======
->>>>>>> Stashed changes
