@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +23,8 @@
 }
 
 
+=======
+>>>>>>> Stashed changes
 *{
   padding: 0;
   margin: 0;
@@ -47,6 +50,7 @@ line-height: 1.6;
   height: 40px;
   background-color: rgb(255, 255, 255);
 }
+<<<<<<< Updated upstream
 
 
 .logo{
@@ -95,9 +99,18 @@ transition: color 0.3s;
   text-align:center;
   color: rgb(38, 136, 5);
 }
+=======
+>>>>>>> Stashed changes
 
 
+.logo{
+  height: 6rem;
+   width:7rem;
+   align-items: left;
+   display: flex;
+}
 
+<<<<<<< Updated upstream
   
 .card__destaque{
   justify-content: center;
@@ -122,10 +135,70 @@ transition: color 0.3s;
   border-radius: 12px;
 }
   
+=======
+.link_menu{
+margin: 0 1rem;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+.link__menu a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link__menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+.titulo__principal{
+  text-align:center;
+}
+
+.titulo__secundario{
+  text-align:center;
+  color: rgb(38, 136, 5);
+}
+
+
+.card__destaque{
+  justify-content: center;
+}
+.card__destaque a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: transform 0.3s;
+
+}
+
+
+.imagem__destaque {
+  width: 20%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+  
+>>>>>>> Stashed changes
 .card__destaque p {
   padding: 1rem;
   font-weight: 500;
 }
+<<<<<<< Updated upstream
 
 body {
   font-family: "DM Sans", sans-serif;
@@ -144,33 +217,9 @@ body {
     color: rgb(38, 136, 5);
 }
 
-.card__destaque{
-    justify-content: center;
-}
-.card__destaque a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    display: block;
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: #ffffff;
-    transition: transform 0.3s;
-    padding: 1rem;
-  }
+
 
   
-  .imagem__destaque {
-    width: 20%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-    
-  .card__destaque p {
-    padding: 1rem;
-    font-weight: 500;
-  }
 
 .rodape {
   text-align: center;
@@ -196,3 +245,5 @@ body {
   text-decoration: underline;
 }
 
+=======
+>>>>>>> Stashed changes

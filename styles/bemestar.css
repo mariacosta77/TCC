@@ -163,20 +163,20 @@ text-align: center;
 }
 
 .texto-mental {
-  max-width: 800px;       /* limita a largura para evitar texto muito extenso */
-  margin: 0 auto;         /* centraliza a seção */
-  padding: 2rem;          /* espaçamento interno */
-  background-color: #ffffff; /* fundo branco para destacar o texto */
-  /* bordas levemente arredondadas */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* sombra suave */
-  line-height: 1.6;       /* altura da linha para melhor leitura */
-  color: #333;            /* cor de texto confortável */
-  font-family: 'Segoe UI', Tahoma, sans-serif; /* fonte mais moderna */
+  max-width: 800px;      
+  margin: 0 auto;       
+  padding: 2rem;       
+  background-color: #ffffff;
+ 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+  line-height: 1.6;       
+  color: #333;          
+  font-family: 'Segoe UI', Tahoma, sans-serif; 
 }
 
 .texto-mental p {
-  margin-bottom: 1rem;    /* espaço entre parágrafos */
-  text-align: justify;    /* alinhamento justificado */
+  margin-bottom: 1rem;    
+  text-align: justify;    
 }
 
 
@@ -198,12 +198,12 @@ text-align: center;
 
 
 .imagem-bemestar {
-  display: block;          /* para alinhar no centro */
-  margin: 0 auto;           /* centraliza horizontalmente */
-  max-width: 300px;         /* tamanho máximo da imagem */
-  width: 80%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
-  object-fit: contain;      /* garante que a imagem não distorça */
+  display: block;          
+  margin: 0 auto;           
+  max-width: 300px;         
+  width: 80%;             
+  height: auto;            
+  object-fit: contain;      
 }
 
 .card-destaque p {
@@ -212,7 +212,7 @@ text-align: center;
 }
 
 
-/* secao mpaginas */
+
 
 .titulo-mpaginas {
   font-size: 1.5rem;
@@ -292,122 +292,23 @@ text-align: center;
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
+
 /* responsivo */
 
-@media (max-width: 768px) {
-.cards-conteudo {
-  flex-direction: column;
-  align-items: flex-start;
-}}
 
-
-@media (max-width: 992px) {
-  .cards-conteudo {
-    flex: 1 1 calc(50% - 1rem);
-  } }
-
-  @media (max-width: 768px) {
-    .card-conteudo{
-      flex-direction: column;
-      align-items: center;
-
-  }
-  .cards-conteudo {
-    flex: 1 1 100%;
-    max-width: 90%;
+@media (max-width: 900px) {
+  .imagem__paginas{
+    width: 200px;
+    height: 240px;
   }
 
-
-  .cards-conteudo {
-    flex: 1 1 100%;
-    max-width: 90%;
-
-  }
-  .cards-conteudo {
-    flex: 1 1 100%;
-    max-width: 90%;
-
-  }
-  .cards-conteudo {
-    flex: 1 1 100%;
-    max-width: 90%;
-  }
-
-
-
-  @media (max-width: 768px) {
-    .card-conteudo{
-      flex-direction: column;
-      align-items: center;
-
-  }
-  .cards-conteudo {
-    flex: 1 1 100%;
-    max-width: 90%;
-  }
-
-.link_menu {
-  margin-top: 1rem;
 }
 
-.link_menu a {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-.btn-consulta {
-  margin-top: 1rem;
-}
-
-.cards-conteudo {
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagem-mental {
-  width: 90%;
-}
-}
-
-/* responsivo  celulares */
-@media (max-width: 480px) {
-.cards-conteudo {
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.link_menu {
-  margin-top: 1rem;
-}
-
-.link_menu a {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-.btn-consulta {
-  margin-top: 1rem;
-}
-
-.cards-conteudo {
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagem-mental {
-  width: 90%;
-}
-
-  .btn-consulta {
-    margin-top: 1rem;
-  }
-
-  .imagem-bemestar {
+@media (max-width: 600px) {
+  .secao-conteudos {
     width: 90%;
-  }}}
+    height: auto;
+  }
 
-  
 
->>>>>>> 955967362fb1df64aa9be8dada575d46f2fd34bb
+}
