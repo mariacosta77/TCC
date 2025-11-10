@@ -126,22 +126,26 @@ body {
   border-radius: 12px;
 }
 
-.rodape{
+.rodape {
   text-align: center;
   font-size: 1em;
   margin-top: 3rem;
   padding: 2rem;
-  background: #fff;
+  background: #ffffff;
   color: #313131;
 }
-  
+
 .icones_redes img {
   height: 2rem;
   width: 2rem;
   margin: 0 10px;
 }
-  
+
 .qs_fc a {
   color: rgb(38, 136, 5);
   text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
 }

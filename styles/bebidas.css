@@ -112,13 +112,14 @@ body {
   align-items: center;
 }
     
-.qs__fc a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
   
 .aviso {
   font-size: 1em;
   color: #000000;
   margin-top: 1rem;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }
