@@ -10,6 +10,7 @@
   top: 0;
   height: 40px;
   margin-bottom: 5rem;
+  z-index: 1000; 
 }
 
 .link_menu a {
@@ -40,7 +41,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .main-container {
     max-width: 1200px;
