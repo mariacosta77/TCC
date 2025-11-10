@@ -1,125 +1,120 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid #000000;
-    padding: 2rem 0;
-    position: sticky;
-    top: 0;
-    height: 40px;
-    margin-bottom: 5rem;
-  }
-  
-.header-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 0.0005rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin-bottom: 5rem;
+}
 
-.link_menu a{
-    color: rgb(38, 136, 5);
-    text-decoration: none;
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
 }
 
 .link_menu a:hover {
-    color: rgb(12, 46, 0);
+  color: rgb(12, 46, 0);
 }
 
 .logo {
-    height: 6rem;
-    width:7rem;
+  height: 6rem;
+  width: 7rem;
 }
 
 .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
 }
 
-body{
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background-color: rgb(248, 248, 247);
-}
-.contato{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
-    padding-bottom: 7.5rem;
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
 }
 
-.faleconosco{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-input{
-    width: 20rem;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 0.75rem;
-    font-size: 1rem;
-    transition: border-color 0.3s;
+.contato {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  padding-bottom: 7.5rem;
 }
 
-.pt3 input{
-    width: 38.6rem;
-    padding: 2rem;
-    
+.faleconosco {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
-form input:focus{
-    border-color: #000000;
-    outline: none;
+input {
+  width: 20rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
 }
 
-button{
-    width: 100%rem;
-    padding: 0.5rem;
-    color: #fff;
-    background-color: rgb(6, 80, 6);
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.75rem;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+.pt3 input {
+  width: 38.6rem;
+  padding: 2rem; 
 }
 
-button:hover{
-    background-color: rgb(0, 0, 0);
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
+form input:focus {
+  border-color: #000000;
+  outline: none;
 }
 
-.rodape{
-    text-align: center;
-    font-size: 1em;
-    margin-top: 3rem;
-    padding: 2rem;
-    background: #fff;
-    color: #313131;
-  }
-  
+button {
+  width: 42.9rem;
+  padding: 1rem;
+  color: #fff;
+  background-color:  rgb(6, 80, 6);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color:rgb(0, 0, 0);
+  transform: scale(1.01);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
+}
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
+}
+
 .icones_redes img {
-    height: 2rem;
-    width: 2rem;
-    margin: 0 10px;
-  }
-  
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
 .qs_fc a {
-    color: rgb(38, 136, 5);
-    text-decoration: none;
-  }
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
+}

@@ -1,39 +1,60 @@
 *{
   padding: 0;
   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   color: black;
 }
 
-/* Cabeçalho*/
 body {
   background-color: rgb(255, 255, 255);
   color: rgb(38, 136, 5);
   line-height: 1.6;
   font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
+
 .header {
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  padding: 1rem 2rem;
+  position: sticky;
   border-bottom: 1px solid #000000;
-  padding: 2rem 0;
+  padding:  0 0.0005rem;
   position: sticky;
   top: 0;
-  height: 40px;
-  background-color: rgb(255, 255, 255);
+  height: 90px;
+  z-index: 0;
 }
 
-.main-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 0.0005rem;
-  
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.logo{
+ height: 6rem;
+  width:7rem;
+  align-items: left;
+ display: flex;
+}
+
+.link__menu a{
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+
+.link_menu{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
 }
 
 .cadastro {
@@ -41,29 +62,6 @@ body {
   color: black;
   font-size: 1em;
   margin-right: 2rem;
-}
-
-.logo{
-  height: 6rem;
-  width:7rem;
-  align-items: left;
-  display: flex;
-}
-
-.link_menu{
-margin: 0 1rem;
-text-decoration: none;
-font-weight: 500;
-transition: color 0.3s;
-}
-
-.link_menu a {
-color: rgb(38, 136, 5);
-text-decoration: none;
-}
-
-.link_menu a:hover {
-    color: rgb(12, 46, 0);
 }
 
 /* secao dicas   */
@@ -74,12 +72,12 @@ text-decoration: none;
 }
 
 .imgdicas{
-  display: block;  /* para alinhar no centro */
-  margin: 0 auto;  /* centraliza horizontalmente */
-  max-width:350px; /* tamanho máximo da imagem */
-  width: 300%; /* adapta ao tamanho da tela */
-  height: auto; /* mantém proporção */
-  object-fit: contain; /* garante que a imagem não distorça */
+  display: block;  
+  margin: 0 auto; 
+  max-width:350px; 
+  width: 300%; 
+  height: auto;
+  object-fit: contain; 
 }
 
 /* conteudos */

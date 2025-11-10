@@ -1,102 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(38, 136, 5);;
-  line-height: 1.6;
-}
-
-/* header */
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #000000;
-  padding:  0 0.0005rem;
+  padding: 2rem 0;
   position: sticky;
   top: 0;
-  height: 90px;
-  z-index: 1;
+  height: 40px;
+  margin-bottom: 5rem;
+  z-index: 1000; 
 }
-  
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-  
-.site-logo {
-  width: 100px;
-  height: 90px;
-  justify-content: space-between;
-  display: flex;
-}
-
-  body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 136, 5);;
-    line-height: 1.6;
-  }
-    
-   /* header */
-.header {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #000000;
-  padding:  0 0.0005rem;
-  position: sticky;
-  top: 0;
-  height: 90px;
-  z-index: 1;
-  }
-    
-.header__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-
-  .cadastro {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    margin-right: 2rem;
-    }
 
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
-
 }
+
 .link_menu a:hover {
   color: rgb(12, 46, 0);
 }
 
-    
-.site__logo {
-  width: 100px;
-  height: 90px;
-  justify-content: space-between;
-  display: flex;
-  }
-
+.logo {
+  height: 6rem;
+  width: 7rem;
+}
 
 .cadastro {
   text-decoration: none;
   color: black;
   font-size: 1em;
   margin-right: 2rem;
-    }
+}
 
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
 .main-container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
   
-.titulo-principal {
+.titulo__principal {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   color: #0a4904;
@@ -112,14 +63,14 @@ body {
 }
 
  
-.secao-destaques {
+.secao__destaques {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
   
-.card-destaque a {
+.card__destaque a {
   text-decoration: none;
   color: inherit;
   text-align: center;
@@ -131,6 +82,46 @@ body {
   transition: transform 0.3s;
 }
 
+.bloco__treino {
+  background-color: rgb(245, 255, 245); 
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card__destaque {
+  background-color: transparent; /* nada de branco */
+  box-shadow: none;              /* se tinha sombra no card, some */
+  border: none;                  /* remove bordas brancas */
+  text-align: center;
+}
+
+/* imagem menor e sem borda */
+.imagem__destaque {
+  width: 280px;
+  height: 350px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  background: transparent; /* tira fundo da imagem se for container */
+}
+
+.titulo__secundario1{
+  text-align: center;
+  color: #0a4904 ;
+  font-size: 2rem;
+}
+
+
+
+
 .rodape{
   text-align: center;
   font-size: 1em;
@@ -140,7 +131,7 @@ body {
   color: #313131;
 }
   
-.icones_redes img {
+.icones__redes img {
   height: 2rem;
   width: 2rem;
 
@@ -173,7 +164,13 @@ body {
 }
       
 
-.treino li{
+  .treinos h1{
+    text-align: center;
+  font-size: 1.3rem;
+  color: #0a4904 ; /* Verde escuro */
+  margin-bottom: 1rem;
+  position: relative;
+  }
 
 .treinos li{
   text-align: center;
@@ -201,7 +198,7 @@ body {
   position: relative;
 }
 
- .card-conteudo {
+ .card__conteudo {
   display: flex;
   flex-direction: column; 
   align-items: center; 
@@ -213,11 +210,11 @@ body {
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-h1{
-  text-align: center;
-  color:#0a4904;
+.imagem__destaque {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
   
-
 }
 
 .rodape{
@@ -269,4 +266,3 @@ h1{
   font-size: 1.3rem;
   color: #2d2d2d;
   margin-bottom: 2rem;}
-}

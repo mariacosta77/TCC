@@ -1,62 +1,45 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4fff4;
-  color: #2c2c2c;
-  line-height: 1.6;
-}
-
 .header {
-  background-color: #ffffff;
-  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #000000;
-  flex-wrap: wrap;
-}
-
-.logo {
-  height: 60px;
-  width: auto;
-}
-
-.link_menu {
-  flex: 1;
-  text-align: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin-bottom: 5rem;
 }
 
 .link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
-  margin: 0 0.5rem;
-  font-weight: bold;
 }
 
 .link_menu a:hover {
   color: rgb(12, 46, 0);
-  text-decoration: underline;
+}
+
+.logo {
+  height: 6rem;
+  width: 7rem;
 }
 
 .cadastro {
   text-decoration: none;
   color: black;
   font-size: 1em;
-  margin-right: 1rem;
-  font-weight: bold;
+  margin-right: 2rem;
 }
 
-.barra {
-  height: 1px;
-  background-color: #000;
-  margin-top: -1px;
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
 }
-
 
 .conteudo {
   max-width: 960px;
@@ -96,7 +79,6 @@ body {
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
-
 .imagem-texto {
   display: flex;
   gap: 2rem;
@@ -129,7 +111,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-
 .cardapio {
   background-color: #ffffff;
   padding: 1.5rem;
@@ -152,7 +133,6 @@ body {
   margin-bottom: 0.8rem;
 }
 
-
 .rodape {
   text-align: center;
   font-size: 1em;
@@ -160,7 +140,6 @@ body {
   padding: 2rem;
   background: #ffffff;
   color: #313131;
-  border-top: 1px solid #000;
 }
 
 .icones_redes img {
@@ -176,25 +155,4 @@ body {
 
 .qs_fc a:hover {
   text-decoration: underline;
-}
-
-
-@media (max-width: 768px) {
-  .imagem-texto {
-    flex-direction: column;
-  }
-
-  .destaques {
-    flex-direction: column;
-  }
-
-  .header {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .link_menu {
-    margin: 1rem 0;
-  }
 }

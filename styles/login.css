@@ -103,6 +103,21 @@ form input:focus{
     text-decoration: none;
 }
 
+.register_link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.register_link a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.register_link a:hover {
+    color: rgb(12, 46, 0);
+    text-decoration: none;
+}
+
 #gap_login {
     display: flex;
     flex-direction: column;

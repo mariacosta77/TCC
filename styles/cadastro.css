@@ -86,6 +86,10 @@ button:hover{
     color: rgb(38, 136, 5);
 }
 
+.register a:hover {
+    color: rgb(12, 46, 0);
+}
+
 .register-link {
     margin-top: 1rem;
     font-size: 0.9rem;

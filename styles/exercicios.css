@@ -1,0 +1,175 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin-bottom: 5rem;
+  z-index: 1000; 
+}
+
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
+
+.logo {
+  height: 6rem;
+  width: 7rem;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin-right: 2rem;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(38, 136, 5);
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.beneficios {
+  background-color: rgb(231, 255, 231);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.beneficios h2 {
+  text-align: center;
+  color: rgb(38, 136, 5);
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.beneficios ul li::before {
+  content: "✅ ";
+}
+
+.treino__basico h2 {
+  text-align: center;
+  color: rgb(38, 136, 5);
+  margin-bottom: 0.5rem;
+}
+
+.treino__basico p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.exercicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.exercicio {
+  background-color: rgb(231, 255, 231);
+  border-left: 5px solid rgb(38, 136, 5);
+  border-radius: 10px;
+  width: 250px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.exercicio:hover {
+  transform: scale(1.03);
+}
+
+.exercicio img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.motivacao {
+  margin-top: 3rem;
+  background-color: rgb(231, 255, 231);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.motivacao h2 {
+  color: rgb(38, 136, 5);
+}
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #fff;
+  color: #313131;
+}
+
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .conteudo {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .exercicios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exercicio {
+    width: 90%;
+  }
+}

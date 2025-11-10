@@ -1,4 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #000000;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin-bottom: 5rem;
+}
 
+.link_menu a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
+}
 
 
 *{
@@ -52,12 +73,19 @@ transition: color 0.3s;
 }
 
 
+
+.logo {
+  height: 6rem;
+  width: 7rem;
+}
+
 .cadastro {
   text-decoration: none;
   color: black;
   font-size: 1em;
   margin-right: 2rem;
 }
+
 
 .titulo__principal{
   text-align:center;
@@ -98,3 +126,73 @@ transition: color 0.3s;
   padding: 1rem;
   font-weight: 500;
 }
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo__principal{
+    text-align:center;
+}
+
+.titulo__secundario{
+    text-align:center;
+    color: rgb(38, 136, 5);
+}
+
+.card__destaque{
+    justify-content: center;
+}
+.card__destaque a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+    padding: 1rem;
+  }
+
+  
+  .imagem__destaque {
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+    
+  .card__destaque p {
+    padding: 1rem;
+    font-weight: 500;
+  }
+
+.rodape {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
+}
+
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
+.qs_fc a {
+  color: rgb(38, 136, 5);
+  text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
+}
+

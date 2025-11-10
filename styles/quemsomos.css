@@ -1,29 +1,3 @@
-body{
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  background-color: rgb(255, 255, 255);
-}
-
-.caixa__qsm {
-  background-color: white;
-  color: #313131;
-  border-radius: 0.75rem;
-  font-size: 1rem;
-  transition: border-color 0.3s;
-  padding: 1rem;
-  width: 50rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.568);
-  text-align: left;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0 auto;
-  margin-top: 2rem
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -31,20 +5,11 @@ body{
   margin: auto;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #000000;
-  padding: 1.3rem 0;
+  padding: 2rem 0;
   position: sticky;
   top: 0;
   height: 40px;
-}
-  
-.header-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 0.0005rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
 
 .link_menu a {
@@ -53,12 +18,12 @@ body{
 }
 
 .link_menu a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(12, 46, 0);
 }
 
 .logo {
   height: 6rem;
-  width:7rem;
+  width: 7rem;
 }
 
 .cadastro {
@@ -68,50 +33,200 @@ body{
   margin-right: 2rem;
 }
 
-.secao__origem h2 {
-  color: rgb(28, 99, 5);
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
 }
 
-.secao__missao h2{
-  color: rgb(28, 99, 5);
+.caixa__qsm {
+  background-color: white;
+  color: #313131;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  padding: 1.5rem;
+  width: 90%;
+  max-width: 50rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem auto;
+  box-sizing: border-box;
 }
 
-.secao__visao h2{
-  color: rgb(28, 99, 5);
+.secao__primaria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 1.5rem;
+  margin: 0;
 }
 
-.secao__valores h2{
-  color: rgb(28, 99, 5);
+.txt__quemsomos {
+  flex: 1 1 50%;
+  text-align: start;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.secao__aqui h2{
-  color: rgb(28, 99, 5);
+.quem__somos {
+  display: flex;
+  flex: 1 1 40%;
+  height: auto;
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
 }
 
-.nossa__equipe h2{
-  color: rgb(28, 99, 5);
+.secao__origem,
+.secao__missao,
+.secao__visao,
+.secao__valores,
+.secao__aqui,
+.nossa__equipe,
+.secao__participe {
+  margin-top: 1.5rem;
 }
 
-.secao__participe h2{
-  color: rgb(28, 99, 5);
+.secao__origem {
+  text-align: center;
 }
 
-.rodape{
+.nossa_missao,
+.nossa_equipe,
+.nossa_hist {
+  text-align: start;
+}
+
+.caixa__qsm ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.participe a {
+  color: rgb(28, 99, 5);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.participe a:hover {
+  text-decoration: underline;
+}
+
+.caixa__qsm h1,
+.caixa__qsm h2 {
+  color: rgb(28, 99, 5);
+  margin-bottom: 0.5rem;
+}
+
+.caixa__qsm p,
+.caixa__qsm li {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.rodape {
   text-align: center;
   font-size: 1em;
   margin-top: 3rem;
   padding: 2rem;
-  background: #fff;
+  background: #ffffff;
   color: #313131;
 }
-  
+
 .icones_redes img {
   height: 2rem;
   width: 2rem;
   margin: 0 10px;
 }
-  
+
 .qs_fc a {
   color: rgb(38, 136, 5);
   text-decoration: none;
+}
+
+.qs_fc a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .caixa__qsm {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .secao__primaria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt__quemsomos {
+    text-align: justify;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .quem__somos {
+    width: 100%;
+    max-width: 28rem;
+    height: auto;
+  }
+
+  .caixa__qsm h1,
+  .caixa__qsm h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .caixa__qsm {
+    width: 95%;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .secao__primaria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txt__quemsomos {
+    order: 2;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .quem__somos {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .caixa__qsm h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .caixa__qsm h2 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .participe {
+    text-align: center;
+  }
+
+  .caixa__qsm ul {
+    padding-left: 1rem;
+  }
 }

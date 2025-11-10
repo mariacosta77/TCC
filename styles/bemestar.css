@@ -1,33 +1,47 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  color: black;
-}
-
-/* Cabeçalho*/
-body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(38, 136, 5);
-  line-height: 1.6;
-  line-height: 1.6;
-  font-family: "DM Sans", sans-serif;
-  line-height: 1.6;
-  font-family: "DM Sans", sans-serif;
- 
-
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #000000;
-  padding: 2rem 0;
-  position: sticky;
-  top: 0;
-  height: 40px;
-  background-color: rgb(255, 255, 255);
-  font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    margin-bottom: 5rem;
 }
+
+.link_menu a {
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.link_menu a:hover {
+    color: rgb(12, 46, 0);
+}
+
+.logo {
+    height: 6rem;
+    width: 7rem;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(248, 248, 247);
+    color: #313131;
+    margin: 0;
+    padding: 0;
+}
+
+/* primeiras pgns */
 
 .main-container {
   max-width: 1200px;
@@ -36,53 +50,8 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-.menu a{
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-
-}
-
-.logo{
- height: 6rem;
-  width:7rem;
-}
-
-.logo{
- height: 6rem;
-  width:7rem;
-}
-
-.cadastro {
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-  margin-right: 2rem;
-}
-
-.logo{
-  height: 6rem;
-  width:7rem;
-}
-
-.link_menu{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-.link_menu a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-
-.link_menu a:hover {
-    color: rgb(12, 46, 0);
-}
-
-/* primeiras pgns */
 .main-container {
   max-width: 1200px;
   margin: auto;
@@ -121,7 +90,7 @@ body {
   transform: scale(1.03);
 }
 
-.imagem-paginas {
+.imagem__paginas {
    width: 100%;
   height: 180px;
   object-fit: cover;
@@ -172,7 +141,7 @@ text-align: center;
   
 }
 
-/* Bem-estar */
+
 .secao-bemestar {
   max-width: 1200px;
   margin: auto;
@@ -329,7 +298,8 @@ text-align: center;
 .cards-conteudo {
   flex-direction: column;
   align-items: flex-start;
-}
+}}
+
 
 @media (max-width: 992px) {
   .cards-conteudo {
@@ -346,6 +316,24 @@ text-align: center;
     flex: 1 1 100%;
     max-width: 90%;
   }
+
+
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
+
 
   @media (max-width: 768px) {
     .card-conteudo{
@@ -416,4 +404,4 @@ text-align: center;
 
   .imagem-bemestar {
     width: 90%;
-  }}}}}}
+  }}}

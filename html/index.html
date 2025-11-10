@@ -11,32 +11,28 @@
     <div class="header">
         <img src="../img/logo.png" class="logo" alt="Logo">
         <nav class="link_menu">
-            <a href="../html/alimenta.html">ALIMENTAÇÃO</a> |
-            <a href="../fitness.html">FITNESS</a> |
-            <a href="../html/bemestar.html">BEM-ESTAR</a>
+            <a href="./index.html">INÍCIO</a> |
+            <a href="./fitness.html">FITNESS</a> |
+            <a href="./bemestar.html">BEM-ESTAR</a>
         </nav>
         <nav>
             <a href="./cadastro.html" class="cadastro">Cadastre-se</a>
         </nav>
-        
     </div>
-
-    <div class="barra"></div>
-    
-
+   
     <main class="container principal">
         <h1 class="container__titulo"> EM DESTAQUE</h1> 
 
         <section class="Imagens">
             <div class="destaque">
-                <a href="../html.pagina1.html">
+                <a href="./dicastreino.html">
                     <img src="../img/treinando.png" class="imagem" alt="academia">
                     <h3 class="treino">Dicas de treinos simples</h3>
                 </a>
             </div>
 
             <div class="destaque">
-                <a href="pagina2.html">
+                <a href="./aliequilibrada.html">
                     <img src="../img/alimentacao_equilibrada.png" class="imagem2" alt="alimentação">
                     <h3 class="alimentacao2">Alimentação equilibrada e acessível</h3>
                 </a>
@@ -50,7 +46,7 @@
             </div>
 
             <div class="destaque">
-                <a href="./pagina4.html">
+                <a href="./hidratação.html">
                     <img src="../img/hidratando.png" class="imagem4" alt="Hidratação">
                     <h3 class="hidratacao">A importância de se manter hidratado</h3>
                 </a>
@@ -64,11 +60,11 @@
                     <h3>Planejamento de Refeições</h3>
                     <p>Saiba como montar um cardápio semanal prático e nutritivo.</p>
                 </div>
-                <div class="bloco">
+                <div class="bloco" onclick="exercicios()">
                     <h3>Exercícios para Iniciantes</h3>
                     <p>Veja uma rotina de exercícios simples e eficazes para começar agora.</p>
                 </div>
-                <div class="bloco">
+                <div class="bloco" onclick="cuidando()">
                     <h3>Cuidados com a Saúde Mental</h3>
                     <p>Técnicas de respiração e relaxamento para o seu dia a dia.</p>
                 </div>
@@ -130,7 +126,7 @@
         </div>
 
         <nav class="qs_fc">
-            <a href="./quemsomos.html">QUEM SOMOS</a> |
+            <a href="./quemsomos.html">QUEM SOMOS </a>|
             <a href="./faleconosco.html">FALE CONOSCO</a>
         </nav>
 
@@ -142,7 +138,24 @@
         <p class="marca_registrada">
             © AtivaMente - Todos os direitos reservados
         </p>
-        
-   </footer>
+    </footer>
 </body>
 </html>
+
+<script>
+  function pagina() {
+    window.location.href = "./planejamento.html";
+  }
+</script>
+
+<script>
+  function exercicios() {
+    window.location.href = "./exercicios.html";
+  }
+</script>
+
+<script>
+  function cuidando() {
+    window.location.href = "./cuidando.html";
+  }
+</script>
