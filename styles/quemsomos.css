@@ -1,9 +1,9 @@
-body{
+body {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 241, 241);
 }
 
 .caixa__qsm {
@@ -21,7 +21,7 @@ body{
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 
 .header {
@@ -68,32 +68,18 @@ body{
   margin-right: 2rem;
 }
 
+.h2 {
+  color: rgb(28, 99, 5);
+}
+
 .secao__origem h2 {
-  color: rgb(28, 99, 5);
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.secao__missao h2{
-  color: rgb(28, 99, 5);
-}
-
-.secao__visao h2{
-  color: rgb(28, 99, 5);
-}
-
-.secao__valores h2{
-  color: rgb(28, 99, 5);
-}
-
-.secao__aqui h2{
-  color: rgb(28, 99, 5);
-}
-
-.nossa__equipe h2{
-  color: rgb(28, 99, 5);
-}
-
-.secao__participe h2{
-  color: rgb(28, 99, 5);
+.secao__origem p {
+  display: flex;
+  align-items: flex-start;
 }
 
 .rodape{
@@ -109,6 +95,59 @@ body{
   height: 2rem;
   width: 2rem;
   margin: 0 10px;
+}
+.insta{
+    height: 2rem;
+    width: 2rem;
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
+}
+
+.secao__primaria{
+    margin: 0%;
+    display: flex;
+}
+
+.quem__somos{
+    height: 20rem;
+    width: 33rem;
+}
+
+.txt__quemsomos{
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.participe a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.secao__nos{
+    display: flex;
+    align-items: center;
+}
+
+.nossa_missao{
+    text-align: start;
+}
+
+.nossa_equipe{
+    text-align: start;
+}
+
+.nossa_hist{
+    text-align: start;
+}
+
+.secao__origem{
+    text-align: center;
 }
   
 .qs_fc a {

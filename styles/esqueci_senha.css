@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +27,8 @@ body {
     height: 90px;
 }
 
-.login-box{
-    background: #ffff;
+.login_box {
+    background: #fff;
     padding: 2.5rem;
     border-radius: 1rem;
     box-shadow: 0 10px 25px #000000ad;
@@ -37,18 +37,18 @@ body {
     text-align: center;
 }
 
-.login-box h1{
+.login_box h1 {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     color: #333;
 }
 
-.login-box p{
+.login_box p {
     margin-bottom: 2rem;
     color: #666;
 }
 
-form input{
+form input {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -58,12 +58,12 @@ form input{
     transition: border-color 0.3s;
 }
 
-form input:focus{
+form input:focus {
     border-color: #000000;
     outline: none;
 }
 
-button{
+button {
     width: 100%;
     padding: 1rem;
     color: #fff;
@@ -75,32 +75,40 @@ button{
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 0, 0);
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.register a{
-    text-decoration: none;
-    color: rgb(38, 136, 5);
-}
-
-.register a:hover {
-    color: rgb(12, 46, 0);
-}
-
-.register-link {
+.register_link {
     margin-top: 1rem;
     font-size: 0.9rem;
 }
 
-.register-link a{
-    color: #000000;
+.register_link a {
+    color: rgb(38, 136, 5);
     text-decoration: none;
-    font-weight: bold;
 }
 
-.register-link a:hover {
-    text-decoration: underline;
+.register_link a:hover {
+    color: rgb(12, 46, 0);
+    text-decoration: none;
+}
+
+.voltar_home {
+    margin-top: 1.5rem;
+}
+
+.voltar_home a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.voltar_home a:hover {
+    color: rgb(6, 80, 6);
+    text-decoration: none;
 }
