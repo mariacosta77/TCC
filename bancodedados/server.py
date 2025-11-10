@@ -12,10 +12,10 @@ cursor = conn.cursor()
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS usuarios (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        nome TEXT NOT NULL,
-        cpf TEXT NOT NULL UNIQUE,
-        email TEXT NOT NULL UNIQUE,
-        senha TEXT NOT NULL
+        nome VARCHAR(255) NOT NULL,
+        cpf CHAR(11) NOT NULL UNIQUE,
+        email VARCHAR(255) NOT NULL UNIQUE,
+        senha VARCHAR(30) NOT NULL
     )
 ''')
 
