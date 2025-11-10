@@ -59,7 +59,7 @@ body {
 }
 
 .cardapio{
-  background-color:  rgb(245, 255, 245); /* Verde água */
+  background-color:  rgb(245, 255, 245); 
   padding: 2.5rem;
   border-radius: 12px;
   max-width: 900px;
@@ -71,7 +71,7 @@ body {
 .cardapio h2 {
   text-align: center;
   font-size: 1.8rem;
-  color:  #0a4904; /* Verde escuro */
+  color:  #0a4904;
   margin-bottom: 1rem;
   position: relative;
 }
@@ -84,11 +84,11 @@ body {
 }
 
 .imagens{
-  display: block;          /* para alinhar no centro */
-  margin: 1rem auto;           /* centraliza horizontalmente */
-  max-width: 300px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
+  display: block;         
+  margin: 1rem auto;           
+  max-width: 300px;       
+  width: 70%;               
+  height: auto;             
   object-fit: contain;  
   border-radius: 12px;
 }
