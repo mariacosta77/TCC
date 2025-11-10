@@ -1,64 +1,29 @@
-*{
-  padding: 0;
-  margin: 0;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
-  color: black;
-}
-
-/* Cabeçalho*/
-body {
-  background-color: rgb(255, 255, 255);
-  color: rgb(38, 136, 5);
-  line-height: 1.6;
-  font-family: "DM Sans", sans-serif;
-  line-height: 1.6;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
- 
- 
-}
-
-
 .header {
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  position: sticky;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #000000;
-  padding:  0 0.0005rem;
+  padding: 2rem 0;
   position: sticky;
   top: 0;
-  height: 90px;
-  z-index: 0;
+  height: 40px;
+  margin-bottom: 5rem;
 }
 
-.logo{
- height: 6rem;
-  width:7rem;
-  align-items: left;
- display: flex;
-}
-
-.link__menu a{
+.link_menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-
-.link_menu{
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
+.link_menu a:hover {
+  color: rgb(12, 46, 0);
 }
 
-.link_menu a:hover {
-    color: rgb(12, 46, 0);
-  
+.logo {
+  height: 6rem;
+  width: 7rem;
 }
 
 .cadastro {
@@ -68,7 +33,13 @@ body {
   margin-right: 2rem;
 }
 
- /* conteudos */
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
 
 .titulovidaleve {
     font-size: 2.2rem;
@@ -111,8 +82,6 @@ body {
   color:  rgb(34, 80, 19);
   text-align: center;
 }
- 
-  /*seção dicas*/
 
 .imgdicas{
   display: block; 
@@ -127,9 +96,8 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
-  }
+}
   
-/* footer */
 .rodape{
   text-align: center;
   font-size: 1em;

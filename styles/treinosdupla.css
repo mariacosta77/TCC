@@ -1,3 +1,11 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(248, 248, 247);
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,16 +41,6 @@
   margin-right: 2rem;
 }
 
-body {
-  font-family: "DM Sans", sans-serif;
-  background-color: rgb(248, 248, 247);
-  color: #313131;
-  margin: 0;
-  padding: 0;
-}
-
-
-
 .main__container {
   max-width: 1200px;
   margin: auto;
@@ -56,9 +54,8 @@ body {
   text-align: center;
 }
 
-
 .treino{
-  background-color:  rgb(245, 255, 245); /* Verde água */
+  background-color:  rgb(245, 255, 245); 
   padding: 2.5rem;
   border-radius: 12px;
   max-width: 900px;
@@ -70,7 +67,7 @@ body {
 .treino li{
   text-align: center;
   font-size: 1.3rem;
-  color: #0a4904 ; /* Verde escuro */
+  color: #0a4904 ; 
   margin-bottom: 1rem;
   position: relative;
 }
@@ -80,62 +77,42 @@ body {
 .treino h1{
   text-align: center;
   font-size: 1.8rem;
-  color: #0a4904 ; /* Verde escuro */
+  color: #0a4904 ; 
   margin-bottom: 1rem;
   position: relative;
 }
 
 .imagens{
- display: block;          /* para alinhar no centro */
-  margin: 1rem auto;           /* centraliza horizontalmente */
-  max-width: 300px;         /* tamanho máximo da imagem */
-  width: 70%;               /* adapta ao tamanho da tela */
-  height: auto;             /* mantém proporção */
+ display: block;          
+  margin: 1rem auto;           
+  max-width: 300px;         
+  width: 70%;               
+  height: auto;             
   object-fit: contain;  
   border-radius: 12px;
 
 }
 
-
-/* footer */
-.rodape{
+.rodape {
   text-align: center;
   font-size: 1em;
-  
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
 }
 
-.icones__redes a{
-  color: #333; 
-  font-size: 24px;
+.icones_redes img {
+  height: 2rem;
+  width: 2rem;
   margin: 0 10px;
-  transition: color 0.3s;
-  align-items: center;
 }
 
-.insta{
-  height: 2rem;
-  width: 2rem;
-}
-
-.facebook{
-  height: 2rem;
-  width: 2rem;
-}
-  
-.qs__fc a{
+.qs_fc a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-.frase{
-  color:  rgb(38, 136, 5);
-}
-.aviso {
-  font-size: 0.85rem;
-  color: #000000;
-  margin-top: 1rem;
-}
-
-.marca__registrada{
-  color:  rgb(38, 136, 5);
+.qs_fc a:hover {
+  text-decoration: underline;
 }
