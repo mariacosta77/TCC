@@ -74,38 +74,10 @@ body {
     transition: transform 0.3s;
   }
 
-  .icones__redes{
-    align-items: center;
-  }
+ 
   
-  .insta{
-    height: 2rem;
-    width: 2rem;
-  }
-  
-  .facebook{
-    height: 2rem;
-    width: 2rem;
-    }
-  
-  
-    .redes-sociais a {
-      color: #333; 
-      font-size: 24px;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
     
-    .qs_fc a{
-      color: rgb(38, 136, 5);
-      text-decoration: none;
-    }
-  
-    .aviso {
-      font-size: 1em;
-      color: #000000;
-      margin-top: 1rem;
-    }
+ 
     .treinos{
       background-color:  rgb(245, 255, 245); /* Verde água */
       padding: 2.5rem;
@@ -142,14 +114,47 @@ body {
         position: relative;
         }
         
-        .treinos p {
-        text-align: center;
-        font-size: 1.3rem;
-        color: #2d2d2d;
-        margin-bottom: 2rem;
+       
+      
+        .rodape{
+          text-align: center;
+          font-size: 1em;
+          
         }
-
-      .rodape{
-        text-align: center;
-        font-size: 1em;
-      }
+        
+        .icones__redes a{
+          color: #333; 
+          font-size: 24px;
+          margin: 0 10px;
+          transition: color 0.3s;
+          align-items: center;
+        }
+        
+        .insta{
+          height: 2rem;
+          width: 2rem;
+        }
+        
+        .facebook{
+          height: 2rem;
+          width: 2rem;
+        }
+          
+        .qs__fc a{
+          color: rgb(38, 136, 5);
+          text-decoration: none;
+        }
+        
+        .frase{
+          color:  rgb(38, 136, 5);
+        }
+        .aviso {
+          font-size: 0.85rem;
+          color: #000000;
+          margin-top: 1rem;
+        }
+        
+        .marca__registrada{
+          color:  rgb(38, 136, 5);
+        }
+        
