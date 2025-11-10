@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,7 @@
 }
 
 
-=======
->>>>>>> Stashed changes
+
 *{
   padding: 0;
   margin: 0;
@@ -50,7 +49,7 @@ line-height: 1.6;
   height: 40px;
   background-color: rgb(255, 255, 255);
 }
-<<<<<<< Updated upstream
+
 
 
 .logo{
@@ -99,8 +98,6 @@ transition: color 0.3s;
   text-align:center;
   color: rgb(38, 136, 5);
 }
-=======
->>>>>>> Stashed changes
 
 
 .logo{
@@ -110,7 +107,7 @@ transition: color 0.3s;
    display: flex;
 }
 
-<<<<<<< Updated upstream
+
   
 .card__destaque{
   justify-content: center;
@@ -135,7 +132,7 @@ transition: color 0.3s;
   border-radius: 12px;
 }
   
-=======
+
 .link_menu{
 margin: 0 1rem;
 text-decoration: none;
@@ -193,12 +190,12 @@ transition: color 0.3s;
   border-radius: 12px;
 }
   
->>>>>>> Stashed changes
+
 .card__destaque p {
   padding: 1rem;
   font-weight: 500;
 }
-<<<<<<< Updated upstream
+
 
 body {
   font-family: "DM Sans", sans-serif;
@@ -219,7 +216,6 @@ body {
 
 
 
-  
 
 .rodape {
   text-align: center;
@@ -245,5 +241,3 @@ body {
   text-decoration: underline;
 }
 
-=======
->>>>>>> Stashed changes
