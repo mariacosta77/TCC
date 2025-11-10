@@ -292,3 +292,122 @@ text-align: center;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+/* responsivo */
+
+@media (max-width: 768px) {
+.cards-conteudo {
+  flex-direction: column;
+  align-items: flex-start;
+}}
+
+
+@media (max-width: 992px) {
+  .cards-conteudo {
+    flex: 1 1 calc(50% - 1rem);
+  } }
+
+  @media (max-width: 768px) {
+    .card-conteudo{
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
+
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .card-conteudo{
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .cards-conteudo {
+    flex: 1 1 100%;
+    max-width: 90%;
+  }
+
+.link_menu {
+  margin-top: 1rem;
+}
+
+.link_menu a {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.btn-consulta {
+  margin-top: 1rem;
+}
+
+.cards-conteudo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-mental {
+  width: 90%;
+}
+}
+
+/* responsivo  celulares */
+@media (max-width: 480px) {
+.cards-conteudo {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link_menu {
+  margin-top: 1rem;
+}
+
+.link_menu a {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.btn-consulta {
+  margin-top: 1rem;
+}
+
+.cards-conteudo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-mental {
+  width: 90%;
+}
+
+  .btn-consulta {
+    margin-top: 1rem;
+  }
+
+  .imagem-bemestar {
+    width: 90%;
+  }}}
+
+  
+
+>>>>>>> 955967362fb1df64aa9be8dada575d46f2fd34bb
