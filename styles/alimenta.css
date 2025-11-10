@@ -196,4 +196,22 @@ body {
   
 
 
+@media (max-width: 900px) {
+  .imagem__destaque{
+    width: 200px;
+    height: 240px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .imagem__destaque {
+    width: 90%;
+    height: auto;
+  }
+
+
+}
+
+
 
