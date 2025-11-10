@@ -168,9 +168,14 @@ body {
 } 
   
 /* footer */
-.rodape{
+
+.rodape {
   text-align: center;
   font-size: 1em;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  color: #313131;
 }
 
 .insta{

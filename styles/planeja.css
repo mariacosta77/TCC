@@ -93,15 +93,16 @@ body {
   border-radius: 12px;
 }
 
-.rodape{
+
+.rodape {
   text-align: center;
   font-size: 1em;
   margin-top: 3rem;
   padding: 2rem;
-  background: #fff;
+  background: #ffffff;
   color: #313131;
 }
-  
+
 .icones__redes{
   align-items: center;
 }
