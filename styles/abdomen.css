@@ -135,6 +135,13 @@ body {
   color: #313131;
 }
 
+.icones__redes a{
+  color: #333; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
 .icones_redes img {
   height: 2rem;
   width: 2rem;

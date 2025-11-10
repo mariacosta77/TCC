@@ -76,7 +76,6 @@ body {
 
  
   
-    
  
     .treinos{
       background-color:  rgb(245, 255, 245); /* Verde água */
@@ -146,7 +145,7 @@ body {
         }
         
         .frase{
-          color:  rgb(38, 136, 5);
+          color:   #333;
         }
         .aviso {
           font-size: 0.85rem;
