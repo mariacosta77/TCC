@@ -74,6 +74,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
+  
 }
   
 
@@ -141,7 +142,11 @@ body {
   background-color:rgb(231, 255, 231) ;
   border: 1px solid #b9e4ca;
   border-radius: 10px;
+<<<<<<< Updated upstream
   padding: 2rem;
+=======
+  padding: 2rem 0;
+>>>>>>> Stashed changes
 }
   
 .texto__foco {
@@ -152,7 +157,6 @@ body {
 }
   
 .imagem__foco{
-  
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -160,6 +164,12 @@ body {
   
 }
 
+<<<<<<< Updated upstream
+=======
+/* dicas */
+
+
+>>>>>>> Stashed changes
 .secao__curiosidades {
   background-color: rgb(231, 255, 231);
   padding: 2rem;
@@ -167,7 +177,6 @@ body {
   margin-top: 3rem; 
   border: 1px solid #b9e4ca;
   border-radius: 10px;
-  
 
 }
   
@@ -255,3 +264,4 @@ body {
     width: 90%;
   }
 }
+

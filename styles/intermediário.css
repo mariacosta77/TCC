@@ -1,3 +1,67 @@
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: black;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 136, 5);
+  line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid #000000;
+    padding: 2rem 0;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.logo{
+    height: 6rem;
+     width:7rem;
+     align-items: left;
+     display: flex;
+ }
+ 
+ .link_menu{
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+ }
+
+.link__menu a{
+    color: rgb(38, 136, 5);
+    text-decoration: none;
+}
+
+.link__menu a:hover {
+    color: rgb(12, 46, 0);
+}
+
+
+.cadastro {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 2rem;
+}
+
+<<<<<<< Updated upstream
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,6 +105,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+=======
+>>>>>>> Stashed changes
 .titulo__principal{
     text-align:center;
 }
@@ -50,6 +117,15 @@ body {
     color: rgb(38, 136, 5);
 }
 
+
+
+<<<<<<< Updated upstream
+
+    
+
+=======
+    
+>>>>>>> Stashed changes
 .card__destaque{
     justify-content: center;
 }
@@ -62,7 +138,15 @@ body {
     overflow: hidden;
     background-color: #ffffff;
     transition: transform 0.3s;
+<<<<<<< Updated upstream
+
+  
+
     padding: 1rem;
+
+=======
+  
+>>>>>>> Stashed changes
   }
 
   
@@ -77,6 +161,7 @@ body {
     padding: 1rem;
     font-weight: 500;
   }
+<<<<<<< Updated upstream
 
   .rodape{
   text-align: center;
@@ -119,3 +204,5 @@ body {
 .marca__registrada{
   color:  rgb(38, 136, 5);
 }
+=======
+>>>>>>> Stashed changes
