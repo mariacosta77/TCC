@@ -13,12 +13,12 @@
   z-index: 1000; 
 }
 
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-.link_menu a:hover {
+.link__menu a:hover {
   color: rgb(12, 46, 0);
 }
 
@@ -81,7 +81,7 @@ body {
 }
     
 .treino{
-  background-color:  rgb(245, 255, 245); /* Verde água */
+  background-color:  rgb(245, 255, 245); 
   padding: 2.5rem;
   border-radius: 12px;
   max-width: 900px;
@@ -93,7 +93,7 @@ body {
 .treino li{
   text-align: center;
   font-size: 1.3rem;
-  color: #0a4904 ; /* Verde escuro */
+  color: #0a4904 ; 
   margin-bottom: 1rem;
   position: relative;
 }
@@ -103,7 +103,7 @@ body {
 .treino h1{
   text-align: center;
   font-size: 1.8rem;
-  color: #0a4904 ; /* Verde escuro */
+  color: #0a4904 ; 
   margin-bottom: 1rem;
   position: relative;
 }
@@ -125,20 +125,20 @@ body {
 
 
 .card__destaque {
-  background-color: transparent; /* nada de branco */
-  box-shadow: none;              /* se tinha sombra no card, some */
-  border: none;                  /* remove bordas brancas */
+  background-color: transparent; 
+  box-shadow: none;              
+  border: none;                 
   text-align: center;
 }
 
-/* imagem menor e sem borda */
+
 .imagem__destaque {
   width: 280px;
   height: 350px;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  background: transparent; /* tira fundo da imagem se for container */
+  background: transparent; 
 }
 
 .titulo__secundario1{

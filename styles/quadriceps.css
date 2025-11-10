@@ -161,12 +161,7 @@ body {
 .rodape{
   text-align: center;
   font-size: 1em;
-   
-  
 }
-
-
-
 
 .icones__redes{
   align-items: center;
@@ -177,7 +172,6 @@ body {
   margin: 0 10px;
   transition: color 0.3s;
 }
-
 
 
 .insta{

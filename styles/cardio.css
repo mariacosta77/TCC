@@ -13,12 +13,12 @@
   z-index: 1000; 
 }
 
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-.link_menu a:hover {
+.link__menu a:hover {
   color: rgb(12, 46, 0);
 }
 
@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.main-container {
+.main__container {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
@@ -97,20 +97,20 @@ body {
 
 
 .card__destaque {
-  background-color: transparent; /* nada de branco */
-  box-shadow: none;              /* se tinha sombra no card, some */
-  border: none;                  /* remove bordas brancas */
+  background-color: transparent; 
+  box-shadow: none;             
+  border: none;                  
   text-align: center;
 }
 
-/* imagem menor e sem borda */
+
 .imagem__destaque {
   width: 280px;
   height: 350px;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  background: transparent; /* tira fundo da imagem se for container */
+  background: transparent;
 }
 
 .titulo__secundario1{
@@ -120,39 +120,6 @@ body {
 }
 
 
-
-
-.rodape{
-  text-align: center;
-  font-size: 1em;
-  margin-top: 3rem;
-  padding: 2rem;
-  background: #fff;
-  color: #313131;
-}
-  
-.icones__redes img {
-  height: 2rem;
-  width: 2rem;
-
-}
-  
-.facebook{
-  height: 2rem;
-  width: 2rem;
-}
-  
-.redes__sociais a {
-  color: #333; 
-  font-size: 24px;
-  margin: 0 10px;
-}
-  
-.qs_fc a {
-  color: rgb(38, 136, 5);
-  text-decoration: none;
-}
-    
 .treinos{
   background-color:  rgb(245, 255, 245); /* Verde água */
   padding: 2.5rem;
@@ -165,8 +132,8 @@ body {
       
 
   .treinos h1{
-    text-align: center;
-  font-size: 1.3rem;
+   text-align: center;
+  font-size: 1.7rem;
   color: #0a4904 ; /* Verde escuro */
   margin-bottom: 1rem;
   position: relative;
@@ -190,25 +157,8 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-.treinos h1{
-  text-align: center;
-  font-size: 1.8rem;
-  color: #0a4904 ; /* Verde escuro */
-  margin-bottom: 1rem;
-  position: relative;
-}
 
- .card__conteudo {
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  background-color:rgb(245, 255, 245) ;
-  padding: 80px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 3rem auto;
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
+
 
 .imagem__destaque {
   width: 270px;
@@ -254,15 +204,3 @@ body {
   margin-top: 1rem;
     }
         
-.treinos p {
-  text-align: center;
-  font-size: 1.3rem;
-  color: #2d2d2d;
-  margin-bottom: 2rem;
-}
-     
-.treinos p {
-  text-align: center;
-  font-size: 1.3rem;
-  color: #2d2d2d;
-  margin-bottom: 2rem;}
