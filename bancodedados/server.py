@@ -13,6 +13,7 @@ cursor.execute('''
     CREATE TABLE IF NOT EXISTS usuarios (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome TEXT NOT NULL,
+        cpf TEXT NOT NULL UNIQUE,
         email TEXT NOT NULL UNIQUE,
         senha TEXT NOT NULL
     )
@@ -36,6 +37,7 @@ class SimpleServer(BaseHTTPRequestHandler):
             params = urllib.parse.parse_qs(query)
             email = params.get("email", [""])[0]
             senha = params.get("senha", [""])[0]
+            
 
             conn = sqlite3.connect('usuarios.db')
             cursor = conn.cursor()
