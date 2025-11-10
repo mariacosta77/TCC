@@ -1,14 +1,19 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.parse
 import sqlite3
+import os
 
+# Porta do servidor
 PORT = 8080
 
-# Criação/atualização do banco de dados
+# Caminho base (para facilitar achar os arquivos HTML)
+BASE_DIR = os.path.dirname(__file__)
+
+# --- Criação e atualização do banco de dados ---
 conn = sqlite3.connect('usuarios.db')
 cursor = conn.cursor()
 
-# Tabela com campo CPF
+# Criação da tabela de usuários com campo CPF
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS usuarios (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -23,21 +28,24 @@ conn.commit()
 conn.close()
 
 
+# --- Classe do servidor ---
 class SimpleServer(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            self._enviar_html("cadastro.html")
+            # Página de cadastro
+            self._enviar_html(os.path.join(BASE_DIR, "../paginas/cadastro.html"))
 
         elif self.path == "/login":
-            self._enviar_html("login.html")
+            # Página de login
+            self._enviar_html(os.path.join(BASE_DIR, "../paginas/login.html"))
 
         elif self.path.startswith("/conta?"):
+            # Página da conta do usuário (após login)
             query = urllib.parse.urlparse(self.path).query
             params = urllib.parse.parse_qs(query)
             email = params.get("email", [""])[0]
             senha = params.get("senha", [""])[0]
-            
 
             conn = sqlite3.connect('usuarios.db')
             cursor = conn.cursor()
@@ -59,6 +67,7 @@ class SimpleServer(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
+    # --- Requisições POST ---
     def do_POST(self):
         if self.path == "/cadastrar":
             content_length = int(self.headers['Content-Length'])
@@ -73,8 +82,10 @@ class SimpleServer(BaseHTTPRequestHandler):
             conn = sqlite3.connect('usuarios.db')
             cursor = conn.cursor()
             try:
-                cursor.execute("INSERT INTO usuarios (nome, cpf, email, senha) VALUES (?, ?, ?, ?)",
-                               (nome, cpf, email, senha))
+                cursor.execute(
+                    "INSERT INTO usuarios (nome, cpf, email, senha) VALUES (?, ?, ?, ?)",
+                    (nome, cpf, email, senha)
+                )
                 conn.commit()
                 resposta = "<h1>Cadastro realizado com sucesso!</h1><a href='/login'>Ir para login</a>"
             except sqlite3.IntegrityError as e:
@@ -112,6 +123,7 @@ class SimpleServer(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
+    # --- Função para enviar HTML ---
     def _enviar_html(self, arquivo):
         try:
             with open(arquivo, "rb") as f:
@@ -124,6 +136,7 @@ class SimpleServer(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
+    # --- Função para enviar resposta HTML simples ---
     def _enviar_resposta(self, conteudo):
         self.send_response(200)
         self.send_header("Content-type", "text/html; charset=utf-8")
@@ -131,6 +144,7 @@ class SimpleServer(BaseHTTPRequestHandler):
         self.wfile.write(conteudo.encode("utf-8"))
 
 
+# --- Inicia o servidor ---
 with HTTPServer(("", PORT), SimpleServer) as server:
     print(f"Servidor rodando em http://localhost:{PORT}")
     server.serve_forever()
