@@ -161,19 +161,24 @@ body {
 .rodape{
   text-align: center;
   font-size: 1em;
+   
   
 }
+
+
+
 
 .icones__redes{
   align-items: center;
 }
-
 .icones__redes a{
   color: #333; 
   font-size: 24px;
   margin: 0 10px;
   transition: color 0.3s;
 }
+
+
 
 .insta{
   height: 2rem;
@@ -191,7 +196,7 @@ body {
 }
 
 .frase{
-  color:  rgb(38, 136, 5);
+  color:  #333;
 }
 .aviso {
   font-size: 0.85rem;
