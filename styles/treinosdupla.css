@@ -21,12 +21,12 @@ body {
   z-index:1000;
 }
 
-.link_menu a {
+.link__menu a {
   color: rgb(38, 136, 5);
   text-decoration: none;
 }
 
-.link_menu a:hover {
+.link__menu a:hover {
   color: rgb(12, 46, 0);
 }
 
